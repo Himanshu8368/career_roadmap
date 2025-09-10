@@ -854,10 +854,425 @@ ML_RESEARCH_ROADMAP = {
     }
 }
 
+QUANT_RESEARCH_ROADMAP = {
+    "Phase 1: Mathematical Foundations": {
+        "duration": "4-6 months",
+        "topics": {
+            "Calculus & Real Analysis": [
+                "Multivariable calculus, partial derivatives",
+                "Taylor series, optimization theory",
+                "Measure theory basics",
+                "Ito calculus fundamentals for stochastic processes"
+            ],
+            "Linear Algebra": [
+                "Matrix operations, eigenvalues, eigenvectors",
+                "Principal Component Analysis (PCA)",
+                "Singular Value Decomposition (SVD)",
+                "Applications in portfolio optimization and risk modeling"
+            ],
+            "Probability Theory": [
+                "Probability spaces, random variables, distributions",
+                "Conditional probability, Bayes' theorem",
+                "Law of large numbers, central limit theorem",
+                "Moment generating functions, characteristic functions"
+            ],
+            "Statistics": [
+                "Hypothesis testing, confidence intervals",
+                "Maximum likelihood estimation, method of moments",
+                "Regression analysis (linear, logistic, nonlinear)",
+                "Time series basics: stationarity, autocorrelation"
+            ]
+        },
+        "resources": {
+            "Courses": [
+                "Mathematics for Machine Learning - Coursera",
+                "Probability Theory - MIT OCW",
+                "Statistical Inference - Duke University"
+            ],
+            "Books": [
+                "Introduction to Mathematical Statistics - Hogg & Craig",
+                "Probability and Measure - Billingsley",
+                "Linear Algebra and Its Applications - Strang"
+            ]
+        }
+    },
+    "Phase 2: Programming & Technical Tools": {
+        "duration": "3-4 months",
+        "topics": {
+            "Python for Finance": [
+                "NumPy, Pandas, Matplotlib, Seaborn",
+                "Financial libraries: QuantLib, yfinance, pandas_datareader",
+                "Data manipulation and cleaning techniques",
+                "Object-oriented programming for financial modeling"
+            ],
+            "R Programming": [
+                "Data analysis with R",
+                "Financial packages: quantmod, PerformanceAnalytics, tidyquant",
+                "Statistical modeling and visualization",
+                "R Shiny for interactive dashboards"
+            ],
+            "Database & Data Management": [
+                "SQL for financial data queries",
+                "Time series databases: InfluxDB, TimescaleDB",
+                "Bloomberg API, Reuters/Refinitiv APIs",
+                "Alternative data sources and APIs"
+            ],
+            "Performance Computing": [
+                "C++ basics for high-frequency trading",
+                "Parallel computing with Python multiprocessing",
+                "GPU computing for Monte Carlo simulations",
+                "Memory optimization and vectorization"
+            ]
+        },
+        "resources": {
+            "Courses": [
+                "Python for Financial Analysis - Udemy",
+                "R Programming for Finance - DataCamp",
+                "Bloomberg Terminal Training"
+            ],
+            "Books": [
+                "Python for Finance - Yves Hilpisch",
+                "R for Data Science - Wickham & Grolemund",
+                "Financial Instrument Pricing Using C++ - Duffy"
+            ]
+        }
+    },
+    "Phase 3: Financial Theory & Markets": {
+        "duration": "4-5 months",
+        "topics": {
+            "Financial Markets Structure": [
+                "Equity, fixed income, derivatives, commodities markets",
+                "Market microstructure, bid-ask spreads, liquidity",
+                "High-frequency trading, algorithmic trading",
+                "Regulatory environment and compliance"
+            ],
+            "Corporate Finance": [
+                "Time value of money, present value calculations",
+                "Capital structure, cost of capital",
+                "Dividend discount models, DCF analysis",
+                "Financial statement analysis"
+            ],
+            "Investment Theory": [
+                "Modern Portfolio Theory (MPT)",
+                "Capital Asset Pricing Model (CAPM)",
+                "Arbitrage Pricing Theory (APT)",
+                "Efficient Market Hypothesis and behavioral finance"
+            ],
+            "Fixed Income": [
+                "Bond pricing, yield calculations",
+                "Duration, convexity, immunization",
+                "Term structure models",
+                "Credit risk and default probability"
+            ]
+        },
+        "resources": {
+            "Courses": [
+                "Financial Markets - Yale (Coursera)",
+                "Introduction to Corporate Finance - Wharton",
+                "Fixed Income Securities - MIT"
+            ],
+            "Books": [
+                "Investments - Bodie, Kane, Marcus",
+                "Corporate Finance - Ross, Westerfield, Jaffe",
+                "Fixed Income Securities - Tuckman & Serrat"
+            ]
+        }
+    },
+    "Phase 4: Stochastic Processes & Mathematical Finance": {
+        "duration": "5-6 months",
+        "topics": {
+            "Stochastic Processes": [
+                "Random walks, Brownian motion",
+                "Geometric Brownian motion for stock prices",
+                "Ito's lemma and stochastic differential equations",
+                "Jump processes, Poisson processes"
+            ],
+            "Derivatives Pricing": [
+                "Black-Scholes-Merton model derivation",
+                "Greeks: Delta, Gamma, Theta, Vega, Rho",
+                "Exotic options pricing",
+                "American options and early exercise"
+            ],
+            "Risk-Neutral Valuation": [
+                "Risk-neutral probability measures",
+                "Martingales in finance",
+                "Change of measure techniques",
+                "Monte Carlo simulation methods"
+            ],
+            "Interest Rate Models": [
+                "Vasicek, CIR, Hull-White models",
+                "Heath-Jarrow-Morton framework",
+                "LIBOR market models",
+                "Bond and interest rate derivatives"
+            ]
+        },
+        "resources": {
+            "Courses": [
+                "Stochastic Processes - MIT OCW",
+                "Mathematical Finance - Stanford",
+                "Derivatives Pricing - NYU Stern"
+            ],
+            "Books": [
+                "Stochastic Calculus for Finance I & II - Shreve",
+                "Options, Futures, and Other Derivatives - Hull",
+                "Methods of Mathematical Finance - Karatzas & Shreve"
+            ]
+        }
+    },
+    "Phase 5: Risk Management & Portfolio Theory": {
+        "duration": "4-5 months",
+        "topics": {
+            "Portfolio Optimization": [
+                "Mean-variance optimization",
+                "Black-Litterman model",
+                "Risk parity and equal risk contribution",
+                "Multi-factor models and factor investing"
+            ],
+            "Risk Metrics": [
+                "Value at Risk (VaR): Historical, parametric, Monte Carlo",
+                "Expected Shortfall (Conditional VaR)",
+                "Maximum Drawdown, Sharpe ratio, Sortino ratio",
+                "Risk attribution and decomposition"
+            ],
+            "Credit Risk": [
+                "Probability of default modeling",
+                "Loss given default estimation",
+                "Credit portfolio models",
+                "Stress testing and scenario analysis"
+            ],
+            "Market Risk": [
+                "Factor models: Fama-French, Carhart",
+                "GARCH models for volatility",
+                "Copulas for dependency modeling",
+                "Backtesting and model validation"
+            ]
+        },
+        "resources": {
+            "Courses": [
+                "Risk Management - NYU Stern",
+                "Portfolio Management - EDHEC",
+                "Financial Risk Manager (FRM) - GARP"
+            ],
+            "Books": [
+                "The Concepts and Practice of Mathematical Finance - Joshi",
+                "Portfolio Selection - Markowitz",
+                "Value at Risk - Jorion"
+            ]
+        }
+    },
+    "Phase 6: Quantitative Trading Strategies": {
+        "duration": "4-6 months",
+        "topics": {
+            "Statistical Arbitrage": [
+                "Pairs trading, cointegration",
+                "Mean reversion strategies",
+                "Statistical significance and p-hacking",
+                "Transaction costs and market impact"
+            ],
+            "Momentum & Trend Following": [
+                "Technical indicators and signals",
+                "Cross-sectional and time-series momentum",
+                "Risk management in trending markets",
+                "Regime detection and switching models"
+            ],
+            "Market Making": [
+                "Optimal bid-ask spread setting",
+                "Inventory risk management",
+                "Adverse selection and information asymmetry",
+                "High-frequency market making strategies"
+            ],
+            "Factor Investing": [
+                "Value, quality, momentum, low volatility factors",
+                "Factor construction and backtesting",
+                "Multi-factor model implementation",
+                "Factor timing and allocation"
+            ]
+        },
+        "resources": {
+            "Courses": [
+                "Algorithmic Trading - Stanford",
+                "Quantitative Trading Strategies - Coursera",
+                "CQF (Certificate in Quantitative Finance)"
+            ],
+            "Books": [
+                "Quantitative Trading - Ernest Chan",
+                "Algorithmic Trading - Stefan Jansen",
+                "Finding Alphas - Tulchinsky et al."
+            ]
+        }
+    },
+    "Phase 7: Machine Learning in Finance": {
+        "duration": "5-6 months",
+        "topics": {
+            "Traditional ML for Finance": [
+                "Linear/logistic regression for return prediction",
+                "Random forests for feature selection",
+                "Support Vector Machines for classification",
+                "Principal Component Analysis for dimensionality reduction"
+            ],
+            "Time Series Forecasting": [
+                "ARIMA, GARCH models",
+                "Vector Autoregression (VAR)",
+                "Long Short-Term Memory (LSTM) networks",
+                "Transformer models for financial sequences"
+            ],
+            "Alternative Data & NLP": [
+                "Sentiment analysis from news and social media",
+                "Natural Language Processing for earnings calls",
+                "Satellite data, credit card transactions",
+                "Web scraping and alternative data sources"
+            ],
+            "Reinforcement Learning": [
+                "Q-learning for trading strategies",
+                "Policy gradient methods",
+                "Multi-agent systems in markets",
+                "Portfolio optimization with RL"
+            ]
+        },
+        "resources": {
+            "Courses": [
+                "Machine Learning for Trading - Georgia Tech",
+                "Financial Engineering - Stanford",
+                "AI for Trading - Udacity Nanodegree"
+            ],
+            "Books": [
+                "Machine Learning for Algorithmic Trading - Stefan Jansen",
+                "Advances in Financial Machine Learning - Marcos López de Prado",
+                "Hands-On Machine Learning - Aurélien Géron"
+            ]
+        }
+    },
+    "Phase 8: Advanced Quantitative Methods": {
+        "duration": "4-6 months",
+        "topics": {
+            "Systematic Risk Models": [
+                "Barra risk models",
+                "Axioma factor models",
+                "Custom factor construction",
+                "Risk forecasting and stress testing"
+            ],
+            "Execution Algorithms": [
+                "TWAP, VWAP algorithms",
+                "Implementation Shortfall",
+                "Optimal execution theory (Almgren-Chriss)",
+                "Market impact models"
+            ],
+            "Structured Products": [
+                "Equity-linked notes, barrier options",
+                "Volatility products, variance swaps",
+                "Credit derivatives, CDOs",
+                "Hybrid products and complex payoffs"
+            ],
+            "Regulatory & Compliance": [
+                "Basel III capital requirements",
+                "MiFID II, Dodd-Frank regulations",
+                "Model validation and governance",
+                "Stress testing frameworks"
+            ]
+        },
+        "resources": {
+            "Professional Courses": [
+                "Risk Management Professional (PRM)",
+                "Chartered Financial Analyst (CFA)",
+                "Financial Risk Manager (FRM)"
+            ],
+            "Industry Publications": [
+                "Journal of Portfolio Management",
+                "Quantitative Finance",
+                "Risk Magazine"
+            ]
+        }
+    },
+    "Phase 9: Research & Strategy Development": {
+        "duration": "6+ months",
+        "topics": {
+            "Research Process": [
+                "Hypothesis formation and testing",
+                "Data mining and feature engineering",
+                "Backtesting methodologies and pitfalls",
+                "Out-of-sample testing and walk-forward analysis"
+            ],
+            "Strategy Implementation": [
+                "Portfolio construction and optimization",
+                "Risk budgeting and allocation",
+                "Performance attribution analysis",
+                "Transaction cost analysis"
+            ],
+            "Alternative Strategies": [
+                "Cryptocurrency and digital assets",
+                "ESG investing and sustainable finance",
+                "Volatility trading and VIX strategies",
+                "Cross-asset momentum and carry trades"
+            ],
+            "Research Tools & Platforms": [
+                "Bloomberg Terminal, Refinitiv Eikon",
+                "FactSet, Morningstar Direct",
+                "Academic databases: CRSP, Compustat",
+                "Cloud computing for backtesting"
+            ]
+        },
+        "resources": {
+            "Research Platforms": [
+                "Quantopian (historical), QuantConnect",
+                "Alpha Architect, SSRN",
+                "Papers from top finance journals"
+            ],
+            "Industry Conferences": [
+                "CFA Institute events",
+                "QWAFAFEW, IAQF conferences",
+                "Academic finance conferences"
+            ]
+        }
+    },
+    "Phase 10: Specialization & Career Development": {
+        "duration": "Ongoing",
+        "topics": {
+            "Career Paths": [
+                "Buy-side: Hedge funds, asset management",
+                "Sell-side: Investment banks, market making",
+                "Risk management: Banks, insurance, consulting",
+                "Fintech: Trading platforms, robo-advisors, crypto"
+            ],
+            "Advanced Specializations": [
+                "Systematic trading strategies",
+                "Quantitative research and alpha generation",
+                "Risk management and model validation",
+                "Financial engineering and structuring"
+            ],
+            "Professional Development": [
+                "Industry networking and mentorship",
+                "Conference presentations and publications",
+                "Open-source contributions to finance libraries",
+                "Teaching and knowledge sharing"
+            ],
+            "Emerging Areas": [
+                "DeFi and blockchain applications",
+                "Quantum computing in finance",
+                "Climate risk and ESG quantification",
+                "Central Bank Digital Currencies (CBDCs)"
+            ]
+        },
+        "resources": {
+            "Professional Networks": [
+                "CFA Institute local societies",
+                "IAQF, QWAFAFEW chapters",
+                "LinkedIn quantitative finance groups"
+            ],
+            "Continuous Learning": [
+                "Industry publications and blogs",
+                "Finance podcasts and webinars",
+                "Academic and practitioner conferences"
+            ]
+        }
+    }
+}
+
+
 # Combined roadmaps
 ROADMAPS = {
     "Software Engineer": SOFTWARE_ENGINEER_ROADMAP,
-    "ML Research Engineer": ML_RESEARCH_ROADMAP
+    "ML Research Engineer": ML_RESEARCH_ROADMAP,
+    "Quantitative Engineer/Scientist": QUANT_RESEARCH_ROADMAP
 }
 
 # Key milestones for each track
@@ -901,246 +1316,35 @@ MILESTONES = {
             "Contribute to major open-source projects",
             "Submit research to top-tier conferences"
         ]
+    },
+        "Quantitative Engineer/Scientist": {
+        "Mathematical Foundation": [
+            "Implement Black-Scholes pricing from scratch",
+            "Build Monte Carlo simulation engine",
+            "Create portfolio optimization using mean-variance",
+            "Develop basic risk metrics calculator (VaR, Sharpe ratio)"
+        ],
+        "Trading Systems": [
+            "Build a pairs trading strategy with backtesting",
+            "Implement momentum strategy with risk management",
+            "Create market making algorithm simulation",
+            "Develop factor model for stock returns"
+        ],
+        "Advanced Research": [
+            "Build ML-based alpha generation model",
+            "Implement systematic risk management framework",
+            "Create alternative data integration pipeline",
+            "Publish research on novel trading strategy"
+        ],
+        "Professional": [
+            "Pass CFA Level I or FRM Part I certification",
+            "Build production trading system",
+            "Lead quantitative research project",
+            "Present findings at finance conference"
+        ]
     }
 }
 
-# def save_progress():
-#     """Save progress to session state"""
-#     pass  # Progress is automatically saved in session state
-
-# def load_progress():
-#     """Load progress from session state"""
-#     return st.session_state.progress
-
-# def calculate_progress():
-#     """Calculate overall progress percentage"""
-#     total_items = 0
-#     completed_items = 0
-    
-#     for phase, phase_data in ROADMAP_DATA.items():
-#         for topic, items in phase_data["topics"].items():
-#             total_items += len(items)
-#             for item in items:
-#                 key = f"{phase}|{topic}|{item}"
-#                 if key in st.session_state.progress and st.session_state.progress[key]:
-#                     completed_items += 1
-    
-#     # Add milestones
-#     for category, milestones in MILESTONES.items():
-#         total_items += len(milestones)
-#         for milestone in milestones:
-#             key = f"milestone|{category}|{milestone}"
-#             if key in st.session_state.progress and st.session_state.progress[key]:
-#                 completed_items += 1
-    
-#     return (completed_items / total_items * 100) if total_items > 0 else 0
-
-# def main():
-#     st.title("🎯 ML Research Engineer Roadmap Tracker")
-#     st.markdown("Track your progress through the comprehensive ML Research Engineer learning path covering both Computer Vision and LLM specializations.")
-    
-#     # Sidebar for overall progress
-#     with st.sidebar:
-#         st.header("📊 Progress Overview")
-#         overall_progress = calculate_progress()
-#         st.metric("Overall Progress", f"{overall_progress:.1f}%")
-#         st.progress(overall_progress / 100)
-        
-#         # Timeline settings
-#         st.header("⏱️ Timeline Settings")
-#         start_date = st.date_input("Start Date", st.session_state.start_date)
-#         st.session_state.start_date = start_date
-        
-#         estimated_completion = start_date + timedelta(days=44*30)  # 44 months
-#         st.info(f"Estimated Completion: {estimated_completion.strftime('%B %Y')}")
-        
-#         # Export/Import progress
-#         st.header("💾 Progress Management")
-#         if st.button("Export Progress"):
-#             progress_data = {
-#                 "progress": st.session_state.progress,
-#                 "start_date": str(st.session_state.start_date),
-#                 "export_date": str(datetime.now().date())
-#             }
-#             st.download_button(
-#                 "Download Progress JSON",
-#                 json.dumps(progress_data, indent=2),
-#                 file_name=f"ml_roadmap_progress_{datetime.now().strftime('%Y%m%d')}.json",
-#                 mime="application/json"
-#             )
-    
-#     # Main content tabs
-#     tab1, tab2, tab3, tab4 = st.tabs(["🗺️ Roadmap", "📈 Analytics", "🏆 Milestones", "📚 Resources"])
-    
-#     with tab1:
-#         st.header("Learning Roadmap")
-        
-#         # Phase progress
-#         for phase_idx, (phase, phase_data) in enumerate(ROADMAP_DATA.items(), 1):
-#             with st.expander(f"**{phase}** ({phase_data['duration']})", expanded=phase_idx <= 2):
-                
-#                 # Calculate phase progress
-#                 phase_total = sum(len(items) for items in phase_data["topics"].values())
-#                 phase_completed = 0
-                
-#                 for topic, items in phase_data["topics"].items():
-#                     st.subheader(f"📖 {topic}")
-                    
-#                     # Topic progress
-#                     topic_completed = 0
-#                     for item in items:
-#                         key = f"{phase}|{topic}|{item}"
-#                         if key not in st.session_state.progress:
-#                             st.session_state.progress[key] = False
-                        
-#                         is_completed = st.checkbox(
-#                             item,
-#                             value=st.session_state.progress[key],
-#                             key=key
-#                         )
-#                         st.session_state.progress[key] = is_completed
-                        
-#                         if is_completed:
-#                             topic_completed += 1
-#                             phase_completed += 1
-                    
-#                     # Topic progress bar
-#                     topic_progress = (topic_completed / len(items)) * 100 if items else 0
-#                     st.progress(topic_progress / 100)
-#                     st.caption(f"Topic Progress: {topic_progress:.0f}% ({topic_completed}/{len(items)})")
-                
-#                 # Phase progress bar
-#                 phase_progress = (phase_completed / phase_total) * 100 if phase_total else 0
-#                 st.markdown("---")
-#                 st.progress(phase_progress / 100)
-#                 st.info(f"**Phase Progress: {phase_progress:.0f}%** ({phase_completed}/{phase_total} items completed)")
-    
-#     with tab2:
-#         st.header("Progress Analytics")
-        
-#         # Progress by phase
-#         phase_data = []
-#         for phase, phase_info in ROADMAP_DATA.items():
-#             phase_total = sum(len(items) for items in phase_info["topics"].values())
-#             phase_completed = 0
-            
-#             for topic, items in phase_info["topics"].items():
-#                 for item in items:
-#                     key = f"{phase}|{topic}|{item}"
-#                     if key in st.session_state.progress and st.session_state.progress[key]:
-#                         phase_completed += 1
-            
-#             phase_data.append({
-#                 "Phase": phase.replace("Phase ", "P"),
-#                 "Completed": phase_completed,
-#                 "Total": phase_total,
-#                 "Progress": (phase_completed / phase_total * 100) if phase_total else 0
-#             })
-        
-#         df_phases = pd.DataFrame(phase_data)
-        
-#         # Progress chart
-#         fig = px.bar(
-#             df_phases,
-#             x="Phase",
-#             y=["Completed", "Total"],
-#             title="Progress by Phase",
-#             color_discrete_map={"Completed": "#00D4AA", "Total": "#E5E5E5"}
-#         )
-#         st.plotly_chart(fig, use_container_width=True)
-        
-#         # Progress timeline
-#         col1, col2 = st.columns(2)
-#         with col1:
-#             st.metric("Total Topics Completed", sum(df_phases["Completed"]))
-#         with col2:
-#             st.metric("Total Topics Remaining", sum(df_phases["Total"]) - sum(df_phases["Completed"]))
-        
-#         # Detailed progress table
-#         st.subheader("Detailed Progress")
-#         st.dataframe(df_phases, use_container_width=True)
-    
-#     with tab3:
-#         st.header("Key Milestones")
-#         st.markdown("Track your major achievements and project completions:")
-        
-#         for category, milestones in MILESTONES.items():
-#             st.subheader(f"🎯 {category}")
-            
-#             milestone_completed = 0
-#             for milestone in milestones:
-#                 key = f"milestone|{category}|{milestone}"
-#                 if key not in st.session_state.progress:
-#                     st.session_state.progress[key] = False
-                
-#                 is_completed = st.checkbox(
-#                     milestone,
-#                     value=st.session_state.progress[key],
-#                     key=key
-#                 )
-#                 st.session_state.progress[key] = is_completed
-                
-#                 if is_completed:
-#                     milestone_completed += 1
-            
-#             # Category progress
-#             category_progress = (milestone_completed / len(milestones)) * 100
-#             st.progress(category_progress / 100)
-#             st.caption(f"{category} Milestones: {milestone_completed}/{len(milestones)} completed")
-#             st.markdown("---")
-    
-#     with tab4:
-#         st.header("Essential Resources")
-        
-#         resources = {
-#             "📚 Books": [
-#                 "Hands-On Machine Learning by Aurélien Géron",
-#                 "Deep Learning by Ian Goodfellow",
-#                 "Natural Language Processing with Transformers",
-#                 "Speech and Language Processing by Jurafsky & Martin"
-#             ],
-#             "🎓 Courses": [
-#                 "Andrew Ng's Machine Learning Course",
-#                 "Deep Learning Specialization (Coursera)",
-#                 "CS224N Stanford NLP Course",
-#                 "HuggingFace Course"
-#             ],
-#             "📄 Key Papers": [
-#                 "'Attention Is All You Need' (Transformer)",
-#                 "GPT, GPT-2, GPT-3 paper series",
-#                 "BERT, RoBERTa, T5 papers",
-#                 "ResNet, Vision Transformer papers"
-#             ],
-#             "🛠️ Tools & Libraries": [
-#                 "PyTorch, TensorFlow",
-#                 "HuggingFace Transformers",
-#                 "OpenCV, PIL/Pillow",
-#                 "Weights & Biases, MLflow"
-#             ],
-#             "🌐 Communities": [
-#                 "r/MachineLearning",
-#                 "HuggingFace Forums",
-#                 "Papers With Code",
-#                 "ML Twitter Community"
-#             ]
-#         }
-        
-#         for category, items in resources.items():
-#             st.subheader(category)
-#             for item in items:
-#                 st.markdown(f"• {item}")
-#             st.markdown("")
-
-
-# def save_progress():
-#     """Save progress to session state"""
-#     # Progress is automatically saved in session state through checkbox interactions
-#     # No additional action needed as Streamlit maintains session state
-#     pass
-
-# def load_progress():
-#     """Load progress from session state"""
-#     return st.session_state.get('progress', {})
 
 def save_progress():
     progress_data = {
@@ -1373,4 +1577,4 @@ def main():
                     st.markdown("")
 
 if __name__ == "__main__":
-    main()
+    main() # pyright: ignore[reportShadowedImports]
