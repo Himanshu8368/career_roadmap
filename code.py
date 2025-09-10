@@ -6,7 +6,6 @@ import plotly.graph_objects as go
 import pandas as pd
 import os
 
-PROGRESS_FILE = "progress_data.json"
 
 # Page configuration
 st.set_page_config(
@@ -24,6 +23,9 @@ if 'start_date' not in st.session_state:
 
 if 'selected_track' not in st.session_state:
     st.session_state.selected_track = "ML Research Engineer"
+
+PROGRESS_FILE = "progress_data.json"
+
 
 # Software Engineer Roadmap
 SOFTWARE_ENGINEER_ROADMAP = {
