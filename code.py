@@ -1533,14 +1533,16 @@ def main():
                 title="Progress by Phase",
                 color_discrete_map={"Completed": "#00D4AA", "Total": "#E5E5E5"}
             )
-            st.plotly_chart(fig, use_container_width=True)
+            # st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
             col1, col2 = st.columns(2)
             with col1:
                 st.metric("Total Topics Completed", sum(df_phases["Completed"]))
             with col2:
                 st.metric("Total Topics Remaining", sum(df_phases["Total"]) - sum(df_phases["Completed"]))
             st.subheader("Detailed Progress")
-            st.dataframe(df_phases, use_container_width=True)
+            # st.dataframe(df_phases, use_container_width=True)
+            st.dataframe(df_phases, width='stretch')
         else:
             st.info("No progress data available yet.")
     
