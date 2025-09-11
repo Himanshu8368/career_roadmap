@@ -31,7 +31,7 @@ if 'notes' not in st.session_state:
 PROGRESS_FILE = "progress_data.json"
 
 
-# Software Engineer Roadmap
+
 SOFTWARE_ENGINEER_ROADMAP = {
 
     "Phase 1: Programming Fundamentals": {
@@ -73,7 +73,84 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         }
     },
-    "Phase 2: Data Structures & Algorithms": {
+
+    "Phase 2: Core Computer Science Fundamentals": {
+        "duration": "3-4 months",
+        "topics": {
+            "Operating Systems": [
+                "Process management and scheduling",
+                "Memory management: Virtual memory, paging, segmentation",
+                "File systems: FAT, NTFS, ext4, journaling",
+                "Concurrency: Threads, synchronization, deadlocks",
+                "I/O systems and device drivers",
+                "System calls and kernel modes",
+                "Distributed operating systems basics"
+            ],
+            "Computer Networks": [
+                "OSI and TCP/IP model",
+                "Physical layer: Cables, wireless, signal transmission",
+                "Data link layer: Ethernet, MAC addresses, switching",
+                "Network layer: IP addressing, routing protocols (OSPF, BGP)",
+                "Transport layer: TCP vs UDP, port numbers, congestion control",
+                "Application layer: HTTP/HTTPS, DNS, DHCP, FTP, SMTP",
+                "Network security: Firewalls, VPNs, encryption",
+                "Network troubleshooting and tools (ping, traceroute, wireshark)"
+            ],
+            "Database Management Systems": [
+                "Database models: Relational, hierarchical, network",
+                "Relational algebra and calculus",
+                "SQL fundamentals: DDL, DML, DCL, TCL",
+                "Advanced SQL: Joins, subqueries, window functions, CTEs",
+                "Database design: ER diagrams, normalization (1NF to BCNF)",
+                "Transaction management: ACID properties",
+                "Concurrency control: Locking, isolation levels",
+                "Indexing: B-trees, Hash indexes, bitmap indexes",
+                "Query optimization and execution plans",
+                "Database recovery and backup strategies",
+                "NoSQL databases: Document, Key-value, Column-family, Graph"
+            ],
+            "Computer Architecture": [
+                "CPU architecture: RISC vs CISC, pipelining",
+                "Memory hierarchy: Cache, RAM, storage",
+                "Instruction set architecture (ISA)",
+                "Assembly language basics",
+                "Multicore and parallel processing",
+                "GPU architecture and parallel computing"
+            ],
+            "Discrete Mathematics": [
+                "Set theory and logic",
+                "Graph theory fundamentals",
+                "Combinatorics and probability",
+                "Number theory basics",
+                "Boolean algebra",
+                "Mathematical induction and proof techniques"
+            ]
+        },
+        "resources": {
+            "Courses": [
+                "Operating Systems - UC Berkeley CS162 (YouTube)",
+                "Computer Networks - Stanford CS144 (YouTube)",
+                "Database Systems - CMU 15-445 (YouTube)",
+                "Computer Architecture - Princeton (Coursera)",
+                "Discrete Mathematics - MIT 6.042J"
+            ],
+            "Books": [
+                "Operating System Concepts by Silberschatz (Dinosaur Book)",
+                "Computer Networking: A Top-Down Approach by Kurose & Ross",
+                "Database System Concepts by Silberschatz, Korth & Sudarshan",
+                "Computer Organization and Design by Patterson & Hennessy",
+                "Discrete Mathematics and Its Applications by Kenneth Rosen"
+            ],
+            "Practice": [
+                "Implement basic OS components (scheduler, memory allocator)",
+                "Network programming with sockets",
+                "Design and implement database schema",
+                "SQL practice on platforms like SQLBolt, HackerRank"
+            ]
+        }
+    },
+
+    "Phase 3: Data Structures & Algorithms": {
         "duration": "3-4 months",
         "topics": {
             "Basic Data Structures": [
@@ -88,21 +165,26 @@ SOFTWARE_ENGINEER_ROADMAP = {
                 "Heaps and Priority Queues",
                 "Graphs (directed, undirected)",
                 "Tries",
-                "Union-Find (Disjoint Set)"
+                "Union-Find (Disjoint Set)",
+                "Segment Trees and Fenwick Trees",
+                "Bloom Filters"
             ],
             "Algorithms": [
-                "Sorting: Bubble, Selection, Insertion, Merge, Quick, Heap",
+                "Sorting: Bubble, Selection, Insertion, Merge, Quick, Heap, Radix",
                 "Searching: Linear, Binary, DFS, BFS",
-                "Dynamic Programming",
+                "Dynamic Programming: Memoization, tabulation",
                 "Greedy Algorithms",
                 "Backtracking",
-                "Graph algorithms: Dijkstra's, Bellman-Ford, Floyd-Warshall"
+                "Graph algorithms: Dijkstra's, Bellman-Ford, Floyd-Warshall, A*",
+                "String algorithms: KMP, Rabin-Karp, suffix arrays",
+                "Number theory algorithms: GCD, prime generation"
             ],
             "Complexity Analysis": [
                 "Big O notation",
                 "Time complexity analysis",
                 "Space complexity analysis",
-                "Best, average, worst case analysis"
+                "Best, average, worst case analysis",
+                "Amortized analysis"
             ]
         },
         "resources": {
@@ -119,59 +201,73 @@ SOFTWARE_ENGINEER_ROADMAP = {
             "Practice": [
                 "LeetCode (start with Easy problems)",
                 "HackerRank Data Structures track",
-                "CodeSignal"
+                "CodeSignal",
+                "Codeforces for competitive programming"
             ]
         }
     },
-    "Phase 3: Web Development Fundamentals": {
+
+    "Phase 4: Web Development Fundamentals": {
         "duration": "3-4 months",
         "topics": {
             "Frontend Basics": [
                 "HTML5: Semantic markup, forms, accessibility",
                 "CSS3: Flexbox, Grid, animations, responsive design",
                 "JavaScript: DOM manipulation, events, async programming",
-                "Browser DevTools mastery"
+                "Browser DevTools mastery",
+                "Web Performance Optimization",
+                "Cross-browser compatibility"
             ],
             "Backend Basics": [
-                "HTTP/HTTPS protocols",
-                "RESTful API design",
+                "HTTP/HTTPS protocols in depth",
+                "RESTful API design and best practices",
                 "Server-side programming (Node.js/Python/Java)",
-                "Authentication & Authorization",
-                "Session management"
+                "Authentication & Authorization (JWT, OAuth 2.0, SAML)",
+                "Session management and cookies",
+                "WebSockets and real-time communication",
+                "API documentation (OpenAPI/Swagger)"
             ],
             "Databases": [
-                "SQL fundamentals: CRUD, Joins, Indexes",
-                "Relational databases: PostgreSQL, MySQL",
-                "NoSQL basics: MongoDB, Redis",
+                "Advanced SQL: Window functions, CTEs, stored procedures",
+                "Relational databases: PostgreSQL, MySQL advanced features",
+                "NoSQL databases: MongoDB, Redis, Cassandra, DynamoDB",
                 "Database design and normalization",
-                "ORMs and Query builders"
+                "ORMs and Query builders",
+                "Database migrations and versioning",
+                "Database performance tuning"
             ],
             "Version Control": [
-                "Git fundamentals",
-                "Branching strategies (Git Flow, GitHub Flow)",
+                "Git fundamentals and advanced commands",
+                "Branching strategies (Git Flow, GitHub Flow, GitLab Flow)",
                 "Pull requests and code reviews",
-                "Resolving merge conflicts"
+                "Resolving merge conflicts",
+                "Git hooks and automation",
+                "Semantic versioning"
             ]
         },
         "resources": {
             "Courses": [
                 "The Odin Project - Full Stack JavaScript (free)",
                 "Full Stack Open - University of Helsinki (free)",
-                "CS50's Web Programming with Python and JavaScript"
+                "CS50's Web Programming with Python and JavaScript",
+                "PostgreSQL for Developers (PGExercises)"
             ],
             "Books": [
                 "MDN Web Docs (comprehensive web reference)",
                 "You Don't Know JS series by Kyle Simpson",
-                "SQL in 10 Minutes by Ben Forta"
+                "Learning SQL by Alan Beaulieu",
+                "High Performance MySQL by Baron Schwartz"
             ],
             "Practice": [
                 "Frontend Mentor (real projects)",
                 "Build personal portfolio website",
-                "Contribute to open source projects"
+                "Contribute to open source projects",
+                "SQL Zoo and SQLBolt for database practice"
             ]
         }
     },
-    "Phase 4: Modern Frameworks & Tools": {
+
+    "Phase 5: Modern Frameworks & Tools": {
         "duration": "3-4 months",
         "topics": {
             "Frontend Frameworks": [
@@ -179,48 +275,56 @@ SOFTWARE_ENGINEER_ROADMAP = {
                 "Vue.js or Angular basics",
                 "State management: Redux, Context API, Zustand",
                 "Next.js/Nuxt.js for SSR/SSG",
-                "CSS frameworks: Tailwind, Material-UI"
+                "CSS frameworks: Tailwind, Material-UI",
+                "TypeScript for type safety"
             ],
             "Backend Frameworks": [
                 "Express.js/Fastify (Node.js)",
                 "Django/FastAPI (Python)",
                 "Spring Boot (Java)",
                 "GraphQL basics",
-                "Microservices architecture"
+                "Microservices architecture",
+                "Message queues: RabbitMQ, Apache Kafka"
             ],
             "Development Tools": [
                 "Package managers: npm, yarn, pip",
                 "Build tools: Webpack, Vite, Rollup",
-                "Testing: Jest, Pytest, Cypress",
+                "Testing: Jest, Pytest, Cypress, Playwright",
                 "CI/CD pipelines",
-                "Docker containerization"
+                "Docker containerization",
+                "Code quality tools: ESLint, Prettier, SonarQube"
             ],
             "Cloud Platforms": [
-                "AWS basics: EC2, S3, Lambda",
+                "AWS basics: EC2, S3, Lambda, RDS, VPC",
                 "Google Cloud Platform or Azure",
                 "Serverless architecture",
-                "CDN and caching strategies"
+                "CDN and caching strategies",
+                "Infrastructure as Code: Terraform, CloudFormation"
             ]
         },
         "resources": {
             "Courses": [
                 "React - The Complete Guide (Udemy - Maximilian Schwarzmüller)",
                 "Node.js, Express, MongoDB Bootcamp (Udemy - Jonas Schmedtmann)",
-                "Docker and Kubernetes: The Complete Guide (Udemy)"
+                "Docker and Kubernetes: The Complete Guide (Udemy)",
+                "TypeScript: The Complete Developer's Guide"
             ],
             "Books": [
                 "Learning React by Alex Banks & Eve Porcello",
                 "Node.js Design Patterns by Mario Casciaro",
-                "Clean Code by Robert C. Martin"
+                "Clean Code by Robert C. Martin",
+                "TypeScript Deep Dive by Basarat Ali Syed"
             ],
             "Practice": [
                 "Build a full-stack CRUD application",
                 "Create a real-time chat application",
-                "Deploy projects to cloud platforms"
+                "Deploy projects to cloud platforms",
+                "Implement comprehensive testing suites"
             ]
         }
     },
-    "Phase 5: Software Engineering Practices": {
+
+    "Phase 6: Software Engineering Practices": {
         "duration": "2-3 months",
         "topics": {
             "Design Patterns": [
@@ -228,28 +332,34 @@ SOFTWARE_ENGINEER_ROADMAP = {
                 "Structural: Adapter, Decorator, Facade",
                 "Behavioral: Observer, Strategy, Command",
                 "MVC, MVP, MVVM architectures",
-                "SOLID principles"
+                "SOLID principles",
+                "Dependency Injection"
             ],
             "Testing": [
                 "Unit testing",
                 "Integration testing",
                 "End-to-end testing",
                 "Test-Driven Development (TDD)",
-                "Behavior-Driven Development (BDD)"
+                "Behavior-Driven Development (BDD)",
+                "Property-based testing",
+                "Performance and load testing"
             ],
             "Code Quality": [
                 "Clean code principles",
                 "Code reviews best practices",
                 "Refactoring techniques",
                 "Documentation",
-                "Linting and formatting"
+                "Linting and formatting",
+                "Static code analysis",
+                "Technical debt management"
             ],
             "Agile & Project Management": [
                 "Scrum methodology",
                 "Kanban boards",
                 "Sprint planning and retrospectives",
                 "User stories and estimation",
-                "JIRA/Linear/Trello"
+                "JIRA/Linear/Trello",
+                "DevOps culture and practices"
             ]
         },
         "resources": {
@@ -261,16 +371,19 @@ SOFTWARE_ENGINEER_ROADMAP = {
             "Books": [
                 "Design Patterns: Elements of Reusable Object-Oriented Software",
                 "Refactoring by Martin Fowler",
-                "The Pragmatic Programmer by David Thomas & Andrew Hunt"
+                "The Pragmatic Programmer by David Thomas & Andrew Hunt",
+                "Working Effectively with Legacy Code by Michael Feathers"
             ],
             "Practice": [
                 "Refactor existing code using design patterns",
                 "Write comprehensive test suites",
-                "Participate in code reviews"
+                "Participate in code reviews",
+                "Implement CI/CD pipelines"
             ]
         }
     },
-    "Phase 6: System Design & Architecture": {
+
+    "Phase 7: System Design & Architecture": {
         "duration": "3-4 months",
         "topics": {
             "System Design Fundamentals": [
@@ -278,28 +391,34 @@ SOFTWARE_ENGINEER_ROADMAP = {
                 "Load balancing strategies",
                 "Caching: Browser, CDN, Application, Database",
                 "Database sharding and replication",
-                "CAP theorem"
+                "CAP theorem and consistency models",
+                "Partitioning and data distribution"
             ],
             "Distributed Systems": [
                 "Microservices vs Monolithic",
                 "Service discovery",
-                "Message queues: RabbitMQ, Kafka",
+                "Message queues: RabbitMQ, Kafka, Amazon SQS",
                 "API Gateway patterns",
-                "Event-driven architecture"
+                "Event-driven architecture",
+                "Consensus algorithms: Raft, Paxos",
+                "Distributed transactions and 2PC"
             ],
             "Performance & Optimization": [
                 "Performance profiling",
                 "Database query optimization",
                 "Caching strategies",
                 "Lazy loading and code splitting",
-                "CDN optimization"
+                "CDN optimization",
+                "Network latency optimization"
             ],
             "Security": [
                 "OWASP Top 10",
-                "Authentication: JWT, OAuth 2.0",
+                "Authentication: JWT, OAuth 2.0, SAML",
                 "Encryption and hashing",
                 "SQL injection prevention",
-                "XSS and CSRF protection"
+                "XSS and CSRF protection",
+                "Zero-trust architecture",
+                "Security testing and auditing"
             ]
         },
         "resources": {
@@ -311,66 +430,80 @@ SOFTWARE_ENGINEER_ROADMAP = {
             "Books": [
                 "Designing Data-Intensive Applications by Martin Kleppmann",
                 "System Design Interview by Alex Xu",
-                "Building Microservices by Sam Newman"
+                "Building Microservices by Sam Newman",
+                "Distributed Systems: Principles and Paradigms by Tanenbaum"
             ],
             "Practice": [
                 "Design Twitter/Instagram clone",
                 "Design URL shortener",
-                "Design distributed cache"
+                "Design distributed cache",
+                "Design chat system like WhatsApp"
             ]
         }
     },
-    "Phase 7: Advanced Backend Development": {
+
+    "Phase 8: Advanced Backend Development": {
         "duration": "3-4 months",
         "topics": {
             "Advanced Database Concepts": [
                 "Transaction isolation levels",
                 "Database indexing strategies",
-                "Query optimization",
+                "Query optimization and execution plans",
                 "Database migrations",
-                "Time-series databases"
+                "Time-series databases",
+                "Graph databases: Neo4j, Amazon Neptune",
+                "Database clustering and high availability"
             ],
             "API Development": [
                 "RESTful API best practices",
-                "GraphQL implementation",
+                "GraphQL implementation and optimization",
                 "gRPC and Protocol Buffers",
-                "API versioning",
-                "Rate limiting and throttling"
+                "API versioning strategies",
+                "Rate limiting and throttling",
+                "API security and authentication",
+                "API monitoring and analytics"
             ],
             "Real-time Systems": [
                 "WebSockets implementation",
                 "Server-Sent Events (SSE)",
                 "Long polling",
                 "Real-time databases (Firebase, Supabase)",
-                "Push notifications"
+                "Push notifications",
+                "Event sourcing and CQRS"
             ],
             "Search & Analytics": [
                 "Elasticsearch implementation",
-                "Full-text search",
+                "Full-text search optimization",
                 "Analytics pipelines",
                 "Log aggregation",
-                "Monitoring and alerting"
+                "Monitoring and alerting",
+                "Data warehousing concepts",
+                "ETL/ELT processes"
             ]
         },
         "resources": {
             "Courses": [
                 "Advanced Node.js (Frontend Masters)",
                 "Database Engineering (Hussein Nasser - Udemy)",
-                "Real-time Web with Node.js (Pluralsight)"
+                "Real-time Web with Node.js (Pluralsight)",
+                "Elasticsearch Complete Guide (Udemy)"
             ],
             "Books": [
                 "High Performance Browser Networking by Ilya Grigorik",
                 "Database Internals by Alex Petrov",
-                "Elasticsearch: The Definitive Guide"
+                "Elasticsearch: The Definitive Guide",
+                "Event Sourcing and CQRS by Greg Young"
             ],
             "Practice": [
                 "Build a real-time collaboration tool",
                 "Implement search functionality",
-                "Create analytics dashboard"
+                "Create analytics dashboard",
+                "Design event-driven system"
             ]
         }
     },
-    "Phase 8: DevOps & Infrastructure": {
+
+    "Phase 9: DevOps & Infrastructure": {
         "duration": "3-4 months",
         "topics": {
             "Containerization & Orchestration": [
@@ -378,49 +511,57 @@ SOFTWARE_ENGINEER_ROADMAP = {
                 "Kubernetes fundamentals",
                 "Helm charts",
                 "Service mesh (Istio)",
-                "Container security"
+                "Container security",
+                "Container registry management"
             ],
             "CI/CD Pipelines": [
                 "Jenkins/GitHub Actions/GitLab CI",
                 "Automated testing in CI/CD",
                 "Blue-green deployments",
                 "Canary releases",
-                "Infrastructure as Code"
+                "Infrastructure as Code",
+                "Pipeline security and compliance"
             ],
             "Monitoring & Logging": [
                 "Prometheus and Grafana",
                 "ELK Stack (Elasticsearch, Logstash, Kibana)",
                 "APM tools (New Relic, DataDog)",
                 "Distributed tracing",
-                "Error tracking (Sentry)"
+                "Error tracking (Sentry)",
+                "Log management and analysis"
             ],
             "Cloud Native": [
                 "Serverless architectures",
                 "Function as a Service (FaaS)",
                 "API Gateway",
                 "Cloud databases",
-                "Auto-scaling strategies"
+                "Auto-scaling strategies",
+                "Multi-cloud and hybrid cloud strategies"
             ]
         },
         "resources": {
             "Courses": [
                 "Docker and Kubernetes: The Complete Guide (Udemy)",
                 "DevOps Bootcamp (Techworld with Nana)",
-                "AWS Certified Solutions Architect (A Cloud Guru)"
+                "AWS Certified Solutions Architect (A Cloud Guru)",
+                "Site Reliability Engineering (Google Cloud)"
             ],
             "Books": [
                 "The DevOps Handbook",
                 "Kubernetes in Action by Marko Lukša",
-                "Site Reliability Engineering (Google)"
+                "Site Reliability Engineering (Google)",
+                "Infrastructure as Code by Kief Morris"
             ],
             "Practice": [
                 "Set up complete CI/CD pipeline",
                 "Deploy application to Kubernetes",
-                "Implement monitoring and alerting"
+                "Implement monitoring and alerting",
+                "Create Infrastructure as Code templates"
             ]
         }
     },
-    "Phase 9: Specialization Tracks": {
+
+    "Phase 10: Specialization Tracks": {
         "duration": "4-6 months (choose one)",
         "topics": {
             "Full-Stack Development": [
@@ -450,27 +591,38 @@ SOFTWARE_ENGINEER_ROADMAP = {
                 "Cryptography implementation",
                 "Zero-trust architecture",
                 "Compliance (GDPR, HIPAA)"
+            ],
+            "Data Engineering": [
+                "Data pipeline design",
+                "Apache Spark and Hadoop ecosystem",
+                "Real-time data processing",
+                "Data lake and data warehouse architecture",
+                "ETL/ELT optimization"
             ]
         },
         "resources": {
             "Courses": [
                 "Epic React by Kent C. Dodds",
                 "Distributed Systems & Cloud Computing (Stanford)",
-                "Practical Security for Developers (Auth0)"
+                "Practical Security for Developers (Auth0)",
+                "Data Engineering with Python (DataCamp)"
             ],
             "Books": [
                 "Staff Engineer by Will Larson",
                 "The Phoenix Project",
-                "Accelerate by Nicole Forsgren"
+                "Accelerate by Nicole Forsgren",
+                "Fundamentals of Data Engineering by Joe Reis"
             ],
             "Practice": [
                 "Contribute to major open-source projects",
                 "Build production-ready applications",
-                "Write technical blog posts"
+                "Write technical blog posts",
+                "Participate in hackathons and coding competitions"
             ]
         }
     },
-    "Phase 10: Senior Engineering Skills": {
+
+    "Phase 11: Senior Engineering Skills": {
         "duration": "Ongoing",
         "topics": {
             "Technical Leadership": [
@@ -516,7 +668,8 @@ SOFTWARE_ENGINEER_ROADMAP = {
             "Practice": [
                 "Lead technical projects",
                 "Mentor team members",
-                "Speak at meetups/conferences"
+                "Speak at meetups/conferences",
+                "Build internal tools and processes"
             ]
         }
     }
