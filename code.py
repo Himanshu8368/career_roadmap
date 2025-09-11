@@ -23,6 +23,11 @@ if 'start_date' not in st.session_state:
 if 'selected_track' not in st.session_state:
     st.session_state.selected_track = "ML Research Engineer"
 
+
+# 1. ADD THIS TO SESSION STATE INITIALIZATION (after existing session state)
+if 'notes' not in st.session_state:
+    st.session_state.notes = {}
+
 PROGRESS_FILE = "progress_data.json"
 
 
@@ -2703,8 +2708,8 @@ def main():
             with col2:
                 st.metric("Total Topics Remaining", sum(df_phases["Total"]) - sum(df_phases["Completed"]))
             st.subheader("Detailed Progress")
-            # st.dataframe(df_phases, use_container_width=True)
-            st.dataframe(df_phases, width='stretch')
+            st.dataframe(df_phases, use_container_width=True)
+            # st.dataframe(df_phases, width='stretch')
         else:
             st.info("No progress data available yet.")
     
