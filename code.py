@@ -6,7 +6,6 @@ import plotly.graph_objects as go
 import pandas as pd
 import os
 
-
 # Page configuration
 st.set_page_config(
     page_title="Tech Career Roadmap Tracker",
@@ -723,6 +722,52 @@ ML_RESEARCH_ROADMAP = {
             ]
         }
     },
+    "Phase 6.5: Reinforcement Learning Fundamentals": {
+        "duration": "3-4 months",
+        "topics": {
+            "Core RL Concepts": [
+                "Markov Decision Processes (MDPs)",
+                "Value functions, policy functions",
+                "Bellman equations and dynamic programming",
+                "Exploration vs exploitation trade-off"
+            ],
+            "Classical RL Algorithms": [
+                "Q-Learning, SARSA",
+                "Policy gradient methods",
+                "Temporal difference learning",
+                "Monte Carlo methods"
+            ],
+            "Deep Reinforcement Learning": [
+                "Deep Q-Networks (DQN) and variants",
+                "Actor-Critic methods (A2C, A3C)",
+                "Proximal Policy Optimization (PPO)",
+                "Deep Deterministic Policy Gradient (DDPG)"
+            ],
+            "Advanced RL Topics": [
+                "Multi-agent reinforcement learning",
+                "Hierarchical reinforcement learning",
+                "Inverse reinforcement learning",
+                "RLHF (Reinforcement Learning from Human Feedback)"
+            ]
+        },
+        "resources": {
+            "Courses": [
+                "CS285 - UC Berkeley Deep RL",
+                "Reinforcement Learning Specialization - University of Alberta",
+                "DeepMind RL Course"
+            ],
+            "Books": [
+                "Reinforcement Learning: An Introduction - Sutton & Barto",
+                "Deep Reinforcement Learning Hands-On - Maxim Lapan"
+            ],
+            "Libraries": [
+                "OpenAI Gym, Gymnasium",
+                "Stable Baselines3",
+                "Ray RLlib",
+                "TensorFlow Agents"
+            ]
+        }
+    },
     "Phase 7: Specialization Deep Dive": {
         "duration": "4-6 months each",
         "topics": {
@@ -790,6 +835,48 @@ ML_RESEARCH_ROADMAP = {
             ]
         }
     },
+    "Phase 8.5: Retrieval-Augmented Generation (RAG)": {
+        "duration": "2-3 months",
+        "topics": {
+            "RAG Fundamentals": [
+                "Information retrieval basics",
+                "Vector databases and similarity search",
+                "Dense vs sparse retrieval",
+                "Embedding models for retrieval"
+            ],
+            "RAG Architecture Components": [
+                "Document chunking strategies",
+                "Vector indexing and storage",
+                "Retrieval mechanisms",
+                "Generation with retrieved context"
+            ],
+            "Advanced RAG Techniques": [
+                "Hybrid retrieval (dense + sparse)",
+                "Re-ranking and filtering",
+                "Multi-hop reasoning",
+                "Self-RAG and adaptive retrieval"
+            ],
+            "RAG Optimization": [
+                "Query expansion and reformulation",
+                "Context compression",
+                "Retrieval evaluation metrics",
+                "End-to-end fine-tuning"
+            ]
+        },
+        "resources": {
+            "Tools & Libraries": [
+                "LangChain, LlamaIndex",
+                "Chroma, Pinecone, Weaviate",
+                "FAISS, Elasticsearch",
+                "HuggingFace Transformers"
+            ],
+            "Papers": [
+                "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+                "Dense Passage Retrieval",
+                "FiD: Fusion-in-Decoder"
+            ]
+        }
+    },    
     "Phase 9: Research Skills & Paper Implementation": {
         "duration": "4-6 months",
         "topics": {
@@ -822,6 +909,48 @@ ML_RESEARCH_ROADMAP = {
             ]
         }
     },
+    "Phase 9.5: Agentic AI Systems": {
+        "duration": "4-5 months",
+        "topics": {
+            "Agent Architecture": [
+                "Planning and reasoning systems",
+                "Memory management in agents",
+                "Tool use and function calling",
+                "Multi-step task decomposition"
+            ],
+            "Agent Frameworks": [
+                "ReAct (Reasoning + Acting)",
+                "Chain-of-Thought prompting",
+                "Tree of Thoughts",
+                "AutoGPT-style autonomous agents"
+            ],
+            "Multi-Agent Systems": [
+                "Agent communication protocols",
+                "Collaborative problem solving",
+                "Role-based agent specialization",
+                "Consensus and coordination mechanisms"
+            ],
+            "Agent Safety & Control": [
+                "Goal alignment in agents",
+                "Containment and sandboxing",
+                "Human oversight integration",
+                "Robustness testing"
+            ]
+        },
+        "resources": {
+            "Frameworks": [
+                "LangGraph, CrewAI",
+                "AutoGen, MetaGPT",
+                "OpenAI Assistants API",
+                "Custom agent implementations"
+            ],
+            "Papers": [
+                "ReAct: Synergizing Reasoning and Acting",
+                "Generative Agents",
+                "Constitutional AI papers"
+            ]
+        }
+    },    
     "Phase 10: Original Research & Specialization": {
         "duration": "6+ months",
         "topics": {
@@ -849,6 +978,90 @@ ML_RESEARCH_ROADMAP = {
                 "Top-tier conferences",
                 "Workshops",
                 "arXiv preprints"
+            ]
+        }
+    },
+    "Phase 10.5: Model Communication Protocol (MCP) Integration": {
+        "duration": "2-3 months",
+        "topics": {
+            "MCP Server Development": [
+                "Understanding MCP architecture",
+                "Server implementation patterns",
+                "Resource and tool definitions",
+                "Client-server communication protocols"
+            ],
+            "Custom Tool Integration": [
+                "Building domain-specific tools",
+                "API integration patterns",
+                "Database connectivity",
+                "External service orchestration"
+            ],
+            "MCP Best Practices": [
+                "Security considerations",
+                "Performance optimization",
+                "Error handling and recovery",
+                "Testing and validation"
+            ],
+            "Advanced MCP Features": [
+                "Streaming responses",
+                "Batch operations",
+                "State management",
+                "Multi-tenant architectures"
+            ]
+        },
+        "resources": {
+            "Documentation": [
+                "Official MCP specification",
+                "Anthropic MCP documentation",
+                "Community examples and templates"
+            ],
+            "Implementation": [
+                "MCP SDK libraries",
+                "Reference implementations",
+                "Integration patterns",
+                "Testing frameworks"
+            ]
+        }
+    },
+
+    "Phase 11: Production AI Systems": {
+        "duration": "3-4 months",
+        "topics": {
+            "MLOps & Model Deployment": [
+                "Model versioning and registry",
+                "CI/CD for ML pipelines",
+                "A/B testing for models",
+                "Model monitoring and drift detection"
+            ],
+            "Scalable AI Infrastructure": [
+                "Distributed training systems",
+                "Model serving at scale",
+                "GPU cluster management",
+                "Cost optimization strategies"
+            ],
+            "AI Safety in Production": [
+                "Bias detection and mitigation",
+                "Adversarial robustness",
+                "Privacy-preserving ML",
+                "Compliance and governance"
+            ],
+            "Integration Patterns": [
+                "API design for AI services",
+                "Real-time vs batch processing",
+                "Edge deployment considerations",
+                "Multi-model orchestration"
+            ]
+        },
+        "resources": {
+            "Platforms": [
+                "Kubernetes, Docker",
+                "MLflow, Kubeflow",
+                "Weights & Biases, Neptune",
+                "Cloud ML platforms (AWS, GCP, Azure)"
+            ],
+            "Books": [
+                "Building Machine Learning Powered Applications",
+                "ML Engineering - Andriy Burkov"
             ]
         }
     }
