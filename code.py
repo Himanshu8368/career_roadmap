@@ -28,6 +28,7 @@ PROGRESS_FILE = "progress_data.json"
 
 # Software Engineer Roadmap
 SOFTWARE_ENGINEER_ROADMAP = {
+
     "Phase 1: Programming Fundamentals": {
         "duration": "2-3 months",
         "topics": {
@@ -517,10 +518,903 @@ SOFTWARE_ENGINEER_ROADMAP = {
 }
 
 # ML Research Engineer Roadmap (existing)
-ML_RESEARCH_ROADMAP = {
+# ML_RESEARCH_ROADMAP = {
 
+#     "Phase 1: Mathematical Foundations": {
+#         "duration": "3-4 months",
+#         "topics": {
+#             "Linear Algebra": [
+#                 "Vectors, matrices, eigenvalues, eigenvectors",
+#                 "Matrix decompositions (SVD, PCA)",
+#                 "LLM-specific: Understanding attention as matrix operations",
+#                 "CV-specific: Understanding convolutions as matrix operations"
+#             ],
+#             "Calculus & Optimization": [
+#                 "Derivatives, partial derivatives, chain rule",
+#                 "Gradients, Hessians",
+#                 "Convex optimization basics",
+#                 "LLM-specific: Understanding gradient flow in transformer training",
+#                 "CV-specific: Understanding backpropagation in CNNs"
+#             ],
+#             "Statistics & Probability": [
+#                 "Probability distributions, Bayes' theorem",
+#                 "Hypothesis testing, confidence intervals",
+#                 "Maximum likelihood estimation",
+#                 "LLM-specific: Language modeling as probability estimation",
+#                 "CV-specific: Understanding uncertainty in vision tasks"
+#             ],
+#             "Information Theory": [
+#                 "Entropy, mutual information",
+#                 "Cross-entropy loss intuition"
+#             ]
+#         },
+#         "resources": {
+#             "Courses": [
+#                 "Mathematics for Machine Learning (Coursera)",
+#                 "Linear Algebra - MIT OCW",
+#                 "Statistical Learning - Stanford"
+#             ],
+#             "Books": [
+#                 "Pattern Recognition and Machine Learning - Bishop",
+#                 "The Elements of Statistical Learning",
+#                 "Deep Learning - Ian Goodfellow"
+#             ]
+#         }
+#     },
+#     "Phase 2: Programming & Tools": {
+#         "duration": "2-3 months",
+#         "topics": {
+#             "Python Mastery": [
+#                 "Data structures, OOP, functional programming",
+#                 "NumPy, Pandas, Matplotlib, Seaborn",
+#                 "Jupyter notebooks, debugging"
+#             ],
+#             "Machine Learning Libraries": [
+#                 "Scikit-learn for traditional ML",
+#                 "PyTorch (preferred for both LLM and CV research)",
+#                 "CV libraries: OpenCV, PIL/Pillow, scikit-image",
+#                 "LLM libraries: HuggingFace Transformers, tokenizers"
+#             ],
+#             "Specialized Tools": [
+#                 "For CV: Albumentations, YOLO, detectron2",
+#                 "For LLM: HuggingFace ecosystem, DeepSpeed, vLLM",
+#                 "Common: Weights & Biases for experiment tracking"
+#             ],
+#             "Development Tools": [
+#                 "Git/GitHub for version control",
+#                 "Command line proficiency",
+#                 "Docker basics",
+#                 "Cloud platforms with GPU support"
+#             ]
+#         },
+#         "resources": {
+#             "Courses": [
+#                 "Python for Data Science - Coursera",
+#                 "PyTorch Fundamentals - PyTorch.org",
+#                 "Practical Deep Learning - fast.ai"
+#             ],
+#             "Books": [
+#                 "Hands-On Machine Learning - Aurélien Géron",
+#                 "Programming PyTorch for Deep Learning"
+#             ]
+#         }
+#     },
+#     "Phase 3: Core Machine Learning": {
+#         "duration": "4-5 months",
+#         "topics": {
+#             "Traditional ML Concepts": [
+#                 "Linear/logistic regression",
+#                 "Decision trees, random forests",
+#                 "Support vector machines",
+#                 "Neural networks fundamentals"
+#             ],
+#             "Data Processing": [
+#                 "For CV: Image preprocessing, augmentation techniques",
+#                 "For LLM: Text preprocessing, tokenization basics",
+#                 "Feature engineering principles"
+#             ],
+#             "Model Evaluation & Selection": [
+#                 "Cross-validation",
+#                 "Bias-variance tradeoff",
+#                 "Regularization techniques",
+#                 "CV metrics: Accuracy, IoU, mAP",
+#                 "LLM metrics: BLEU, ROUGE, perplexity"
+#             ]
+#         },
+#         "resources": {
+#             "Courses": [
+#                 "Machine Learning - Andrew Ng (Coursera)",
+#                 "CS229 - Stanford Machine Learning"
+#             ],
+#             "Books": [
+#                 "An Introduction to Statistical Learning",
+#                 "Machine Learning Yearning - Andrew Ng"
+#             ]
+#         }
+#     },
+#     "Phase 4: Deep Learning Fundamentals": {
+#         "duration": "3-4 months",
+#         "topics": {
+#             "Neural Network Fundamentals": [
+#                 "Backpropagation algorithm",
+#                 "Activation functions, loss functions",
+#                 "Gradient descent variants"
+#             ],
+#             "Core Architectures": [
+#                 "Feedforward networks",
+#                 "Convolutional Neural Networks (CNNs) - essential for CV",
+#                 "Recurrent Neural Networks (RNNs, LSTMs, GRUs) - foundation for LLMs"
+#             ],
+#             "Advanced Topics": [
+#                 "Transfer learning",
+#                 "Regularization techniques",
+#                 "Advanced optimizers"
+#             ]
+#         },
+#         "resources": {
+#             "Courses": [
+#                 "Deep Learning Specialization - Andrew Ng",
+#                 "CS231n - Stanford CNN for Visual Recognition"
+#             ],
+#             "Books": [
+#                 "Deep Learning - Goodfellow, Bengio, Courville"
+#             ]
+#         }
+#     },
+#     "Phase 5: Foundation Specialization": {
+#         "duration": "3-4 months",
+#         "topics": {
+#             "Option A: Computer Vision Foundation": [
+#                 "Image fundamentals: pixels, channels, color spaces",
+#                 "Basic operations: filtering, edge detection, morphological operations",
+#                 "Feature extraction: SIFT, SURF, HOG",
+#                 "Classical techniques: template matching, contour detection"
+#             ],
+#             "Option B: NLP Foundation": [
+#                 "Classical NLP: n-grams, POS tagging, NER",
+#                 "Word embeddings: Word2Vec, GloVe, FastText",
+#                 "Sequence models: basic RNNs for text",
+#                 "Text preprocessing: tokenization, normalization"
+#             ]
+#         },
+#         "resources": {
+#             "Courses": [
+#                 "CS231n - Stanford Computer Vision",
+#                 "CS224N - Stanford NLP with Deep Learning"
+#             ],
+#             "Books": [
+#                 "Computer Vision: Algorithms and Applications",
+#                 "Speech and Language Processing - Jurafsky & Martin"
+#             ]
+#         }
+#     },
+#     "Phase 6: Advanced Deep Learning Architectures": {
+#         "duration": "4-6 months",
+#         "topics": {
+#             "Computer Vision Track - CNN Architectures": [
+#                 "LeNet, AlexNet, VGG, ResNet",
+#                 "Inception, DenseNet, EfficientNet",
+#                 "Vision Transformers (ViTs)"
+#             ],
+#             "Computer Vision Track - Specialized CV Tasks": [
+#                 "Image Classification: Multi-class, multi-label",
+#                 "Object Detection: R-CNN family, YOLO, SSD",
+#                 "Semantic Segmentation: U-Net, DeepLab, Mask R-CNN",
+#                 "Instance Segmentation: Mask R-CNN, SOLO"
+#             ],
+#             "LLM Track - Transformer Architecture": [
+#                 "Attention mechanisms deep dive",
+#                 "Encoder-decoder structure",
+#                 "Implementation from scratch"
+#             ],
+#             "LLM Track - Large Language Models": [
+#                 "GPT series evolution",
+#                 "BERT and bidirectional models",
+#                 "T5, PaLM, modern architectures"
+#             ]
+#         },
+#         "resources": {
+#             "Courses": [
+#                 "Transformers Course - HuggingFace",
+#                 "Advanced Computer Vision - Coursera"
+#             ],
+#             "Papers": [
+#                 "Attention Is All You Need",
+#                 "BERT, GPT papers series"
+#             ]
+#         }
+#     },
+#     "Phase 6.5: Reinforcement Learning Fundamentals": {
+#         "duration": "3-4 months",
+#         "topics": {
+#             "Core RL Concepts": [
+#                 "Markov Decision Processes (MDPs)",
+#                 "Value functions, policy functions",
+#                 "Bellman equations and dynamic programming",
+#                 "Exploration vs exploitation trade-off"
+#             ],
+#             "Classical RL Algorithms": [
+#                 "Q-Learning, SARSA",
+#                 "Policy gradient methods",
+#                 "Temporal difference learning",
+#                 "Monte Carlo methods"
+#             ],
+#             "Deep Reinforcement Learning": [
+#                 "Deep Q-Networks (DQN) and variants",
+#                 "Actor-Critic methods (A2C, A3C)",
+#                 "Proximal Policy Optimization (PPO)",
+#                 "Deep Deterministic Policy Gradient (DDPG)"
+#             ],
+#             "Advanced RL Topics": [
+#                 "Multi-agent reinforcement learning",
+#                 "Hierarchical reinforcement learning",
+#                 "Inverse reinforcement learning",
+#                 "RLHF (Reinforcement Learning from Human Feedback)"
+#             ]
+#         },
+#         "resources": {
+#             "Courses": [
+#                 "CS285 - UC Berkeley Deep RL",
+#                 "Reinforcement Learning Specialization - University of Alberta",
+#                 "DeepMind RL Course"
+#             ],
+#             "Books": [
+#                 "Reinforcement Learning: An Introduction - Sutton & Barto",
+#                 "Deep Reinforcement Learning Hands-On - Maxim Lapan"
+#             ],
+#             "Libraries": [
+#                 "OpenAI Gym, Gymnasium",
+#                 "Stable Baselines3",
+#                 "Ray RLlib",
+#                 "TensorFlow Agents"
+#             ]
+#         }
+#     },
+#     "Phase 7: Specialization Deep Dive": {
+#         "duration": "4-6 months each",
+#         "topics": {
+#             "CV - Medical Imaging": [
+#                 "X-ray analysis, MRI/CT scan interpretation, pathology",
+#                 "3D CNNs, attention mechanisms for medical data",
+#                 "Tools: SimpleITK, MONAI, PyDicom"
+#             ],
+#             "CV - Autonomous Vehicles": [
+#                 "Object detection, lane detection, depth estimation",
+#                 "Real-time processing, sensor fusion, 3D object detection",
+#                 "Tools: CARLA simulator, ROS, Point Cloud Library"
+#             ],
+#             "LLM - Conversational AI": [
+#                 "Chatbots, virtual assistants, dialogue systems",
+#                 "Multi-turn conversations, context management",
+#                 "Tools: Rasa, DialoGPT, ChatGPT API"
+#             ],
+#             "LLM - Code Generation": [
+#                 "GitHub Copilot-style systems, code explanation",
+#                 "Code understanding, syntax-aware generation",
+#                 "Tools: CodeT5, InCoder, StarCoder"
+#             ]
+#         },
+#         "resources": {
+#             "Specialized Courses": [
+#                 "Medical Image Analysis - Coursera",
+#                 "Self-Driving Cars Specialization - Coursera"
+#             ],
+#             "Domain Papers": [
+#                 "Recent conference papers from CVPR, NeurIPS, ACL"
+#             ]
+#         }
+#     },
+#     "Phase 7.5: Audio Processing & Speech AI": {
+#         "duration": "3-4 months",
+#         "topics": {
+#             "Audio Fundamentals": [
+#                 "Digital signal processing basics",
+#                 "Fourier transforms, spectrograms",
+#                 "Audio feature extraction (MFCC, mel-scale)",
+#                 "Audio preprocessing and augmentation"
+#             ],
+#             "Speech Recognition (ASR)": [
+#                 "Traditional approaches: HMMs, GMMs",
+#                 "Deep learning: CTC, attention-based models",
+#                 "End-to-end systems: Listen, Attend, Spell",
+#                 "Modern ASR: Whisper, Wav2Vec2, Conformer"
+#             ],
+#             "Speech Synthesis (TTS)": [
+#                 "Concatenative synthesis",
+#                 "Parametric synthesis: WaveNet, Tacotron",
+#                 "Neural vocoders: HiFi-GAN, MelGAN",
+#                 "Modern TTS: VALL-E, Bark, ElevenLabs-style"
+#             ],
+#             "Audio Understanding": [
+#                 "Music information retrieval",
+#                 "Audio classification and tagging",
+#                 "Sound event detection",
+#                 "Emotion recognition from speech"
+#             ]
+#         },
+#         "resources": {
+#             "Libraries": [
+#                 "librosa, soundfile, pyaudio",
+#                 "torchaudio, speechbrain",
+#                 "ESPnet, fairseq",
+#                 "Coqui TTS, Mozilla DeepSpeech"
+#             ],
+#             "Datasets": [
+#                 "LibriSpeech, Common Voice",
+#                 "VCTK, LJ Speech",
+#                 "AudioSet, FreeSound"
+#             ]
+#         }
+#     },    
+#     "Phase 8: Advanced Research Techniques": {
+#         "duration": "4-5 months",
+#         "topics": {
+#             "For Computer Vision": [
+#                 "Self-supervised learning: Contrastive learning, masked image modeling",
+#                 "Few-shot learning: Prototypical networks, meta-learning",
+#                 "Domain adaptation: Transfer between different visual domains",
+#                 "Interpretability: Grad-CAM, attention visualization, saliency maps"
+#             ],
+#             "For LLMs": [
+#                 "Training optimizations: Distributed training, memory optimization",
+#                 "Inference optimization: Model compression, efficient serving",
+#                 "Safety and alignment: Constitutional AI, bias mitigation",
+#                 "Tool use: Function calling, API integration"
+#             ],
+#             "Common Advanced Topics": [
+#                 "Neural Architecture Search (NAS)",
+#                 "Federated learning",
+#                 "Continual learning",
+#                 "Robustness and adversarial training"
+#             ]
+#         },
+#         "resources": {
+#             "Advanced Courses": [
+#                 "Advanced Deep Learning - MIT",
+#                 "Research Methods in ML - Stanford"
+#             ],
+#             "Cutting-edge Papers": [
+#                 "Latest papers from arXiv",
+#                 "Conference proceedings"
+#             ]
+#         }
+#     },
+#     "Phase 8.2: Video Processing & Understanding": {
+#         "duration": "4-5 months",
+#         "topics": {
+#             "Video Fundamentals": [
+#                 "Video formats, codecs, frame rates",
+#                 "Temporal relationships in video",
+#                 "Video preprocessing and augmentation",
+#                 "3D convolutions vs 2D + temporal"
+#             ],
+#             "Action Recognition": [
+#                 "Two-stream networks",
+#                 "3D CNNs: C3D, I3D, R(2+1)D",
+#                 "Transformer-based: Video Transformer, TimeSformer",
+#                 "Self-supervised video representation learning"
+#             ],
+#             "Video Object Detection & Tracking": [
+#                 "Temporal consistency in detection",
+#                 "Multi-object tracking (MOT)",
+#                 "Video instance segmentation",
+#                 "Real-time processing considerations"
+#             ],
+#             "Video Generation & Editing": [
+#                 "Video prediction and generation",
+#                 "Style transfer for video",
+#                 "Video inpainting and completion",
+#                 "Deepfakes and face swapping (ethical considerations)"
+#             ],
+#             "Advanced Video Applications": [
+#                 "Video summarization",
+#                 "Video question answering",
+#                 "Video captioning and description",
+#                 "Sports analytics and surveillance"
+#             ]
+#         },
+#         "resources": {
+#             "Libraries": [
+#                 "OpenCV, MoviePy, FFmpeg",
+#                 "PyTorch Video, Detectron2",
+#                 "MMAction2, SlowFast",
+#                 "Decord, torchvision"
+#             ],
+#             "Datasets": [
+#                 "Kinetics, UCF-101, HMDB-51",
+#                 "ActivityNet, Something-Something",
+#                 "YouTube-8M, AVA"
+#             ]
+#         }
+#     },
+
+#     "Phase 8.3: Multimodal AI Systems": {
+#         "duration": "4-5 months",
+#         "topics": {
+#             "Vision-Language Models": [
+#                 "CLIP and its variants",
+#                 "ALIGN, DALL-E, DALL-E 2",
+#                 "Flamingo, BLIP, InstructBLIP",
+#                 "GPT-4V, LLaVA, MiniGPT-4"
+#             ],
+#             "Audio-Visual Learning": [
+#                 "Cross-modal retrieval",
+#                 "Audio-visual synchronization",
+#                 "Sound source localization",
+#                 "Lip reading and speech enhancement"
+#             ],
+#             "Multimodal Generation": [
+#                 "Text-to-image: Stable Diffusion, Midjourney",
+#                 "Text-to-video: Runway, Pika Labs approaches",
+#                 "Text-to-audio: MusicLM, AudioLDM",
+#                 "Unified multimodal generation"
+#             ],
+#             "Multimodal Understanding": [
+#                 "Visual question answering (VQA)",
+#                 "Image/video captioning",
+#                 "Multimodal reasoning and common sense",
+#                 "Embodied AI and robotics applications"
+#             ]
+#         },
+#         "resources": {
+#             "Models": [
+#                 "OpenAI CLIP, DALL-E APIs",
+#                 "Stability AI models",
+#                 "HuggingFace multimodal models",
+#                 "Google Bard/Gemini"
+#             ],
+#             "Papers": [
+#                 "CLIP, ALIGN, Flamingo",
+#                 "DALL-E series, Stable Diffusion",
+#                 "Recent vision-language papers"
+#             ]
+#         }
+#     },    
+    
+#     "Phase 8.5: Retrieval-Augmented Generation (RAG)": {
+#         "duration": "2-3 months",
+#         "topics": {
+#             "RAG Fundamentals": [
+#                 "Information retrieval basics",
+#                 "Vector databases and similarity search",
+#                 "Dense vs sparse retrieval",
+#                 "Embedding models for retrieval"
+#             ],
+#             "RAG Architecture Components": [
+#                 "Document chunking strategies",
+#                 "Vector indexing and storage",
+#                 "Retrieval mechanisms",
+#                 "Generation with retrieved context"
+#             ],
+#             "Advanced RAG Techniques": [
+#                 "Hybrid retrieval (dense + sparse)",
+#                 "Re-ranking and filtering",
+#                 "Multi-hop reasoning",
+#                 "Self-RAG and adaptive retrieval"
+#             ],
+#             "RAG Optimization": [
+#                 "Query expansion and reformulation",
+#                 "Context compression",
+#                 "Retrieval evaluation metrics",
+#                 "End-to-end fine-tuning"
+#             ]
+#         },
+#         "resources": {
+#             "Tools & Libraries": [
+#                 "LangChain, LlamaIndex",
+#                 "Chroma, Pinecone, Weaviate",
+#                 "FAISS, Elasticsearch",
+#                 "HuggingFace Transformers"
+#             ],
+#             "Papers": [
+#                 "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+#                 "Dense Passage Retrieval",
+#                 "FiD: Fusion-in-Decoder"
+#             ]
+#         }
+#     },    
+#     "Phase 9: Research Skills & Paper Implementation": {
+#         "duration": "4-6 months",
+#         "topics": {
+#             "CV Paper Reading": [
+#                 "Foundational: LeNet, AlexNet, ResNet, 'Attention Is All You Need'",
+#                 "Recent: Vision Transformers, CLIP, DALL-E 2, Stable Diffusion",
+#                 "Venues: CVPR, ICCV, ECCV, NeurIPS, ICLR"
+#             ],
+#             "LLM Paper Reading": [
+#                 "Foundational: Transformer, GPT series, BERT, T5",
+#                 "Recent: InstructGPT, ChatGPT, GPT-4, Constitutional AI",
+#                 "Venues: ACL, EMNLP, ICLR, NeurIPS, ICML"
+#             ],
+#             "Implementation Projects": [
+#                 "Reproduce 2-3 CV papers from scratch",
+#                 "Reproduce 2-3 LLM papers from scratch",
+#                 "Create novel combinations of existing techniques",
+#                 "Build end-to-end applications"
+#             ]
+#         },
+#         "resources": {
+#             "Paper Resources": [
+#                 "Papers with Code",
+#                 "arXiv.org",
+#                 "Conference websites"
+#             ],
+#             "Implementation Guides": [
+#                 "Annotated implementations",
+#                 "YouTube paper walkthroughs"
+#             ]
+#         }
+#     },
+#     "Phase 9.2: Edge AI & Mobile Deployment": {
+#         "duration": "3-4 months",
+#         "topics": {
+#             "Model Optimization for Edge": [
+#                 "Quantization: INT8, INT4, binary networks",
+#                 "Pruning: structured and unstructured",
+#                 "Knowledge distillation",
+#                 "Neural architecture search for efficiency"
+#             ],
+#             "Mobile AI Frameworks": [
+#                 "TensorFlow Lite, TensorFlow.js",
+#                 "Core ML (iOS), ML Kit (Android)",
+#                 "ONNX Runtime, OpenVINO",
+#                 "PyTorch Mobile, MediaPipe"
+#             ],
+#             "Hardware-Specific Optimization": [
+#                 "CPU optimization (NEON, AVX)",
+#                 "GPU optimization (Metal, OpenCL)",
+#                 "NPU/TPU utilization",
+#                 "Memory management on mobile"
+#             ],
+#             "Real-world Applications": [
+#                 "Real-time camera processing",
+#                 "On-device speech recognition",
+#                 "Offline translation systems",
+#                 "AR/VR applications"
+#             ]
+#         },
+#         "resources": {
+#             "Tools": [
+#                 "TensorFlow Lite Converter",
+#                 "Core ML Tools",
+#                 "ONNX optimization tools",
+#                 "Mobile profiling tools"
+#             ],
+#             "Platforms": [
+#                 "Android Studio ML Kit",
+#                 "Xcode Core ML",
+#                 "Flutter ML plugins"
+#             ]
+#         }
+#     },    
+#     "Phase 9.5: Agentic AI Systems": {
+#         "duration": "4-5 months",
+#         "topics": {
+#             "Agent Architecture": [
+#                 "Planning and reasoning systems",
+#                 "Memory management in agents",
+#                 "Tool use and function calling",
+#                 "Multi-step task decomposition"
+#             ],
+#             "Agent Frameworks": [
+#                 "ReAct (Reasoning + Acting)",
+#                 "Chain-of-Thought prompting",
+#                 "Tree of Thoughts",
+#                 "AutoGPT-style autonomous agents"
+#             ],
+#             "Multi-Agent Systems": [
+#                 "Agent communication protocols",
+#                 "Collaborative problem solving",
+#                 "Role-based agent specialization",
+#                 "Consensus and coordination mechanisms"
+#             ],
+#             "Agent Safety & Control": [
+#                 "Goal alignment in agents",
+#                 "Containment and sandboxing",
+#                 "Human oversight integration",
+#                 "Robustness testing"
+#             ]
+#         },
+#         "resources": {
+#             "Frameworks": [
+#                 "LangGraph, CrewAI",
+#                 "AutoGen, MetaGPT",
+#                 "OpenAI Assistants API",
+#                 "Custom agent implementations"
+#             ],
+#             "Papers": [
+#                 "ReAct: Synergizing Reasoning and Acting",
+#                 "Generative Agents",
+#                 "Constitutional AI papers"
+#             ]
+#         }
+#     },    
+#     "Phase 10: Original Research & Specialization": {
+#         "duration": "6+ months",
+#         "topics": {
+#             "Research Areas at the Intersection": [
+#                 "Vision-Language Models: The future of AI",
+#                 "Multimodal reasoning: Combining visual and textual understanding",
+#                 "Embodied AI: Connecting vision, language, and robotics",
+#                 "Scientific applications: Using both CV and LLM for research"
+#             ],
+#             "Build Research Portfolio": [
+#                 "GitHub with high-quality implementations",
+#                 "Technical blog posts",
+#                 "Open-source contributions",
+#                 "Conference submissions",
+#                 "Collaboration with research groups"
+#             ]
+#         },
+#         "resources": {
+#             "Research Communities": [
+#                 "ML Twitter/X community",
+#                 "Research group collaborations",
+#                 "Conference attendance"
+#             ],
+#             "Publishing Venues": [
+#                 "Top-tier conferences",
+#                 "Workshops",
+#                 "arXiv preprints"
+#             ]
+#         }
+#     },
+#     "Phase 10.2: AI Ethics & Responsible AI": {
+#         "duration": "2-3 months",
+#         "topics": {
+#             "Bias and Fairness": [
+#                 "Types of bias in ML systems",
+#                 "Fairness metrics and trade-offs",
+#                 "Bias detection and mitigation techniques",
+#                 "Algorithmic auditing"
+#             ],
+#             "Explainable AI (XAI)": [
+#                 "LIME, SHAP for model interpretation",
+#                 "Attention visualization",
+#                 "Counterfactual explanations",
+#                 "Model-agnostic explanation methods"
+#             ],
+#             "Privacy-Preserving ML": [
+#                 "Differential privacy",
+#                 "Federated learning",
+#                 "Homomorphic encryption",
+#                 "Secure multi-party computation"
+#             ],
+#             "AI Safety & Alignment": [
+#                 "Robustness testing",
+#                 "Adversarial examples and defenses",
+#                 "AI alignment principles",
+#                 "Red teaming and safety evaluation"
+#             ]
+#         },
+#         "resources": {
+#             "Libraries": [
+#                 "IBM AI Fairness 360",
+#                 "Microsoft Fairlearn",
+#                 "Google What-If Tool",
+#                 "Alibi, InterpretML"
+#             ],
+#             "Guidelines": [
+#                 "Partnership on AI guidelines",
+#                 "IEEE Standards for AI",
+#                 "EU AI Act implications"
+#             ]
+#         }
+#     },
+#     "Phase 10.3: Domain-Specific Applications": {
+#         "duration": "4-6 months (choose specialization)",
+#         "topics": {
+#             "Healthcare AI": [
+#                 "Medical imaging: radiology, pathology, dermatology",
+#                 "Drug discovery and molecular modeling",
+#                 "Electronic health records analysis",
+#                 "Clinical decision support systems"
+#             ],
+#             "Finance & FinTech": [
+#                 "Algorithmic trading and risk management",
+#                 "Fraud detection and prevention",
+#                 "Credit scoring and loan approval",
+#                 "Regulatory compliance (KYC, AML)"
+#             ],
+#             "Scientific AI": [
+#                 "Climate modeling and environmental science",
+#                 "Materials science and chemistry",
+#                 "Astronomy and space exploration",
+#                 "Biology and genomics"
+#             ],
+#             "Creative AI": [
+#                 "Art and design generation",
+#                 "Music composition and production",
+#                 "Creative writing assistance",
+#                 "Game development and procedural generation"
+#             ],
+#             "Industrial AI": [
+#                 "Predictive maintenance",
+#                 "Quality control and defect detection",
+#                 "Supply chain optimization",
+#                 "Digital twins and simulation"
+#             ]
+#         },
+#         "resources": {
+#             "Domain-specific datasets": [
+#                 "Medical: MIMIC, PhysioNet",
+#                 "Finance: Quandl, Yahoo Finance",
+#                 "Scientific: Kaggle competitions",
+#                 "Creative: Various artistic datasets"
+#             ]
+#         }
+#     },    
+#     "Phase 10.5: Model Communication Protocol (MCP) Integration": {
+#         "duration": "2-3 months",
+#         "topics": {
+#             "MCP Server Development": [
+#                 "Understanding MCP architecture",
+#                 "Server implementation patterns",
+#                 "Resource and tool definitions",
+#                 "Client-server communication protocols"
+#             ],
+#             "Custom Tool Integration": [
+#                 "Building domain-specific tools",
+#                 "API integration patterns",
+#                 "Database connectivity",
+#                 "External service orchestration"
+#             ],
+#             "MCP Best Practices": [
+#                 "Security considerations",
+#                 "Performance optimization",
+#                 "Error handling and recovery",
+#                 "Testing and validation"
+#             ],
+#             "Advanced MCP Features": [
+#                 "Streaming responses",
+#                 "Batch operations",
+#                 "State management",
+#                 "Multi-tenant architectures"
+#             ]
+#         },
+#         "resources": {
+#             "Documentation": [
+#                 "Official MCP specification",
+#                 "Anthropic MCP documentation",
+#                 "Community examples and templates"
+#             ],
+#             "Implementation": [
+#                 "MCP SDK libraries",
+#                 "Reference implementations",
+#                 "Integration patterns",
+#                 "Testing frameworks"
+#             ]
+#         }
+#     },
+
+#     "Phase 11: Production AI Systems": {
+#         "duration": "3-4 months",
+#         "topics": {
+#             "MLOps & Model Deployment": [
+#                 "Model versioning and registry",
+#                 "CI/CD for ML pipelines",
+#                 "A/B testing for models",
+#                 "Model monitoring and drift detection"
+#             ],
+#             "Scalable AI Infrastructure": [
+#                 "Distributed training systems",
+#                 "Model serving at scale",
+#                 "GPU cluster management",
+#                 "Cost optimization strategies"
+#             ],
+#             "AI Safety in Production": [
+#                 "Bias detection and mitigation",
+#                 "Adversarial robustness",
+#                 "Privacy-preserving ML",
+#                 "Compliance and governance"
+#             ],
+#             "Integration Patterns": [
+#                 "API design for AI services",
+#                 "Real-time vs batch processing",
+#                 "Edge deployment considerations",
+#                 "Multi-model orchestration"
+#             ]
+#         },
+#         "resources": {
+#             "Platforms": [
+#                 "Kubernetes, Docker",
+#                 "MLflow, Kubeflow",
+#                 "Weights & Biases, Neptune",
+#                 "Cloud ML platforms (AWS, GCP, Azure)"
+#             ],
+#             "Books": [
+#                 "Building Machine Learning Powered Applications",
+#                 "ML Engineering - Andriy Burkov"
+#             ]
+#         }
+#     },
+#     "Phase 12: Quantum Machine Learning (Future-Ready)": {
+#         "duration": "3-4 months",
+#         "topics": {
+#             "Quantum Computing Basics": [
+#                 "Qubits, superposition, entanglement",
+#                 "Quantum gates and circuits",
+#                 "Quantum algorithms basics",
+#                 "Quantum advantage and supremacy"
+#             ],
+#             "Quantum ML Algorithms": [
+#                 "Variational Quantum Eigensolver (VQE)",
+#                 "Quantum Approximate Optimization Algorithm (QAOA)",
+#                 "Quantum neural networks",
+#                 "Quantum kernel methods"
+#             ],
+#             "Hybrid Classical-Quantum Systems": [
+#                 "Quantum feature maps",
+#                 "Quantum data encoding",
+#                 "Quantum-classical optimization",
+#                 "Near-term quantum applications"
+#             ]
+#         },
+#         "resources": {
+#             "Platforms": [
+#                 "IBM Qiskit, Google Cirq",
+#                 "Microsoft Q#, AWS Braket",
+#                 "PennyLane, TensorFlow Quantum"
+#             ]
+#         }
+#     },
+
+#     "Phase 13: Production AI Systems & MLOps": {
+#         "duration": "4-5 months",
+#         "topics": {
+#             "MLOps & Model Deployment": [
+#                 "Model versioning and registry",
+#                 "CI/CD for ML pipelines",
+#                 "A/B testing for models",
+#                 "Model monitoring and drift detection"
+#             ],
+#             "Scalable AI Infrastructure": [
+#                 "Distributed training systems",
+#                 "Model serving at scale",
+#                 "GPU cluster management",
+#                 "Cost optimization strategies"
+#             ],
+#             "AI Safety in Production": [
+#                 "Bias detection and mitigation",
+#                 "Adversarial robustness",
+#                 "Privacy-preserving ML",
+#                 "Compliance and governance"
+#             ],
+#             "Integration Patterns": [
+#                 "API design for AI services",
+#                 "Real-time vs batch processing",
+#                 "Edge deployment considerations",
+#                 "Multi-model orchestration"
+#             ],
+#             "Advanced Production Topics": [
+#                 "Model compression for production",
+#                 "Multi-tenant ML systems",
+#                 "Global model distribution",
+#                 "Disaster recovery for AI systems"
+#             ]
+#         },
+#         "resources": {
+#             "Platforms": [
+#                 "Kubernetes, Docker",
+#                 "MLflow, Kubeflow",
+#                 "Weights & Biases, Neptune",
+#                 "Cloud ML platforms (AWS, GCP, Azure)"
+#             ],
+#             "Books": [
+#                 "Building Machine Learning Powered Applications",
+#                 "ML Engineering - Andriy Burkov",
+#                 "Reliable Machine Learning"
+#             ]
+#         }
+#     }
+
+# }
+
+ML_RESEARCH_ROADMAP = {
+    
     "Phase 1: Mathematical Foundations": {
         "duration": "3-4 months",
+        "prerequisites": "High school mathematics",
         "topics": {
             "Linear Algebra": [
                 "Vectors, matrices, eigenvalues, eigenvectors",
@@ -556,12 +1450,14 @@ ML_RESEARCH_ROADMAP = {
             "Books": [
                 "Pattern Recognition and Machine Learning - Bishop",
                 "The Elements of Statistical Learning",
-                "Deep Learning - Ian Goodfellow"
+                "Deep Learning - Ian Goodfellow (Part 1)"
             ]
         }
     },
+
     "Phase 2: Programming & Tools": {
         "duration": "2-3 months",
+        "prerequisites": "Phase 1 completion",
         "topics": {
             "Python Mastery": [
                 "Data structures, OOP, functional programming",
@@ -583,7 +1479,7 @@ ML_RESEARCH_ROADMAP = {
                 "Git/GitHub for version control",
                 "Command line proficiency",
                 "Docker basics",
-                "Cloud platforms with GPU support"
+                "Cloud platforms with GPU support (AWS, GCP, Azure)"
             ]
         },
         "resources": {
@@ -598,26 +1494,31 @@ ML_RESEARCH_ROADMAP = {
             ]
         }
     },
+
     "Phase 3: Core Machine Learning": {
         "duration": "4-5 months",
+        "prerequisites": "Phases 1-2 completion",
         "topics": {
             "Traditional ML Concepts": [
                 "Linear/logistic regression",
                 "Decision trees, random forests",
                 "Support vector machines",
-                "Neural networks fundamentals"
+                "Clustering: K-means, hierarchical",
+                "Dimensionality reduction: PCA, t-SNE"
             ],
             "Data Processing": [
+                "Data cleaning and preprocessing",
+                "Feature engineering principles",
                 "For CV: Image preprocessing, augmentation techniques",
                 "For LLM: Text preprocessing, tokenization basics",
-                "Feature engineering principles"
+                "Handling missing data and outliers"
             ],
             "Model Evaluation & Selection": [
-                "Cross-validation",
+                "Cross-validation techniques",
                 "Bias-variance tradeoff",
-                "Regularization techniques",
-                "CV metrics: Accuracy, IoU, mAP",
-                "LLM metrics: BLEU, ROUGE, perplexity"
+                "Regularization techniques (L1, L2)",
+                "CV metrics: Accuracy, Precision, Recall, F1, IoU, mAP",
+                "LLM metrics: BLEU, ROUGE, perplexity, BERTScore"
             ]
         },
         "resources": {
@@ -631,13 +1532,17 @@ ML_RESEARCH_ROADMAP = {
             ]
         }
     },
+
     "Phase 4: Deep Learning Fundamentals": {
         "duration": "3-4 months",
+        "prerequisites": "Phase 3 completion",
         "topics": {
             "Neural Network Fundamentals": [
+                "Perceptrons and multilayer perceptrons",
                 "Backpropagation algorithm",
-                "Activation functions, loss functions",
-                "Gradient descent variants"
+                "Activation functions (ReLU, sigmoid, tanh, etc.)",
+                "Loss functions (MSE, cross-entropy, etc.)",
+                "Gradient descent variants (SGD, Adam, AdamW)"
             ],
             "Core Architectures": [
                 "Feedforward networks",
@@ -645,9 +1550,10 @@ ML_RESEARCH_ROADMAP = {
                 "Recurrent Neural Networks (RNNs, LSTMs, GRUs) - foundation for LLMs"
             ],
             "Advanced Topics": [
-                "Transfer learning",
-                "Regularization techniques",
-                "Advanced optimizers"
+                "Transfer learning concepts",
+                "Regularization techniques (dropout, batch norm)",
+                "Advanced optimizers and learning rate scheduling",
+                "Initialization strategies"
             ]
         },
         "resources": {
@@ -660,20 +1566,25 @@ ML_RESEARCH_ROADMAP = {
             ]
         }
     },
-    "Phase 5: Foundation Specialization": {
+
+    "Phase 5: Foundation Specialization (Choose Path)": {
         "duration": "3-4 months",
+        "prerequisites": "Phase 4 completion",
+        "note": "Choose either Computer Vision OR NLP track, or do both sequentially",
         "topics": {
             "Option A: Computer Vision Foundation": [
                 "Image fundamentals: pixels, channels, color spaces",
                 "Basic operations: filtering, edge detection, morphological operations",
                 "Feature extraction: SIFT, SURF, HOG",
-                "Classical techniques: template matching, contour detection"
+                "Classical techniques: template matching, contour detection",
+                "Image classification basics with CNNs"
             ],
             "Option B: NLP Foundation": [
                 "Classical NLP: n-grams, POS tagging, NER",
                 "Word embeddings: Word2Vec, GloVe, FastText",
                 "Sequence models: basic RNNs for text",
-                "Text preprocessing: tokenization, normalization"
+                "Text preprocessing: tokenization, normalization",
+                "Sentiment analysis and text classification"
             ]
         },
         "resources": {
@@ -682,34 +1593,40 @@ ML_RESEARCH_ROADMAP = {
                 "CS224N - Stanford NLP with Deep Learning"
             ],
             "Books": [
-                "Computer Vision: Algorithms and Applications",
+                "Computer Vision: Algorithms and Applications - Szeliski",
                 "Speech and Language Processing - Jurafsky & Martin"
             ]
         }
     },
+
     "Phase 6: Advanced Deep Learning Architectures": {
         "duration": "4-6 months",
+        "prerequisites": "Phase 5 completion",
         "topics": {
             "Computer Vision Track - CNN Architectures": [
-                "LeNet, AlexNet, VGG, ResNet",
-                "Inception, DenseNet, EfficientNet",
-                "Vision Transformers (ViTs)"
+                "Historical progression: LeNet, AlexNet, VGG",
+                "Modern architectures: ResNet, Inception, DenseNet",
+                "Efficient architectures: MobileNet, EfficientNet",
+                "Vision Transformers (ViTs) and hybrid approaches"
             ],
             "Computer Vision Track - Specialized CV Tasks": [
                 "Image Classification: Multi-class, multi-label",
-                "Object Detection: R-CNN family, YOLO, SSD",
+                "Object Detection: R-CNN family, YOLO, SSD, RetinaNet",
                 "Semantic Segmentation: U-Net, DeepLab, Mask R-CNN",
                 "Instance Segmentation: Mask R-CNN, SOLO"
             ],
             "LLM Track - Transformer Architecture": [
                 "Attention mechanisms deep dive",
+                "Self-attention vs cross-attention",
                 "Encoder-decoder structure",
+                "Positional encodings",
                 "Implementation from scratch"
             ],
             "LLM Track - Large Language Models": [
-                "GPT series evolution",
+                "GPT series evolution (GPT-1 to GPT-4)",
                 "BERT and bidirectional models",
-                "T5, PaLM, modern architectures"
+                "T5, PaLM, LLaMA architectures",
+                "Parameter-efficient fine-tuning (LoRA, Adapters)"
             ]
         },
         "resources": {
@@ -719,12 +1636,15 @@ ML_RESEARCH_ROADMAP = {
             ],
             "Papers": [
                 "Attention Is All You Need",
-                "BERT, GPT papers series"
+                "BERT, GPT papers series",
+                "ResNet, Vision Transformer papers"
             ]
         }
     },
-    "Phase 6.5: Reinforcement Learning Fundamentals": {
+
+    "Phase 7: Reinforcement Learning Fundamentals": {
         "duration": "3-4 months",
+        "prerequisites": "Phase 6 completion",
         "topics": {
             "Core RL Concepts": [
                 "Markov Decision Processes (MDPs)",
@@ -769,300 +1689,328 @@ ML_RESEARCH_ROADMAP = {
             ]
         }
     },
-    "Phase 7: Specialization Deep Dive": {
-        "duration": "4-6 months each",
-        "topics": {
-            "CV - Medical Imaging": [
-                "X-ray analysis, MRI/CT scan interpretation, pathology",
-                "3D CNNs, attention mechanisms for medical data",
-                "Tools: SimpleITK, MONAI, PyDicom"
-            ],
-            "CV - Autonomous Vehicles": [
-                "Object detection, lane detection, depth estimation",
-                "Real-time processing, sensor fusion, 3D object detection",
-                "Tools: CARLA simulator, ROS, Point Cloud Library"
-            ],
-            "LLM - Conversational AI": [
-                "Chatbots, virtual assistants, dialogue systems",
-                "Multi-turn conversations, context management",
-                "Tools: Rasa, DialoGPT, ChatGPT API"
-            ],
-            "LLM - Code Generation": [
-                "GitHub Copilot-style systems, code explanation",
-                "Code understanding, syntax-aware generation",
-                "Tools: CodeT5, InCoder, StarCoder"
-            ]
-        },
-        "resources": {
-            "Specialized Courses": [
-                "Medical Image Analysis - Coursera",
-                "Self-Driving Cars Specialization - Coursera"
-            ],
-            "Domain Papers": [
-                "Recent conference papers from CVPR, NeurIPS, ACL"
-            ]
-        }
-    },
-    "Phase 8: Advanced Research Techniques": {
+
+    "Phase 8: Multimodal AI Systems": {
         "duration": "4-5 months",
+        "prerequisites": "Phase 7 completion, some CV and NLP background",
         "topics": {
-            "For Computer Vision": [
-                "Self-supervised learning: Contrastive learning, masked image modeling",
-                "Few-shot learning: Prototypical networks, meta-learning",
-                "Domain adaptation: Transfer between different visual domains",
-                "Interpretability: Grad-CAM, attention visualization, saliency maps"
+            "Audio Processing & Speech AI": [
+                "Digital signal processing basics",
+                "Speech Recognition (ASR): Whisper, Wav2Vec2",
+                "Speech Synthesis (TTS): Tacotron, WaveNet, modern TTS",
+                "Audio understanding and classification"
             ],
-            "For LLMs": [
-                "Training optimizations: Distributed training, memory optimization",
-                "Inference optimization: Model compression, efficient serving",
-                "Safety and alignment: Constitutional AI, bias mitigation",
-                "Tool use: Function calling, API integration"
+            "Video Processing & Understanding": [
+                "Video fundamentals and temporal modeling",
+                "Action recognition: 3D CNNs, Video Transformers",
+                "Video object detection and tracking",
+                "Video generation and editing"
             ],
-            "Common Advanced Topics": [
-                "Neural Architecture Search (NAS)",
-                "Federated learning",
-                "Continual learning",
-                "Robustness and adversarial training"
+            "Vision-Language Models": [
+                "CLIP and its variants",
+                "DALL-E, Stable Diffusion",
+                "GPT-4V, LLaVA, multimodal understanding",
+                "Text-to-image and image-to-text generation"
+            ],
+            "Cross-Modal Learning": [
+                "Audio-visual synchronization",
+                "Multimodal fusion techniques",
+                "Cross-modal retrieval",
+                "Unified multimodal architectures"
             ]
         },
         "resources": {
-            "Advanced Courses": [
-                "Advanced Deep Learning - MIT",
-                "Research Methods in ML - Stanford"
+            "Libraries": [
+                "librosa, torchaudio (audio)",
+                "OpenCV, MoviePy (video)",
+                "HuggingFace multimodal models",
+                "OpenAI CLIP, Stability AI models"
             ],
-            "Cutting-edge Papers": [
-                "Latest papers from arXiv",
-                "Conference proceedings"
+            "Papers": [
+                "CLIP, ALIGN, Flamingo",
+                "DALL-E series, Stable Diffusion",
+                "Whisper, recent multimodal papers"
             ]
         }
     },
-    "Phase 8.5: Retrieval-Augmented Generation (RAG)": {
-        "duration": "2-3 months",
+
+    "Phase 9: Advanced AI Techniques": {
+        "duration": "4-5 months",
+        "prerequisites": "Phase 8 completion",
         "topics": {
-            "RAG Fundamentals": [
+            "Retrieval-Augmented Generation (RAG)": [
                 "Information retrieval basics",
                 "Vector databases and similarity search",
-                "Dense vs sparse retrieval",
-                "Embedding models for retrieval"
+                "RAG architecture and components",
+                "Advanced RAG: multi-hop, self-RAG"
             ],
-            "RAG Architecture Components": [
-                "Document chunking strategies",
-                "Vector indexing and storage",
-                "Retrieval mechanisms",
-                "Generation with retrieved context"
+            "Advanced Training Techniques": [
+                "Self-supervised learning",
+                "Few-shot and meta-learning",
+                "Domain adaptation and transfer learning",
+                "Continual learning and catastrophic forgetting"
             ],
-            "Advanced RAG Techniques": [
-                "Hybrid retrieval (dense + sparse)",
-                "Re-ranking and filtering",
-                "Multi-hop reasoning",
-                "Self-RAG and adaptive retrieval"
+            "Model Optimization": [
+                "Neural Architecture Search (NAS)",
+                "Knowledge distillation",
+                "Pruning and quantization",
+                "Distributed training strategies"
             ],
-            "RAG Optimization": [
-                "Query expansion and reformulation",
-                "Context compression",
-                "Retrieval evaluation metrics",
-                "End-to-end fine-tuning"
+            "Safety and Interpretability": [
+                "Adversarial examples and robustness",
+                "Explainable AI: LIME, SHAP, Grad-CAM",
+                "Bias detection and fairness",
+                "AI alignment principles"
             ]
         },
         "resources": {
             "Tools & Libraries": [
-                "LangChain, LlamaIndex",
-                "Chroma, Pinecone, Weaviate",
-                "FAISS, Elasticsearch",
-                "HuggingFace Transformers"
+                "LangChain, LlamaIndex (RAG)",
+                "Chroma, Pinecone, FAISS (vector stores)",
+                "Ray for distributed computing",
+                "Interpretability libraries"
             ],
             "Papers": [
-                "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-                "Dense Passage Retrieval",
-                "FiD: Fusion-in-Decoder"
-            ]
-        }
-    },    
-    "Phase 9: Research Skills & Paper Implementation": {
-        "duration": "4-6 months",
-        "topics": {
-            "CV Paper Reading": [
-                "Foundational: LeNet, AlexNet, ResNet, 'Attention Is All You Need'",
-                "Recent: Vision Transformers, CLIP, DALL-E 2, Stable Diffusion",
-                "Venues: CVPR, ICCV, ECCV, NeurIPS, ICLR"
-            ],
-            "LLM Paper Reading": [
-                "Foundational: Transformer, GPT series, BERT, T5",
-                "Recent: InstructGPT, ChatGPT, GPT-4, Constitutional AI",
-                "Venues: ACL, EMNLP, ICLR, NeurIPS, ICML"
-            ],
-            "Implementation Projects": [
-                "Reproduce 2-3 CV papers from scratch",
-                "Reproduce 2-3 LLM papers from scratch",
-                "Create novel combinations of existing techniques",
-                "Build end-to-end applications"
-            ]
-        },
-        "resources": {
-            "Paper Resources": [
-                "Papers with Code",
-                "arXiv.org",
-                "Conference websites"
-            ],
-            "Implementation Guides": [
-                "Annotated implementations",
-                "YouTube paper walkthroughs"
+                "RAG, DPR papers",
+                "Self-supervised learning papers",
+                "Interpretability and safety papers"
             ]
         }
     },
-    "Phase 9.5: Agentic AI Systems": {
+
+    "Phase 10: Agentic AI & Advanced Applications": {
         "duration": "4-5 months",
+        "prerequisites": "Phase 9 completion",
         "topics": {
-            "Agent Architecture": [
-                "Planning and reasoning systems",
-                "Memory management in agents",
-                "Tool use and function calling",
-                "Multi-step task decomposition"
-            ],
-            "Agent Frameworks": [
+            "Agentic AI Systems": [
+                "Agent architecture and planning",
                 "ReAct (Reasoning + Acting)",
-                "Chain-of-Thought prompting",
-                "Tree of Thoughts",
-                "AutoGPT-style autonomous agents"
+                "Tool use and function calling",
+                "Multi-agent systems and coordination"
             ],
-            "Multi-Agent Systems": [
-                "Agent communication protocols",
-                "Collaborative problem solving",
-                "Role-based agent specialization",
-                "Consensus and coordination mechanisms"
+            "Model Communication Protocol (MCP)": [
+                "MCP server development",
+                "Custom tool integration",
+                "API orchestration patterns",
+                "Security and best practices"
+            ],
+            "Advanced Applications": [
+                "Code generation systems",
+                "Scientific AI applications",
+                "Creative AI and content generation",
+                "Embodied AI and robotics integration"
             ],
             "Agent Safety & Control": [
-                "Goal alignment in agents",
-                "Containment and sandboxing",
+                "Goal alignment and containment",
                 "Human oversight integration",
-                "Robustness testing"
+                "Robustness testing for agents",
+                "Multi-agent coordination safety"
             ]
         },
         "resources": {
             "Frameworks": [
                 "LangGraph, CrewAI",
-                "AutoGen, MetaGPT",
-                "OpenAI Assistants API",
+                "AutoGen, OpenAI Assistants API",
+                "MCP SDK libraries",
                 "Custom agent implementations"
             ],
             "Papers": [
-                "ReAct: Synergizing Reasoning and Acting",
-                "Generative Agents",
-                "Constitutional AI papers"
-            ]
-        }
-    },    
-    "Phase 10: Original Research & Specialization": {
-        "duration": "6+ months",
-        "topics": {
-            "Research Areas at the Intersection": [
-                "Vision-Language Models: The future of AI",
-                "Multimodal reasoning: Combining visual and textual understanding",
-                "Embodied AI: Connecting vision, language, and robotics",
-                "Scientific applications: Using both CV and LLM for research"
-            ],
-            "Build Research Portfolio": [
-                "GitHub with high-quality implementations",
-                "Technical blog posts",
-                "Open-source contributions",
-                "Conference submissions",
-                "Collaboration with research groups"
-            ]
-        },
-        "resources": {
-            "Research Communities": [
-                "ML Twitter/X community",
-                "Research group collaborations",
-                "Conference attendance"
-            ],
-            "Publishing Venues": [
-                "Top-tier conferences",
-                "Workshops",
-                "arXiv preprints"
-            ]
-        }
-    },
-    "Phase 10.5: Model Communication Protocol (MCP) Integration": {
-        "duration": "2-3 months",
-        "topics": {
-            "MCP Server Development": [
-                "Understanding MCP architecture",
-                "Server implementation patterns",
-                "Resource and tool definitions",
-                "Client-server communication protocols"
-            ],
-            "Custom Tool Integration": [
-                "Building domain-specific tools",
-                "API integration patterns",
-                "Database connectivity",
-                "External service orchestration"
-            ],
-            "MCP Best Practices": [
-                "Security considerations",
-                "Performance optimization",
-                "Error handling and recovery",
-                "Testing and validation"
-            ],
-            "Advanced MCP Features": [
-                "Streaming responses",
-                "Batch operations",
-                "State management",
-                "Multi-tenant architectures"
-            ]
-        },
-        "resources": {
-            "Documentation": [
-                "Official MCP specification",
-                "Anthropic MCP documentation",
-                "Community examples and templates"
-            ],
-            "Implementation": [
-                "MCP SDK libraries",
-                "Reference implementations",
-                "Integration patterns",
-                "Testing frameworks"
+                "ReAct, Toolformer",
+                "Agent-based papers",
+                "Tool-use papers"
             ]
         }
     },
 
-    "Phase 11: Production AI Systems": {
+    "Phase 11: Edge AI & Mobile Deployment": {
         "duration": "3-4 months",
+        "prerequisites": "Phase 10 completion",
         "topics": {
-            "MLOps & Model Deployment": [
+            "Model Optimization for Edge": [
+                "Quantization: INT8, INT4, binary networks",
+                "Pruning: structured and unstructured",
+                "Knowledge distillation for efficiency",
+                "Neural architecture search for mobile"
+            ],
+            "Mobile AI Frameworks": [
+                "TensorFlow Lite, TensorFlow.js",
+                "Core ML (iOS), ML Kit (Android)",
+                "ONNX Runtime, OpenVINO",
+                "PyTorch Mobile, MediaPipe"
+            ],
+            "Hardware-Specific Optimization": [
+                "CPU optimization (NEON, AVX)",
+                "GPU optimization (Metal, OpenCL)",
+                "NPU/TPU utilization",
+                "Memory management constraints"
+            ],
+            "Real-world Deployment": [
+                "Real-time processing requirements",
+                "Battery and thermal considerations",
+                "Offline capabilities",
+                "AR/VR and IoT applications"
+            ]
+        },
+        "resources": {
+            "Tools": [
+                "TensorFlow Lite Converter",
+                "Core ML Tools",
+                "ONNX optimization tools",
+                "Mobile profiling and benchmarking tools"
+            ]
+        }
+    },
+
+    "Phase 12: Research Skills & Paper Implementation": {
+        "duration": "4-6 months",
+        "prerequisites": "Phase 11 completion",
+        "topics": {
+            "Research Paper Reading": [
+                "Foundational papers: Transformer, ResNet, etc.",
+                "Recent breakthrough papers",
+                "Conference venues: NeurIPS, ICML, ICLR, CVPR, ACL",
+                "Critical evaluation of research claims"
+            ],
+            "Implementation Projects": [
+                "Reproduce 3-4 papers from scratch",
+                "Create novel combinations of techniques",
+                "Build end-to-end applications",
+                "Open-source contributions"
+            ],
+            "Research Methodology": [
+                "Experimental design and hypothesis testing",
+                "Statistical significance and reproducibility",
+                "Writing technical reports",
+                "Peer review process"
+            ],
+            "Domain Specialization Projects": [
+                "Choose 2-3 application domains",
+                "Medical AI, Finance AI, or Scientific AI",
+                "Creative AI, Industrial AI, or Climate AI",
+                "Build domain-specific expertise"
+            ]
+        },
+        "resources": {
+            "Paper Resources": [
+                "Papers with Code",
+                "arXiv.org and conference proceedings",
+                "Annotated paper implementations",
+                "Research group collaborations"
+            ]
+        }
+    },
+
+    "Phase 13: Production AI Systems & MLOps": {
+        "duration": "4-5 months",
+        "prerequisites": "Phase 12 completion",
+        "topics": {
+            "MLOps Fundamentals": [
                 "Model versioning and registry",
                 "CI/CD for ML pipelines",
-                "A/B testing for models",
+                "Automated testing for ML systems",
                 "Model monitoring and drift detection"
             ],
-            "Scalable AI Infrastructure": [
+            "Scalable Infrastructure": [
                 "Distributed training systems",
-                "Model serving at scale",
-                "GPU cluster management",
+                "Model serving architectures",
+                "Auto-scaling and load balancing",
                 "Cost optimization strategies"
             ],
-            "AI Safety in Production": [
-                "Bias detection and mitigation",
-                "Adversarial robustness",
-                "Privacy-preserving ML",
-                "Compliance and governance"
+            "Production Safety": [
+                "A/B testing for model deployment",
+                "Canary releases and rollback strategies",
+                "Bias monitoring in production",
+                "Privacy-preserving deployment"
             ],
-            "Integration Patterns": [
+            "Enterprise Integration": [
                 "API design for AI services",
                 "Real-time vs batch processing",
-                "Edge deployment considerations",
-                "Multi-model orchestration"
+                "Multi-model orchestration",
+                "Compliance and governance frameworks"
             ]
         },
         "resources": {
             "Platforms": [
                 "Kubernetes, Docker",
-                "MLflow, Kubeflow",
-                "Weights & Biases, Neptune",
-                "Cloud ML platforms (AWS, GCP, Azure)"
+                "MLflow, Kubeflow, Weights & Biases",
+                "Cloud ML platforms (AWS SageMaker, GCP Vertex AI, Azure ML)",
+                "Monitoring tools (Grafana, Prometheus)"
             ],
             "Books": [
                 "Building Machine Learning Powered Applications",
-                "ML Engineering - Andriy Burkov"
+                "ML Engineering - Andriy Burkov",
+                "Reliable Machine Learning"
+            ]
+        }
+    },
+
+    "Phase 14: Ethics & Responsible AI": {
+        "duration": "2-3 months",
+        "prerequisites": "Phase 13 completion",
+        "topics": {
+            "AI Ethics Framework": [
+                "Bias and fairness in ML systems",
+                "Algorithmic transparency and accountability",
+                "Privacy-preserving ML techniques",
+                "Environmental impact of AI systems"
+            ],
+            "Regulatory Compliance": [
+                "GDPR and data protection",
+                "AI Act and emerging regulations",
+                "Industry-specific compliance",
+                "Audit trails and documentation"
+            ],
+            "Safety Testing": [
+                "Red teaming and adversarial testing",
+                "Robustness evaluation",
+                "Failure mode analysis",
+                "Human oversight integration"
+            ]
+        },
+        "resources": {
+            "Guidelines": [
+                "Partnership on AI principles",
+                "IEEE Standards for AI",
+                "Responsible AI frameworks from major tech companies"
+            ]
+        }
+    },
+
+    "Phase 15: Cutting-Edge Research & Future Technologies": {
+        "duration": "6+ months",
+        "prerequisites": "Phase 14 completion",
+        "topics": {
+            "Quantum Machine Learning": [
+                "Quantum computing basics for ML",
+                "Variational quantum algorithms",
+                "Quantum neural networks",
+                "Near-term quantum advantage"
+            ],
+            "Emerging AI Paradigms": [
+                "Neuromorphic computing",
+                "In-memory computing for AI",
+                "Brain-computer interfaces",
+                "Biological-inspired AI architectures"
+            ],
+            "Research Leadership": [
+                "Leading research teams",
+                "Grant writing and funding",
+                "Conference organization",
+                "Industry-academia collaboration"
+            ],
+            "Original Research Contribution": [
+                "Novel algorithm development",
+                "Theoretical contributions",
+                "Large-scale empirical studies",
+                "Publication in top-tier venues"
+            ]
+        },
+        "resources": {
+            "Research Communities": [
+                "Academic conferences and workshops",
+                "Research collaborations",
+                "Open-source project leadership",
+                "Industry research partnerships"
             ]
         }
     }
