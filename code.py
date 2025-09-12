@@ -675,6 +675,7 @@ SOFTWARE_ENGINEER_ROADMAP = {
     }
 }
 
+
 ML_RESEARCH_ROADMAP = {
     
     "Phase 1: Mathematical Foundations": {
@@ -1694,13 +1695,523 @@ QUANT_RESEARCH_ROADMAP = {
     }
 }
 
+CS_FRESHER_ROADMAP = {
+    "Phase 1: Programming Fundamentals": {
+        "duration": "4-6 weeks",
+        "topics": {
+            "Core Programming Languages": [
+                "Java: OOP concepts, collections, exception handling",
+                "Python: Data structures, libraries, scripting",
+                "C++: Memory management, STL, pointers",
+                "JavaScript: ES6+, async programming, DOM manipulation"
+            ],
+            "Programming Concepts": [
+                "Variables, data types, operators",
+                "Control structures: loops, conditionals",
+                "Functions, recursion, scope",
+                "Object-oriented programming: inheritance, polymorphism, encapsulation"
+            ],
+            "Code Quality": [
+                "Clean code principles",
+                "Commenting and documentation",
+                "Code formatting and style guides",
+                "Debugging techniques and tools"
+            ],
+            "Version Control": [
+                "Git fundamentals: commit, push, pull, merge",
+                "Branching strategies and conflict resolution",
+                "GitHub/GitLab workflows",
+                "Collaborative development practices"
+            ]
+        },
+        "resources": {
+            "Free Books/PDFs": [
+                "Think Java (free PDF)",
+                "Automate the Boring Stuff with Python (free online)",
+                "Eloquent JavaScript (free online)"
+            ],
+            "YouTube Channels": [
+                "Programming with Mosh",
+                "Derek Banas",
+                "thenewboston",
+                "Coding Train"
+            ],
+            "Free Websites": [
+                "freeCodeCamp.org",
+                "Codecademy (free tier)",
+                "W3Schools",
+                "Oracle Java Documentation"
+            ]
+        }
+    },
+    "Phase 2: Data Structures & Algorithms": {
+        "duration": "8-10 weeks",
+        "topics": {
+            "Linear Data Structures": [
+                "Arrays: operations, 2D arrays, dynamic arrays",
+                "Linked Lists: singly, doubly, circular",
+                "Stacks: implementation, applications, expression evaluation",
+                "Queues: types, priority queues, deque"
+            ],
+            "Non-Linear Data Structures": [
+                "Trees: binary trees, BST, AVL, heap",
+                "Graphs: representation, traversal algorithms",
+                "Hash Tables: collision handling, load factor",
+                "Tries: prefix trees, string matching"
+            ],
+            "Algorithm Paradigms": [
+                "Divide and Conquer: merge sort, quick sort",
+                "Dynamic Programming: memoization, tabulation",
+                "Greedy Algorithms: activity selection, Huffman coding",
+                "Backtracking: N-Queens, subset generation"
+            ],
+            "Algorithm Analysis": [
+                "Time complexity: Big O, Theta, Omega notation",
+                "Space complexity analysis",
+                "Best, average, worst case scenarios",
+                "Amortized analysis"
+            ]
+        },
+        "resources": {
+            "Free Books/PDFs": [
+                "Introduction to Algorithms - MIT OCW (free PDF)",
+                "Algorithms by Jeff Erickson (free PDF)",
+                "Data Structures and Algorithms in Java - free online versions"
+            ],
+            "YouTube Channels": [
+                "Abdul Bari (Algorithms)",
+                "mycodeschool",
+                "Tushar Roy - Coding Made Simple",
+                "Back To Back SWE",
+                "William Fiset"
+            ],
+            "Free Courses": [
+                "MIT 6.006 Introduction to Algorithms (YouTube)",
+                "Stanford CS106B (YouTube)",
+                "freeCodeCamp Algorithms course",
+                "Coursera Algorithms (audit for free)"
+            ],
+            "Free Websites": [
+                "GeeksforGeeks",
+                "AlgoExpert (some free content)",
+                "Programiz",
+                "VisuAlgo (algorithm visualization)"
+            ]
+        }
+    },
+    "Phase 3: System Design Basics": {
+        "duration": "3-4 weeks",
+        "topics": {
+            "System Architecture": [
+                "Client-server architecture",
+                "Monolithic vs microservices",
+                "Load balancing concepts",
+                "Caching strategies (Redis, Memcached)"
+            ],
+            "Database Fundamentals": [
+                "SQL vs NoSQL databases",
+                "ACID properties and transactions",
+                "Database normalization",
+                "Indexing and query optimization"
+            ],
+            "Scalability Concepts": [
+                "Horizontal vs vertical scaling",
+                "Database sharding and replication",
+                "Content Delivery Networks (CDN)",
+                "Message queues and pub-sub systems"
+            ],
+            "Basic System Design": [
+                "URL shortener (like bit.ly)",
+                "Chat application design",
+                "Social media feed design",
+                "File storage system design"
+            ]
+        },
+        "resources": {
+            "YouTube Channels": [
+                "Gaurav Sen (System Design)",
+                "Tech Dummies (Narendra L)",
+                "Success in Tech",
+                "Engineering with Utsav"
+            ],
+            "Free Websites": [
+                "High Scalability blog",
+                "System Design Primer (GitHub - free)",
+                "AWS Architecture Center (free articles)",
+                "InterviewBit System Design (free tier)"
+            ],
+            "Free Books/PDFs": [
+                "Designing Data-Intensive Applications (some chapters free)",
+                "System Design Interview questions (GitHub repos)"
+            ]
+        }
+    },
+    "Phase 4: Database Management": {
+        "duration": "3-4 weeks",
+        "topics": {
+            "SQL Fundamentals": [
+                "DDL, DML, DCL, TCL commands",
+                "Joins: inner, outer, cross, self",
+                "Subqueries and correlated queries",
+                "Aggregate functions and GROUP BY"
+            ],
+            "Advanced SQL": [
+                "Window functions and ranking",
+                "Common Table Expressions (CTEs)",
+                "Stored procedures and functions",
+                "Triggers and constraints"
+            ],
+            "Database Design": [
+                "ER diagrams and modeling",
+                "Normalization (1NF to 3NF)",
+                "Primary and foreign keys",
+                "Database optimization techniques"
+            ],
+            "NoSQL Basics": [
+                "Document databases (MongoDB)",
+                "Key-value stores (Redis)",
+                "Column-family (Cassandra)",
+                "Graph databases (Neo4j)"
+            ]
+        },
+        "resources": {
+            "YouTube Channels": [
+                "Programming with Mosh (SQL Tutorial)",
+                "Derek Banas (Database Tutorial)",
+                "Socratica (SQL)",
+                "Database Star"
+            ],
+            "Free Websites": [
+                "W3Schools SQL Tutorial",
+                "SQLBolt (interactive tutorial)",
+                "MySQL Documentation (free)",
+                "PostgreSQL Documentation (free)",
+                "MongoDB University (free courses)"
+            ],
+            "Free Books/PDFs": [
+                "Learning SQL - free chapters online",
+                "Database Systems Concepts (some free versions)",
+                "SQLite Documentation (comprehensive and free)"
+            ]
+        }
+    },
+    "Phase 5: Web Development": {
+        "duration": "5-6 weeks",
+        "topics": {
+            "Frontend Development": [
+                "HTML5: semantic elements, forms, multimedia",
+                "CSS3: flexbox, grid, animations, responsive design",
+                "JavaScript: DOM manipulation, events, AJAX",
+                "Frontend frameworks: React basics or Angular basics"
+            ],
+            "Backend Development": [
+                "Node.js and Express.js fundamentals",
+                "RESTful API design and implementation",
+                "Authentication and authorization",
+                "Server-side templating engines"
+            ],
+            "Full-Stack Integration": [
+                "Frontend-backend communication",
+                "API testing with Postman",
+                "CORS and security considerations",
+                "Deployment basics (Heroku, Netlify)"
+            ],
+            "Web Technologies": [
+                "HTTP/HTTPS protocols",
+                "JSON and XML data formats",
+                "Web sockets for real-time communication",
+                "Progressive Web Apps (PWA) concepts"
+            ]
+        },
+        "resources": {
+            "YouTube Channels": [
+                "Traversy Media (Web Development)",
+                "Programming with Mosh (Web Dev)",
+                "The Net Ninja",
+                "Academind",
+                "Dev Ed",
+                "Web Dev Simplified"
+            ],
+            "Free Courses": [
+                "freeCodeCamp full-stack curriculum",
+                "The Odin Project (completely free)",
+                "Mozilla Developer Network (MDN) tutorials",
+                "JavaScript.info (free comprehensive guide)"
+            ],
+            "Free Websites": [
+                "W3Schools",
+                "CSS-Tricks",
+                "MDN Web Docs",
+                "Can I Use (browser compatibility)",
+                "Flexbox Froggy (CSS Flexbox game)",
+                "Grid Garden (CSS Grid game)"
+            ]
+        }
+    },
+    "Phase 6: Operating Systems & Computer Networks": {
+        "duration": "4-5 weeks",
+        "topics": {
+            "Operating Systems": [
+                "Process management and scheduling",
+                "Memory management and virtual memory",
+                "File systems and storage management",
+                "Synchronization: semaphores, mutexes, deadlocks"
+            ],
+            "Computer Networks": [
+                "OSI and TCP/IP models",
+                "HTTP, HTTPS, FTP, DNS protocols",
+                "IP addressing and subnetting",
+                "Network security basics"
+            ],
+            "Concurrency": [
+                "Threads vs processes",
+                "Race conditions and synchronization",
+                "Producer-consumer problems",
+                "Multi-threading in programming languages"
+            ],
+            "Linux/Unix Basics": [
+                "Command line operations",
+                "File permissions and ownership",
+                "Shell scripting basics",
+                "System monitoring and process management"
+            ]
+        },
+        "resources": {
+            "YouTube Channels": [
+                "Neso Academy (Operating Systems)",
+                "Gate Smashers",
+                "Knowledge Gate",
+                "Ravindrababu Ravula",
+                "Computer Science Lessons"
+            ],
+            "Free Courses": [
+                "MIT 6.828 Operating Systems (YouTube)",
+                "UC Berkeley CS162 (YouTube)",
+                "Coursera Computer Networks (audit free)"
+            ],
+            "Free Books/PDFs": [
+                "Operating System Concepts - free slides/notes",
+                "The Linux Command Line (free PDF)",
+                "Beej's Guide to Network Programming (free)"
+            ],
+            "Free Websites": [
+                "GeeksforGeeks OS section",
+                "Tutorialspoint OS/Networking",
+                "Linux man pages online",
+                "ExplainShell.com"
+            ]
+        }
+    },
+    "Phase 7: Software Engineering Practices": {
+        "duration": "3-4 weeks",
+        "topics": {
+            "Software Development Lifecycle": [
+                "Agile and Scrum methodologies",
+                "Waterfall model understanding",
+                "Requirements gathering and analysis",
+                "Software testing phases"
+            ],
+            "Testing": [
+                "Unit testing frameworks (JUnit, pytest)",
+                "Integration and system testing",
+                "Test-driven development (TDD)",
+                "Automated testing concepts"
+            ],
+            "Design Patterns": [
+                "Creational: Singleton, Factory, Builder",
+                "Structural: Adapter, Decorator, Facade",
+                "Behavioral: Observer, Strategy, Command",
+                "MVC architecture pattern"
+            ],
+            "Code Quality & Maintenance": [
+                "Code reviews and best practices",
+                "Refactoring techniques",
+                "Technical debt management",
+                "Documentation standards"
+            ]
+        },
+        "resources": {
+            "YouTube Channels": [
+                "Christopher Okhravi (Design Patterns)",
+                "Derek Banas (Design Patterns)",
+                "Coding Tech",
+                "Continuous Delivery"
+            ],
+            "Free Books/PDFs": [
+                "Design Patterns (free summaries and examples online)",
+                "Refactoring Guru (free design patterns guide)",
+                "The Pragmatic Programmer (some chapters free online)"
+            ],
+            "Free Websites": [
+                "Refactoring Guru",
+                "SourceMaking.com",
+                "TutorialsPoint Software Engineering",
+                "GeeksforGeeks Software Engineering section"
+            ]
+        }
+    },
+    "Phase 8: Advanced Programming Concepts": {
+        "duration": "4-5 weeks",
+        "topics": {
+            "Language-Specific Advanced Topics": [
+                "Java: Collections framework, generics, lambda expressions",
+                "Python: Decorators, generators, context managers",
+                "JavaScript: Closures, prototypes, async/await",
+                "C++: Smart pointers, move semantics, templates"
+            ],
+            "Memory Management": [
+                "Stack vs heap memory",
+                "Garbage collection concepts",
+                "Memory leaks and prevention",
+                "Performance optimization"
+            ],
+            "Advanced Algorithms": [
+                "Graph algorithms: Dijkstra, Kruskal, Prim",
+                "String algorithms: KMP, Rabin-Karp",
+                "Advanced tree structures: B-trees, Red-Black trees",
+                "Approximation algorithms"
+            ],
+            "Competitive Programming": [
+                "Fast I/O techniques",
+                "Template preparation",
+                "Contest strategy and time management",
+                "Mathematical programming concepts"
+            ]
+        },
+        "resources": {
+            "YouTube Channels": [
+                "Errichto (Competitive Programming)",
+                "CodeChef",
+                "William Fiset (Advanced Algorithms)",
+                "Tushar Roy"
+            ],
+            "Free Websites": [
+                "Codeforces",
+                "AtCoder",
+                "SPOJ",
+                "CodeChef"
+            ],
+            "Free Books/PDFs": [
+                "Competitive Programming 3 (free chapters)",
+                "Advanced Data Structures (online notes)"
+            ]
+        }
+    },
+    "Phase 9: Interview Preparation": {
+        "duration": "6-8 weeks",
+        "topics": {
+            "Technical Interview Prep": [
+                "Coding interview patterns recognition",
+                "Whiteboard coding techniques",
+                "Time and space complexity analysis",
+                "Problem-solving approach and communication"
+            ],
+            "System Design Interview": [
+                "Scalability principles",
+                "Trade-offs discussion",
+                "Component interaction diagrams",
+                "Capacity estimation techniques"
+            ],
+            "Behavioral Interview": [
+                "STAR method for answering questions",
+                "Technical project discussions",
+                "Leadership and teamwork examples",
+                "Conflict resolution scenarios"
+            ],
+            "Company-Specific Preparation": [
+                "Research target companies",
+                "Understanding company culture and values",
+                "Recent news and technical blog posts",
+                "Glassdoor interview experiences"
+            ]
+        },
+        "resources": {
+            "YouTube Channels": [
+                "Back To Back SWE (Interview Prep)",
+                "Kevin Naughton Jr.",
+                "Nick White (LeetCode Solutions)",
+                "Clément Mihailescu (AlgoExpert)",
+                "Gaurav Sen (System Design Interviews)"
+            ],
+            "Free Websites": [
+                "InterviewBit (free tier)",
+                "Pramp (free mock interviews)",
+                "GeeksforGeeks interview experiences",
+                "LeetCode (free problems)",
+                "HackerRank (free challenges)"
+            ],
+            "Free Books/PDFs": [
+                "Cracking the Coding Interview (older editions free)",
+                "Interview preparation guides (GitHub repos)",
+                "Company-specific interview questions (GitHub)"
+            ]
+        }
+    },
+    "Phase 10: Specialization & Career Development": {
+        "duration": "Ongoing",
+        "topics": {
+            "Career Paths": [
+                "Software Developer: Frontend, Backend, Full-stack",
+                "Data Science: Analytics, Machine Learning, AI",
+                "DevOps: Infrastructure, CI/CD, Cloud platforms",
+                "Mobile Development: Android, iOS, Cross-platform"
+            ],
+            "Emerging Technologies": [
+                "Cloud Computing: AWS, Azure, Google Cloud",
+                "Machine Learning and AI basics",
+                "Blockchain and cryptocurrency",
+                "Internet of Things (IoT)"
+            ],
+            "Professional Development": [
+                "Open source contributions",
+                "Technical blog writing",
+                "Conference attendance and networking",
+                "Continuous learning mindset"
+            ],
+            "Certifications": [
+                "AWS Certified Developer",
+                "Google Cloud Professional",
+                "Oracle Certified Java Developer",
+                "Microsoft Azure certifications"
+            ]
+        },
+        "resources": {
+            "Free Resources": [
+                "GitHub for open source contributions",
+                "Medium and Dev.to for technical blogging",
+                "Meetup.com for local tech events",
+                "LinkedIn Learning (free with library card)",
+                "YouTube tech conference talks",
+                "AWS/Google Cloud free tier accounts",
+                "Coursera and edX (audit courses for free)",
+                "Stack Overflow for community participation"
+            ],
+            "YouTube Channels for Trends": [
+                "TechLead",
+                "Joma Tech",
+                "ForrestKnight",
+                "Clement Mihailescu",
+                "CS Dojo"
+            ],
+            "Free Learning Platforms": [
+                "Kaggle Learn (Data Science)",
+                "Google AI Education",
+                "Microsoft Learn",
+                "freeCodeCamp",
+                "Codecademy (free tier)"
+            ]
+        }
+    }
+}
 
 # Combined roadmaps
 ROADMAPS = {
     "Software Engineer": SOFTWARE_ENGINEER_ROADMAP,
     "ML Research Engineer": ML_RESEARCH_ROADMAP,
-    "Quantitative Engineer/Scientist": QUANT_RESEARCH_ROADMAP
+    "Quantitative Engineer/Scientist": QUANT_RESEARCH_ROADMAP,
+    "CS Fresher": CS_FRESHER_ROADMAP
 }
+
 
 # Key milestones for each track
 MILESTONES = {
@@ -1715,7 +2226,7 @@ MILESTONES = {
             "Build a full-stack web application",
             "Deploy application to cloud (AWS/GCP/Azure)",
             "Implement CI/CD pipeline",
-            "Complete system design of a real-world application"
+            "Complete system design of a r# eal-world application"
         ],
         "Advanced": [
             "Lead a technical project",
@@ -1768,6 +2279,26 @@ MILESTONES = {
             "Build production trading system",
             "Lead quantitative research project",
             "Present findings at finance conference"
+        ]
+    },
+        "CS Fresher": {
+        "Beginner": [
+            "Learn basics of programming (Python/Java/C++)",
+            "Understand data structures and algorithms (arrays, linked lists)",
+            "Solve 50 easy coding problems",
+            "Build a basic portfolio project (calculator, to-do app)"
+        ],
+        "Intermediate": [
+            "Learn OOP concepts and implement in a project",
+            "Practice 100 DSA problems (LeetCode/Easy + Medium)",
+            "Build a small web app using Flask/Django/Node.js",
+            "Participate in at least one hackathon"
+        ],
+        "Advanced": [
+            "Understand system design basics (scalability, APIs)",
+            "Contribute to open-source project",
+            "Build 2-3 production-grade projects (with database + UI)",
+            "Prepare for technical interviews (mock practice)"
         ]
     }
 }
