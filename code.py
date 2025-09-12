@@ -21,7 +21,7 @@ if 'start_date' not in st.session_state:
     st.session_state.start_date = datetime.now().date()
 
 if 'selected_track' not in st.session_state:
-    st.session_state.selected_track = "ML Research Engineer"
+    st.session_state.selected_track = "CS Fresher"
 
 
 # 1. ADD THIS TO SESSION STATE INITIALIZATION (after existing session state)
