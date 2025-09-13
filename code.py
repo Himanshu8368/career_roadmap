@@ -30,8 +30,6 @@ if 'notes' not in st.session_state:
 
 PROGRESS_FILE = "progress_data.json"
 
-
-
 SOFTWARE_ENGINEER_ROADMAP = {
 
     "Phase 1: Programming Fundamentals": {
@@ -58,18 +56,33 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "CS50x - Harvard's Introduction to Computer Science (free)",
-                "Python for Everybody - University of Michigan (Coursera)",
-                "The Odin Project - Foundations (free)"
+            "Free Courses": [
+                "CS50x - Harvard's Introduction to Computer Science (edX - free)",
+                "Python for Everybody - University of Michigan (Coursera - audit free)",
+                "The Odin Project - Foundations (completely free)",
+                "freeCodeCamp.org - Responsive Web Design & JavaScript (free)",
+                "Codecademy - Learn Python 3 (free tier)"
             ],
-            "Books": [
-                "Python Crash Course by Eric Matthes",
-                "Eloquent JavaScript by Marijn Haverbeke (free online)"
+            "YouTube Playlists": [
+                "Python Tutorial for Beginners - Programming with Mosh",
+                "CS50 2024 Lectures - Harvard University",
+                "Learn JavaScript - Full Course for Beginners - freeCodeCamp.org",
+                "Python Programming Tutorial - Derek Banas",
+                "Computer Science Basics - Crash Course Computer Science"
             ],
-            "Practice": [
-                "Codecademy Interactive Lessons",
-                "freeCodeCamp.org"
+            "Free Books & Websites": [
+                "Automate the Boring Stuff with Python (free online)",
+                "Eloquent JavaScript by Marijn Haverbeke (free online)",
+                "Learn Python the Hard Way (free online version)",
+                "Mozilla Developer Network (MDN) Web Docs",
+                "W3Schools - Programming tutorials"
+            ],
+            "Interactive Practice (Free)": [
+                "Codecademy (free tier)",
+                "freeCodeCamp.org",
+                "Khan Academy - Intro to Programming",
+                "Scratch.mit.edu (visual programming)",
+                "Python.org tutorial"
             ]
         }
     },
@@ -127,25 +140,37 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
+            "Free University Courses": [
                 "Operating Systems - UC Berkeley CS162 (YouTube)",
                 "Computer Networks - Stanford CS144 (YouTube)",
-                "Database Systems - CMU 15-445 (YouTube)",
-                "Computer Architecture - Princeton (Coursera)",
-                "Discrete Mathematics - MIT 6.042J"
+                "Database Systems - CMU 15-445 (YouTube + materials)",
+                "Computer Architecture - Princeton (Coursera - audit free)",
+                "Discrete Mathematics - MIT 6.042J (MIT OpenCourseWare)",
+                "NPTEL - Operating Systems (Indian Institute of Technology)"
             ],
-            "Books": [
-                "Operating System Concepts by Silberschatz (Dinosaur Book)",
-                "Computer Networking: A Top-Down Approach by Kurose & Ross",
-                "Database System Concepts by Silberschatz, Korth & Sudarshan",
-                "Computer Organization and Design by Patterson & Hennessy",
-                "Discrete Mathematics and Its Applications by Kenneth Rosen"
+            "YouTube Channels & Playlists": [
+                "Operating Systems by Gate Smashers",
+                "Computer Networks by Gate Smashers",
+                "Database Management System by Knowledge Gate",
+                "Computer Architecture by Neso Academy",
+                "Discrete Mathematics by Trefor Bazett",
+                "CS162 Operating Systems - UC Berkeley (official)"
             ],
-            "Practice": [
-                "Implement basic OS components (scheduler, memory allocator)",
-                "Network programming with sockets",
-                "Design and implement database schema",
-                "SQL practice on platforms like SQLBolt, HackerRank"
+            "Free Books & Resources": [
+                "Operating System Concepts (9th edition) - selected chapters free online",
+                "Computer Networking: A Top-Down Approach - companion website",
+                "Database System Concepts - companion materials",
+                "GeeksforGeeks - comprehensive CS topics",
+                "Tutorialspoint - computer science fundamentals",
+                "MIT OpenCourseWare - Mathematics for Computer Science"
+            ],
+            "Interactive Platforms": [
+                "SQLBolt - Interactive SQL tutorial (free)",
+                "W3Schools SQL Tutorial (free)",
+                "HackerRank - Database track (free tier)",
+                "MySQL Tutorial - MySQL.com (free)",
+                "PostgreSQL Tutorial - PostgreSQLTutorial.com (free)",
+                "Khan Academy - Computer Science courses"
             ]
         }
     },
@@ -188,21 +213,36 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "Algorithms Part I & II - Princeton (Coursera)",
-                "Data Structures and Algorithms - UC San Diego (Coursera)",
-                "MIT 6.006 Introduction to Algorithms (YouTube)"
+            "Free University Courses": [
+                "Algorithms Part I & II - Princeton (Coursera - audit free)",
+                "Data Structures and Algorithms - UC San Diego (Coursera - audit free)",
+                "MIT 6.006 Introduction to Algorithms (MIT OpenCourseWare)",
+                "Stanford CS161 Design and Analysis of Algorithms (YouTube)",
+                "Harvard CS224 Advanced Algorithms (YouTube)"
             ],
-            "Books": [
-                "Introduction to Algorithms (CLRS)",
-                "Algorithm Design Manual by Steven Skiena",
-                "Grokking Algorithms by Aditya Bhargava"
+            "YouTube Channels & Playlists": [
+                "Data Structures and Algorithms by Abdul Bari",
+                "Algorithms Explained by Back To Back SWE",
+                "Data Structures Full Course by freeCodeCamp",
+                "MIT 6.006 Introduction to Algorithms (official)",
+                "Algorithms by William Fiset",
+                "Data Structures and Algorithms by Neso Academy"
             ],
-            "Practice": [
-                "LeetCode (start with Easy problems)",
-                "HackerRank Data Structures track",
-                "CodeSignal",
-                "Codeforces for competitive programming"
+            "Free Books & Websites": [
+                "Algorithms by Jeff Erickson (free PDF)",
+                "Open Data Structures by Pat Morin (free online)",
+                "GeeksforGeeks - Data Structures and Algorithms",
+                "VisuAlgo - Algorithm Visualizations (free)",
+                "Algorithm Visualizer (algorithm-visualizer.org)",
+                "Big-O Cheat Sheet (bigocheatsheet.com)"
+            ],
+            "Coding Practice Platforms": [
+                "LeetCode (free tier with 50+ problems)",
+                "HackerRank Data Structures track (free)",
+                "CodeChef - Practice problems (free)",
+                "AtCoder - Competitive programming (free)",
+                "Codeforces - Competitive programming (free)",
+                "InterviewBit - Programming track (free tier)"
             ]
         }
     },
@@ -246,23 +286,44 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "The Odin Project - Full Stack JavaScript (free)",
+            "Free Comprehensive Courses": [
+                "The Odin Project - Full Stack JavaScript (completely free)",
                 "Full Stack Open - University of Helsinki (free)",
-                "CS50's Web Programming with Python and JavaScript",
-                "PostgreSQL for Developers (PGExercises)"
+                "CS50's Web Programming with Python and JavaScript (edX - free)",
+                "freeCodeCamp - Full Stack Development (free)",
+                "Web Development Bootcamp by Colt Steele (YouTube version)"
             ],
-            "Books": [
-                "MDN Web Docs (comprehensive web reference)",
-                "You Don't Know JS series by Kyle Simpson",
-                "Learning SQL by Alan Beaulieu",
-                "High Performance MySQL by Baron Schwartz"
+            "YouTube Channels & Playlists": [
+                "HTML Full Course by SuperSimpleDev",
+                "CSS Complete Course by Dave Gray",
+                "JavaScript Full Course by Programming with Mosh",
+                "Node.js Tutorial by The Net Ninja",
+                "Git and GitHub for Beginners by freeCodeCamp",
+                "RESTful APIs Tutorial by Programming with Mosh"
             ],
-            "Practice": [
-                "Frontend Mentor (real projects)",
-                "Build personal portfolio website",
-                "Contribute to open source projects",
-                "SQL Zoo and SQLBolt for database practice"
+            "Free Documentation & Tutorials": [
+                "MDN Web Docs - HTML, CSS, JavaScript (mozilla.org)",
+                "W3Schools - Web Development tutorials (free)",
+                "JavaScript.info - The Modern JavaScript Tutorial (free)",
+                "Node.js official documentation and guides",
+                "Express.js official documentation",
+                "Git Documentation (git-scm.com)"
+            ],
+            "Interactive Learning Platforms": [
+                "freeCodeCamp - Responsive Web Design (free certification)",
+                "Codecademy - Web Development paths (free tier)",
+                "Frontend Mentor - Real-world projects (free tier)",
+                "CSS Grid Garden - CSS Grid game (free)",
+                "Flexbox Froggy - Flexbox game (free)",
+                "Git Immersion - Interactive Git tutorial (free)"
+            ],
+            "Free Database Resources": [
+                "PostgreSQL Tutorial (postgresqltutorial.com)",
+                "MySQL Tutorial (mysqltutorial.org)",
+                "MongoDB University (free courses)",
+                "SQLBolt - Interactive SQL lessons",
+                "W3Schools SQL Tutorial",
+                "Database Design Course by freeCodeCamp (YouTube)"
             ]
         }
     },
@@ -303,23 +364,44 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "React - The Complete Guide (Udemy - Maximilian Schwarzmüller)",
-                "Node.js, Express, MongoDB Bootcamp (Udemy - Jonas Schmedtmann)",
-                "Docker and Kubernetes: The Complete Guide (Udemy)",
-                "TypeScript: The Complete Developer's Guide"
+            "Free React Resources": [
+                "React Official Tutorial and Documentation (reactjs.org)",
+                "React Course by freeCodeCamp (YouTube - 10+ hours)",
+                "Full Stack React & Next.js by The Net Ninja (YouTube)",
+                "React Tutorial by Programming with Mosh (YouTube)",
+                "Scrimba - Learn React for Free (interactive)",
+                "Epic React by Kent C. Dodds (free articles and resources)"
             ],
-            "Books": [
-                "Learning React by Alex Banks & Eve Porcello",
-                "Node.js Design Patterns by Mario Casciaro",
-                "Clean Code by Robert C. Martin",
-                "TypeScript Deep Dive by Basarat Ali Syed"
+            "Free Backend Framework Resources": [
+                "Express.js Official Documentation and Guides",
+                "Django Official Tutorial (docs.djangoproject.com)",
+                "FastAPI Official Tutorial (fastapi.tiangolo.com)",
+                "Node.js and Express Course by freeCodeCamp (YouTube)",
+                "Django Tutorial by Corey Schafer (YouTube)",
+                "Python Django Web Framework by MDN (free)"
             ],
-            "Practice": [
-                "Build a full-stack CRUD application",
-                "Create a real-time chat application",
-                "Deploy projects to cloud platforms",
-                "Implement comprehensive testing suites"
+            "Free TypeScript Resources": [
+                "TypeScript Official Handbook (typescriptlang.org)",
+                "TypeScript Course by freeCodeCamp (YouTube)",
+                "TypeScript Deep Dive by Basarat Ali Syed (free online book)",
+                "Learn TypeScript by The Net Ninja (YouTube)",
+                "TypeScript Tutorial by Programming with Mosh (YouTube)"
+            ],
+            "Free Cloud & DevOps Resources": [
+                "AWS Free Tier and Documentation",
+                "Google Cloud Free Tier and Qwiklabs",
+                "Azure Free Account and Microsoft Learn",
+                "Docker Official Documentation and Play with Docker",
+                "Docker Tutorial by TechWorld with Nana (YouTube)",
+                "AWS Course by freeCodeCamp (YouTube - 10+ hours)"
+            ],
+            "Free Testing Resources": [
+                "Jest Official Documentation",
+                "Testing JavaScript Applications by Kent C. Dodds (free articles)",
+                "Cypress Documentation and Real World App",
+                "Testing Tutorial by The Net Ninja (YouTube)",
+                "Unit Testing Course by freeCodeCamp (YouTube)",
+                "Test Driven Development by Fun Fun Function (YouTube)"
             ]
         }
     },
@@ -363,22 +445,37 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "Software Design and Architecture (Coursera)",
-                "Test-Driven Development with Python (O'Reilly)",
-                "Agile Development Specialization (Coursera)"
+            "Free Design Patterns Resources": [
+                "Refactoring.Guru - Design Patterns (free online)",
+                "Design Patterns by Christopher Okhravi (YouTube series)",
+                "Java Design Patterns by Derek Banas (YouTube)",
+                "Head First Design Patterns - selected chapters (free samples)",
+                "SOLID Principles by Uncle Bob Martin (YouTube)",
+                "Design Patterns in Plain English by Mosh Hamedani (YouTube)"
             ],
-            "Books": [
-                "Design Patterns: Elements of Reusable Object-Oriented Software",
-                "Refactoring by Martin Fowler",
-                "The Pragmatic Programmer by David Thomas & Andrew Hunt",
-                "Working Effectively with Legacy Code by Michael Feathers"
+            "Free Testing Resources": [
+                "Test Driven Development - Introduction by freeCodeCamp",
+                "TDD Course by Fun Fun Function (YouTube)",
+                "Unit Testing Best Practices by Microsoft Docs (free)",
+                "Testing Pyramid by Martin Fowler (free articles)",
+                "Cypress Real World App (free open source project)",
+                "Jest Documentation and Examples (free)"
             ],
-            "Practice": [
-                "Refactor existing code using design patterns",
-                "Write comprehensive test suites",
-                "Participate in code reviews",
-                "Implement CI/CD pipelines"
+            "Free Clean Code Resources": [
+                "Clean Code - Uncle Bob Martin lectures (YouTube)",
+                "Clean Code Summary by FreeCodeCamp (free articles)",
+                "Code Review Best Practices by Google (free documentation)",
+                "Refactoring.com by Martin Fowler (free articles)",
+                "Clean Architecture by Uncle Bob (YouTube talks)",
+                "Code Quality Tools Documentation (ESLint, Prettier, SonarQube)"
+            ],
+            "Free Agile Resources": [
+                "Scrum Guide (scrumguides.org - official and free)",
+                "Agile Manifesto and Principles (agilemanifesto.org)",
+                "Kanban Guide by Atlassian (free)",
+                "Agile and Scrum Course by freeCodeCamp (YouTube)",
+                "Project Management by Google Career Certificates (Coursera - audit free)",
+                "DevOps Culture by Atlassian (free guides)"
             ]
         }
     },
@@ -422,22 +519,37 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "Grokking the System Design Interview (Educative)",
-                "System Design Interview Course (Alex Xu)",
-                "Distributed Systems - MIT 6.824"
+            "Free System Design Courses": [
+                "MIT 6.824 Distributed Systems (YouTube + materials)",
+                "System Design Primer (GitHub repository - free)",
+                "High Scalability website (free articles)",
+                "System Design Interview videos by Gaurav Sen (YouTube)",
+                "Distributed Systems Course by Martin Kleppmann (YouTube)",
+                "Grokking System Design - free articles and examples"
             ],
-            "Books": [
-                "Designing Data-Intensive Applications by Martin Kleppmann",
-                "System Design Interview by Alex Xu",
-                "Building Microservices by Sam Newman",
-                "Distributed Systems: Principles and Paradigms by Tanenbaum"
+            "Free YouTube Resources": [
+                "System Design Interview by Gaurav Sen",
+                "System Design by Tech Dummies",
+                "Distributed Systems by Martin Kleppmann",
+                "Database Engineering by Hussein Nasser",
+                "System Design Concepts by ByteByteGo",
+                "Microservices by TechWorld with Nana"
             ],
-            "Practice": [
-                "Design Twitter/Instagram clone",
-                "Design URL shortener",
-                "Design distributed cache",
-                "Design chat system like WhatsApp"
+            "Free Security Resources": [
+                "OWASP Official Documentation (free)",
+                "Web Application Security by OWASP (free)",
+                "Cybersecurity Course by freeCodeCamp (YouTube)",
+                "Authentication and Authorization by Auth0 (free resources)",
+                "Security Engineering by Ross Anderson (free PDF)",
+                "Web Security Academy by PortSwigger (free)"
+            ],
+            "Free Architecture Resources": [
+                "AWS Architecture Center (free)",
+                "Google Cloud Architecture Center (free)",
+                "Martin Fowler's website (free articles)",
+                "Microservices.io by Chris Richardson (free patterns)",
+                "12 Factor App methodology (free)",
+                "Clean Architecture by Uncle Bob (free articles and talks)"
             ]
         }
     },
@@ -482,23 +594,37 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "Advanced Node.js (Frontend Masters)",
-                "Database Engineering (Hussein Nasser - Udemy)",
-                "Real-time Web with Node.js (Pluralsight)",
-                "Elasticsearch Complete Guide (Udemy)"
+            "Free Database Resources": [
+                "PostgreSQL Documentation (comprehensive and free)",
+                "MySQL Documentation and Tutorials (free)",
+                "Database Internals Course by Hussein Nasser (YouTube)",
+                "SQL Performance Explained by Markus Winand (free online)",
+                "Database Design Course by freeCodeCamp (YouTube)",
+                "Neo4j Graph Academy (free courses)"
             ],
-            "Books": [
-                "High Performance Browser Networking by Ilya Grigorik",
-                "Database Internals by Alex Petrov",
-                "Elasticsearch: The Definitive Guide",
-                "Event Sourcing and CQRS by Greg Young"
+            "Free API Development Resources": [
+                "RESTful API Design by Microsoft (free documentation)",
+                "GraphQL Official Documentation and Tutorial",
+                "How to GraphQL - free tutorial",
+                "API Design Guide by Google (free)",
+                "OpenAPI Specification Documentation (free)",
+                "Postman Learning Center (free)"
             ],
-            "Practice": [
-                "Build a real-time collaboration tool",
-                "Implement search functionality",
-                "Create analytics dashboard",
-                "Design event-driven system"
+            "Free Real-time Systems Resources": [
+                "WebSocket Tutorial by Mozilla MDN (free)",
+                "Real-time Web Technologies by HTML5 Rocks (free)",
+                "Socket.IO Documentation and Tutorial (free)",
+                "Server-Sent Events by MDN (free)",
+                "Firebase Documentation (free)",
+                "Real-time Systems Course by MIT (free)"
+            ],
+            "Free Search & Analytics Resources": [
+                "Elasticsearch Official Documentation (free)",
+                "Elastic Stack Tutorial by Elastic (free)",
+                "Apache Kafka Documentation (free)",
+                "ELK Stack Tutorial by Digital Ocean (free)",
+                "Data Engineering Course by DataTalks.Club (free)",
+                "Log Analysis Tutorial by Splunk (free tier)"
             ]
         }
     },
@@ -540,23 +666,37 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "Docker and Kubernetes: The Complete Guide (Udemy)",
-                "DevOps Bootcamp (Techworld with Nana)",
-                "AWS Certified Solutions Architect (A Cloud Guru)",
-                "Site Reliability Engineering (Google Cloud)"
+            "Free Docker & Kubernetes": [
+                "Docker Official Documentation (free)",
+                "Play with Docker (free hands-on playground)",
+                "Kubernetes Official Documentation (free)",
+                "Kubernetes Course by freeCodeCamp (YouTube - 4+ hours)",
+                "Docker and Kubernetes by TechWorld with Nana (YouTube)",
+                "Katacoda Interactive Learning (free tier)"
             ],
-            "Books": [
-                "The DevOps Handbook",
-                "Kubernetes in Action by Marko Lukša",
-                "Site Reliability Engineering (Google)",
-                "Infrastructure as Code by Kief Morris"
+            "Free CI/CD Resources": [
+                "GitHub Actions Documentation (free)",
+                "GitLab CI Documentation (free tier)",
+                "Jenkins Official Documentation (free)",
+                "DevOps Course by freeCodeCamp (YouTube)",
+                "CI/CD Pipeline Tutorial by TechWorld with Nana (YouTube)",
+                "Azure DevOps Learning Path (free)"
             ],
-            "Practice": [
-                "Set up complete CI/CD pipeline",
-                "Deploy application to Kubernetes",
-                "Implement monitoring and alerting",
-                "Create Infrastructure as Code templates"
+            "Free Monitoring Resources": [
+                "Prometheus Official Documentation (free)",
+                "Grafana Documentation and Tutorials (free)",
+                "ELK Stack Documentation by Elastic (free)",
+                "Monitoring and Observability by Google (free course)",
+                "Site Reliability Engineering by Google (free book)",
+                "Datadog Learning Center (free resources)"
+            ],
+            "Free Cloud Native Resources": [
+                "CNCF (Cloud Native Computing Foundation) resources (free)",
+                "Serverless Framework Documentation (free)",
+                "AWS Lambda Documentation (free)",
+                "Cloud Native Course by CNCF (free)",
+                "Istio Service Mesh Documentation (free)",
+                "OpenFaaS Documentation (free)"
             ]
         }
     },
@@ -601,23 +741,37 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "Epic React by Kent C. Dodds",
-                "Distributed Systems & Cloud Computing (Stanford)",
-                "Practical Security for Developers (Auth0)",
-                "Data Engineering with Python (DataCamp)"
+            "Full-Stack Specialization (Free)": [
+                "Advanced React by Epic React (free articles)",
+                "Next.js Documentation and Learn Course (free)",
+                "Progressive Web Apps by Google (free course)",
+                "React Native Documentation and Tutorial (free)",
+                "Flutter Documentation and Codelabs (free)",
+                "Micro-frontends by Martin Fowler (free articles)"
             ],
-            "Books": [
-                "Staff Engineer by Will Larson",
-                "The Phoenix Project",
-                "Accelerate by Nicole Forsgren",
-                "Fundamentals of Data Engineering by Joe Reis"
+            "Backend Engineering (Free)": [
+                "Apache Kafka Documentation (free)",
+                "Apache Spark Documentation (free)",
+                "Big Data Course by DataTalks.Club (free)",
+                "Machine Learning by Andrew Ng (Coursera - audit free)",
+                "Blockchain Basics by IBM (free course)",
+                "High Performance Computing by LLNL (free tutorials)"
             ],
-            "Practice": [
-                "Contribute to major open-source projects",
-                "Build production-ready applications",
-                "Write technical blog posts",
-                "Participate in hackathons and coding competitions"
+            "Security Engineering (Free)": [
+                "OWASP WebGoat (free security testing)",
+                "Cybersecurity Course by freeCodeCamp (YouTube)",
+                "Penetration Testing by SANS (free resources)",
+                "Cryptography by Stanford (Coursera - audit free)",
+                "Security by Design by OWASP (free)",
+                "Web Security Academy by PortSwigger (free)"
+            ],
+            "Data Engineering (Free)": [
+                "Data Engineering Course by DataTalks.Club (free)",
+                "Apache Airflow Documentation (free)",
+                "Apache Kafka Streams Tutorial (free)",
+                "Data Engineering on GCP (free tier)",
+                "Spark by Example (free tutorials)",
+                "Data Warehousing by Snowflake (free tier and resources)"
             ]
         }
     },
@@ -655,25 +809,95 @@ SOFTWARE_ENGINEER_ROADMAP = {
             ]
         },
         "resources": {
-            "Courses": [
-                "Engineering Management (Coursera)",
-                "Technical Writing (Google)",
-                "Leadership Principles (LinkedIn Learning)"
+            "Free Leadership Resources": [
+                "Engineering Management by Will Larson (free articles)",
+                "The Manager's Path - selected chapters (free)",
+                "Technical Leadership by Patrick Kua (free articles)",
+                "Google's Engineering Practices (free documentation)",
+                "Tech Lead Wisdom by Patrick Kua (free resources)",
+                "Engineering Leadership by Honeycomb (free articles)"
             ],
-            "Books": [
-                "The Manager's Path by Camille Fournier",
-                "An Elegant Puzzle by Will Larson",
-                "The Effective Engineer by Edmond Lau"
+            "Free Communication & Soft Skills": [
+                "Technical Writing by Google (free course)",
+                "Communication for Engineers by MIT (free resources)",
+                "Presentation Skills by Coursera (audit free)",
+                "Conflict Resolution by Harvard Business Review (free articles)",
+                "Team Collaboration by Atlassian (free guides)",
+                "Public Speaking by Toastmasters (free resources)"
             ],
-            "Practice": [
-                "Lead technical projects",
-                "Mentor team members",
-                "Speak at meetups/conferences",
-                "Build internal tools and processes"
+            "Free Business Acumen Resources": [
+                "Business Model Canvas by Strategyzer (free template)",
+                "Lean Startup Methodology (free resources)",
+                "Product Management by Google (free course)",
+                "Business Metrics by HubSpot Academy (free)",
+                "ROI Analysis by CFI (free tutorials)",
+                "Customer Development by Steve Blank (free articles)"
+            ],
+            "Free Continuous Learning": [
+                "Open Source Friday by GitHub (free)",
+                "DEV Community (free platform for technical writing)",
+                "Tech Conference YouTube channels (free talks)",
+                "Hacker News (free tech news and discussions)",
+                "Reddit Programming communities (free)",
+                "Medium Engineering blogs (free tier)",
+                "GitHub Trending repositories (free inspiration)"
             ]
         }
     }
+
+    # Additional Free Resources (for reference):
+    # 
+    # Comprehensive Learning Platforms:
+    # - freeCodeCamp.org - Full stack certification tracks (completely free)
+    # - The Odin Project - Complete web development curriculum (free)
+    # - Coursera - Audit courses from top universities (free)
+    # - edX - University courses and certifications (free audit)
+    # - MIT OpenCourseWare - Complete MIT courses (free)
+    # - Khan Academy - Computer Science and Programming (free)
+    #
+    # Top YouTube Channels for Software Engineering:
+    # - freeCodeCamp.org - Comprehensive programming courses
+    # - Programming with Mosh - Clean, professional tutorials
+    # - The Net Ninja - Web development and frameworks
+    # - Traversy Media - Practical web development
+    # - Academind - React, Node.js, and modern web dev
+    # - CS Dojo - Computer science and programming concepts
+    # - TechWorld with Nana - DevOps and cloud technologies
+    # - Hussein Nasser - Backend engineering and databases
+    # - Gaurav Sen - System design interviews
+    # - ByteByteGo - System design and architecture
+    #
+    # Free Practice Platforms:
+    # - LeetCode - Algorithm and data structure problems (free tier)
+    # - HackerRank - Programming challenges across domains (free)
+    # - CodeSignal - Coding practice and assessments (free tier)
+    # - Codeforces - Competitive programming (free)
+    # - AtCoder - Algorithm contests (free)
+    # - TopCoder - Programming competitions (free)
+    # - GeeksforGeeks - Programming problems and tutorials (free)
+    # - InterviewBit - Technical interview preparation (free tier)
+    #
+    # Free Tools & IDEs:
+    # - Visual Studio Code - Free, extensible code editor
+    # - Git - Free version control system
+    # - Docker Desktop - Free containerization (personal use)
+    # - Postman - Free API development and testing
+    # - DBeaver - Free database management tool
+    # - Figma - Free UI/UX design tool
+    # - draw.io - Free diagramming tool
+    #
+    # Free Cloud Tiers:
+    # - AWS Free Tier - 12 months of selected services
+    # - Google Cloud Free Tier - Always free and trial credits
+    # - Microsoft Azure Free Tier - 12 months plus always free services
+    # - Heroku - Free tier for small applications
+    # - Netlify - Free hosting for static sites
+    # - Vercel - Free hosting for frontend applications
+    # - Firebase - Free tier for mobile and web apps
+    # - MongoDB Atlas - Free tier for database hosting
 }
+
+
 
 
 ML_RESEARCH_ROADMAP = {
