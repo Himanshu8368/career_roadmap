@@ -899,7 +899,6 @@ SOFTWARE_ENGINEER_ROADMAP = {
 
 
 
-
 ML_RESEARCH_ROADMAP = {
     
     "Phase 1: Mathematical Foundations": {
@@ -5416,6 +5415,1424 @@ MATHEMATICS_PHD_ROADMAP = {
 }
 
 
+PHD_PHYSICS_COMPLETE_ROADMAP = {
+    "Phase 1: Mathematical Foundation & Basic Physics": {
+        "duration": "18 months",
+        "topics": {
+            "Core Mathematics": [
+                "Algebra: Linear equations, matrices, determinants, eigenvalues",
+                "Trigonometry: Functions, identities, complex plane",
+                "Calculus I-III: Derivatives, integrals, multivariable calculus",
+                "Differential equations: ODEs, PDEs, boundary conditions",
+                "Linear algebra: Vector spaces, transformations, matrix theory",
+                "Complex analysis: Complex functions, residue theory, contour integration"
+            ],
+            "Classical Physics Fundamentals": [
+                "Kinematics: Motion in 1D, 2D, 3D, projectile motion",
+                "Dynamics: Newton's laws, forces, friction, circular motion",
+                "Energy and momentum: Work-energy theorem, conservation laws",
+                "Rotational mechanics: Angular momentum, torque, rigid bodies",
+                "Oscillations: Simple harmonic motion, damped and driven oscillators",
+                "Waves: Wave equation, superposition, interference, standing waves"
+            ],
+            "Mathematical Physics Introduction": [
+                "Vector calculus: Gradient, divergence, curl, line and surface integrals",
+                "Coordinate systems: Cartesian, cylindrical, spherical",
+                "Fourier series: Periodic functions, harmonic analysis",
+                "Special functions: Bessel, Legendre, gamma functions",
+                "Probability and statistics: Distributions, error analysis",
+                "Dimensional analysis: Units, scaling, order of magnitude"
+            ]
+        },
+        "resources": {
+            "Free Books/PDFs": [
+                "Halliday, Resnick & Walker - Fundamentals of Physics (older editions free)",
+                "MIT OpenCourseWare Physics I, II, III",
+                "Feynman Lectures on Physics (free online)",
+                "Khan Academy Physics and Mathematics",
+                "Paul's Online Math Notes (differential equations)",
+                "HyperPhysics concepts (Georgia State University)"
+            ],
+            "YouTube Channels": [
+                "3Blue1Brown (calculus, linear algebra visualization)",
+                "Professor Leonard (calculus series)",
+                "Michel van Biezen (physics fundamentals)",
+                "Khan Academy Physics",
+                "MIT OCW Physics lectures",
+                "Physics Videos by Eugene Khutoryansky"
+            ],
+            "Free Courses": [
+                "MIT 8.01 Classical Mechanics",
+                "MIT 18.01-18.03 Calculus series",
+                "Stanford Physics courses (online)",
+                "Coursera Physics specializations (audit for free)",
+                "edX MIT Physics courses",
+                "Yale Open Yale Courses Physics"
+            ],
+            "Practice Platforms": [
+                "Physics Classroom (conceptual problems)",
+                "Brilliant.org (free tier physics problems)",
+                "MIT Problem Sets (from OCW)",
+                "Physics Forums (problem solving community)",
+                "WolframAlpha (mathematical computations)",
+                "Desmos Graphing Calculator"
+            ]
+        }
+    },
+
+    "Phase 2: Advanced Classical Physics & Laboratory Skills": {
+        "duration": "12 months",
+        "topics": {
+            "Classical Mechanics": [
+                "Lagrangian mechanics: Calculus of variations, Euler-Lagrange equation",
+                "Hamiltonian mechanics: Phase space, canonical transformations",
+                "Central force problems: Kepler problem, scattering theory",
+                "Rigid body dynamics: Euler angles, gyroscopes, tops",
+                "Small oscillations: Normal modes, coupled oscillators",
+                "Continuum mechanics: Elastic media, fluid mechanics basics"
+            ],
+            "Electromagnetism": [
+                "Electrostatics: Gauss's law, potential theory, multipole expansion",
+                "Magnetostatics: Ampère's law, magnetic dipoles, vector potential",
+                "Maxwell's equations: Differential and integral forms",
+                "Electromagnetic waves: Plane waves, polarization, reflection/refraction",
+                "Electromagnetic radiation: Dipole radiation, antennas",
+                "Special relativity: Lorentz transformations, 4-vectors"
+            ],
+            "Thermodynamics & Statistical Mechanics": [
+                "Laws of thermodynamics: Heat engines, entropy, free energy",
+                "Kinetic theory: Molecular motion, transport phenomena",
+                "Statistical ensembles: Microcanonical, canonical, grand canonical",
+                "Classical statistics: Maxwell-Boltzmann distribution",
+                "Phase transitions: Critical phenomena, Ising model",
+                "Fluctuations: Central limit theorem, noise"
+            ],
+            "Experimental Physics": [
+                "Measurement theory: Uncertainty, error propagation, statistics",
+                "Laboratory instruments: Oscilloscopes, multimeters, function generators",
+                "Optics experiments: Interference, diffraction, polarization",
+                "Electronics: Analog circuits, amplifiers, filters, digital basics",
+                "Data analysis: Curve fitting, statistical tests, graphing",
+                "Scientific computing: Python/MATLAB for data analysis"
+            ]
+        },
+        "resources": {
+            "Classical Textbooks": [
+                "Goldstein - Classical Mechanics",
+                "Griffiths - Introduction to Electrodynamics",
+                "Kittel & Kroemer - Thermal Physics",
+                "Taylor - Classical Mechanics (undergraduate level)",
+                "Reif - Fundamentals of Statistical and Thermal Physics",
+                "Marion & Thornton - Classical Dynamics"
+            ],
+            "Laboratory Resources": [
+                "MIT OCW Physics Lab courses",
+                "Advanced Physics Laboratory manuals (various universities)",
+                "AAPT (American Association of Physics Teachers) resources",
+                "European Physical Society lab resources",
+                "Arduino and Raspberry Pi physics projects",
+                "Data analysis tutorials (Python/R/MATLAB)"
+            ],
+            "Simulation Software": [
+                "Mathematica (free for students at many institutions)",
+                "Python scientific stack: NumPy, SciPy, Matplotlib",
+                "MATLAB (student versions)",
+                "Sage Mathematics (free alternative)",
+                "Octave (free MATLAB alternative)",
+                "VPython (3D physics visualizations)"
+            ]
+        }
+    },
+
+    "Phase 3: Quantum Mechanics Fundamentals": {
+        "duration": "15 months",
+        "topics": {
+            "Quantum Mechanics Foundations": [
+                "Historical development: Blackbody radiation, photoelectric effect, Bohr model",
+                "Wave-particle duality: de Broglie wavelength, uncertainty principle",
+                "Schrödinger equation: Time-dependent and time-independent forms",
+                "Quantum operators: Position, momentum, angular momentum, energy",
+                "Quantum states: Wavefunctions, probability interpretation, normalization",
+                "Measurement theory: Observables, eigenvalues, collapse postulate"
+            ],
+            "One-Dimensional Systems": [
+                "Infinite square well: Energy levels, wavefunctions, orthogonality",
+                "Harmonic oscillator: Creation/annihilation operators, coherent states",
+                "Finite square well: Bound states, transmission, reflection",
+                "Delta function potential: Scattering, bound states",
+                "Tunneling: Barrier penetration, scanning tunneling microscopy",
+                "WKB approximation: Semiclassical approximation, turning points"
+            ],
+            "Three-Dimensional Systems": [
+                "Central potentials: Separation of variables, spherical harmonics",
+                "Hydrogen atom: Radial equation, quantum numbers, spectrum",
+                "Angular momentum: Orbital angular momentum, spin, addition rules",
+                "Spin-1/2 systems: Pauli matrices, Stern-Gerlach experiment",
+                "Identical particles: Fermions, bosons, Pauli exclusion principle",
+                "Perturbation theory: Time-independent and time-dependent"
+            ],
+            "Advanced Quantum Concepts": [
+                "Quantum entanglement: EPR paradox, Bell's inequalities",
+                "Quantum measurement: Von Neumann measurement, decoherence",
+                "Quantum statistics: Fermi-Dirac, Bose-Einstein distributions",
+                "Second quantization: Creation/annihilation operators for many particles",
+                "Relativistic quantum mechanics: Klein-Gordon, Dirac equations",
+                "Quantum field theory introduction: Particle creation/annihilation"
+            ]
+        },
+        "resources": {
+            "Quantum Mechanics Textbooks": [
+                "Griffiths - Introduction to Quantum Mechanics",
+                "Shankar - Principles of Quantum Mechanics",
+                "Gasiorowicz - Quantum Physics",
+                "McIntyre - Quantum Mechanics: A Paradigms Approach",
+                "Sakurai & Napolitano - Modern Quantum Mechanics",
+                "Cohen-Tannoudji - Quantum Mechanics"
+            ],
+            "Advanced Resources": [
+                "Feynman - Lectures on Physics Volume III",
+                "Ballentine - Quantum Mechanics: A Modern Development",
+                "Weinberg - Lectures on Quantum Mechanics",
+                "Dirac - Principles of Quantum Mechanics",
+                "von Neumann - Mathematical Foundations of Quantum Mechanics",
+                "Bell - Speakable and Unspeakable in Quantum Mechanics"
+            ],
+            "Computational Quantum Mechanics": [
+                "QuTiP (Quantum Toolbox in Python)",
+                "Qiskit (IBM Quantum computing framework)",
+                "MATLAB Quantum Mechanics toolboxes",
+                "Mathematica quantum mechanics packages",
+                "C++ quantum simulation libraries",
+                "Quantum Monte Carlo methods"
+            ]
+        }
+    },
+
+    "Phase 4: Atomic, Molecular & Optical Physics": {
+        "duration": "12 months",
+        "topics": {
+            "Atomic Structure": [
+                "Multi-electron atoms: Hartree-Fock method, electron correlation",
+                "Fine structure: Spin-orbit coupling, j-j and L-S coupling",
+                "Hyperfine structure: Nuclear spin interactions, isotope shifts",
+                "Zeeman and Stark effects: External field interactions",
+                "X-ray spectroscopy: Core electron transitions, Auger processes",
+                "Atomic units: Natural units for atomic calculations"
+            ],
+            "Molecular Physics": [
+                "Born-Oppenheimer approximation: Electronic and nuclear motion separation",
+                "Molecular orbitals: LCAO method, bonding and antibonding",
+                "Rotational and vibrational spectroscopy: Energy level structure",
+                "Electronic transitions: Franck-Condon principle, selection rules",
+                "Molecular symmetry: Point groups, character tables",
+                "Chemical bonding: Valence bond theory, molecular orbital theory"
+            ],
+            "Laser Physics & Optics": [
+                "Laser principles: Population inversion, stimulated emission, cavity modes",
+                "Laser types: Gas, solid-state, semiconductor, dye lasers",
+                "Nonlinear optics: Second harmonic generation, optical parametric processes",
+                "Ultrafast optics: Femtosecond pulses, pulse shaping, chirped pulses",
+                "Quantum optics: Photon statistics, squeezed light, entangled photons",
+                "Laser spectroscopy: High-resolution techniques, Doppler-free methods"
+            ],
+            "Advanced AMO Topics": [
+                "Cold atoms: Laser cooling, magneto-optical traps, Bose-Einstein condensation",
+                "Ion trapping: Paul traps, Penning traps, sympathetic cooling",
+                "Rydberg atoms: High-lying states, strong interactions, quantum simulation",
+                "Atomic clocks: Precision frequency standards, GPS applications",
+                "Quantum gases: Ultracold Fermi gases, strongly correlated systems",
+                "AMO applications: Quantum computing, quantum sensing, precision measurements"
+            ]
+        },
+        "resources": {
+            "AMO Textbooks": [
+                "Bethe & Salpeter - Quantum Mechanics of One- and Two-Electron Atoms",
+                "Foot - Atomic Physics",
+                "Herzberg - Molecular Spectra and Molecular Structure",
+                "Siegman - Lasers",
+                "Boyd - Nonlinear Optics",
+                "Metcalf & van der Straten - Laser Cooling and Trapping"
+            ],
+            "Research Resources": [
+                "Journal of Physics B: Atomic, Molecular and Optical Physics",
+                "Physical Review A (AMO section)",
+                "Optics Express and Optics Letters",
+                "AMO conferences: ICAP, CLEO, DAMOP",
+                "National Institute of Standards and Technology (NIST) resources",
+                "International Atomic Energy Agency (IAEA) databases"
+            ],
+            "Computational Tools": [
+                "Atomic structure codes: GRASP, FAC, NIST databases",
+                "Molecular quantum chemistry: Gaussian, GAMESS, PySCF",
+                "Laser simulation: OptiSystem, COMSOL Multiphysics",
+                "Optical design: Zemax, Code V, OpticStudio",
+                "Cold atom simulation: Quantum gas modeling tools",
+                "Spectroscopy analysis: IGOR Pro, Origin, Python libraries"
+            ]
+        }
+    },
+
+    "Phase 5: Condensed Matter Physics": {
+        "duration": "15 months",
+        "topics": {
+            "Crystal Structure & Lattice Dynamics": [
+                "Crystal lattices: Bravais lattices, unit cells, crystallographic notation",
+                "Reciprocal space: Brillouin zones, structure factors, diffraction",
+                "Phonons: Lattice vibrations, dispersion relations, acoustic vs optical modes",
+                "Thermal properties: Heat capacity, thermal expansion, thermal conductivity",
+                "Phase transitions: Order parameters, critical phenomena, scaling laws",
+                "Defects: Point defects, dislocations, grain boundaries"
+            ],
+            "Electronic Properties": [
+                "Free electron model: Fermi gas, electronic heat capacity, conductivity",
+                "Band theory: Bloch theorem, tight-binding model, density of states",
+                "Semiconductors: Intrinsic and extrinsic, p-n junctions, devices",
+                "Metals and insulators: Fermi surfaces, electronic transport",
+                "Magnetism: Diamagnetism, paramagnetism, ferromagnetism, antiferromagnetism",
+                "Superconductivity: Cooper pairs, BCS theory, flux quantization"
+            ],
+            "Many-Body Theory": [
+                "Second quantization: Fermion and boson operators",
+                "Hartree-Fock approximation: Mean field theory, self-consistency",
+                "Green's functions: Single-particle properties, spectral functions",
+                "Feynman diagrams: Perturbation theory, self-energy, vertex corrections",
+                "Random phase approximation: Collective excitations, plasmons",
+                "Density functional theory: Hohenberg-Kohn theorems, exchange-correlation"
+            ],
+            "Advanced Condensed Matter": [
+                "Topological phases: Berry phases, Chern numbers, topological insulators",
+                "Strongly correlated systems: Hubbard model, Mott transitions",
+                "Quantum Hall effect: Integer and fractional, Laughlin wavefunction",
+                "High-temperature superconductivity: Cuprates, unconventional pairing",
+                "Spin liquids: Frustrated magnetism, quantum spin systems",
+                "Two-dimensional materials: Graphene, transition metal dichalcogenides"
+            ]
+        },
+        "resources": {
+            "Condensed Matter Textbooks": [
+                "Ashcroft & Mermin - Solid State Physics",
+                "Kittel - Introduction to Solid State Physics",
+                "Marder - Condensed Matter Physics",
+                "Tinkham - Introduction to Superconductivity",
+                "Mahan - Many-Particle Physics",
+                "Fetter & Walecka - Quantum Theory of Many-Particle Systems"
+            ],
+            "Advanced References": [
+                "Bruus & Flensberg - Many-Body Quantum Theory in Condensed Matter Physics",
+                "Altland & Simons - Condensed Matter Field Theory",
+                "Thouless - Topological Quantum Numbers in Nonrelativistic Physics",
+                "Anderson - Basic Notions of Condensed Matter Physics",
+                "Pines - Elementary Excitations in Solids",
+                "Negele & Orland - Quantum Many-Particle Systems"
+            ],
+            "Computational Resources": [
+                "DFT codes: VASP, Quantum ESPRESSO, ABINIT",
+                "Many-body codes: TRIQS, ALPS, exact diagonalization",
+                "Monte Carlo methods: Quantum Monte Carlo, classical MC",
+                "Crystallography databases: Materials Project, ICSD",
+                "Visualization: VESTA, XCrySDen, VMD",
+                "Machine learning for materials: MatMiner, pymatgen"
+            ]
+        }
+    },
+
+    "Phase 6: Particle Physics & High Energy Physics": {
+        "duration": "15 months",
+        "topics": {
+            "Particle Physics Fundamentals": [
+                "Standard Model: Quarks, leptons, gauge bosons, Higgs boson",
+                "Fundamental interactions: Strong, weak, electromagnetic forces",
+                "Symmetries: Discrete symmetries (P, C, T), continuous symmetries",
+                "Relativistic kinematics: 4-vectors, invariant mass, center of mass",
+                "Particle accelerators: Linear accelerators, synchrotrons, colliders",
+                "Particle detectors: Calorimeters, tracking chambers, particle identification"
+            ],
+            "Quantum Field Theory": [
+                "Classical field theory: Lagrangian formalism, Noether's theorem",
+                "Quantization: Canonical quantization, path integrals",
+                "Free fields: Scalar, spinor, vector fields, propagators",
+                "Interacting fields: Feynman rules, S-matrix, cross sections",
+                "QED: Electron-photon interactions, radiative corrections, anomalous moments",
+                "Regularization and renormalization: Dimensional regularization, MS scheme"
+            ],
+            "Gauge Theories": [
+                "Non-Abelian gauge theories: Yang-Mills theory, gauge fixing",
+                "QCD: Color confinement, asymptotic freedom, running coupling",
+                "Electroweak theory: Spontaneous symmetry breaking, W and Z bosons",
+                "Higgs mechanism: Mass generation, Goldstone bosons, unitary gauge",
+                "Anomalies: Chiral anomalies, triangle diagrams, anomaly cancellation",
+                "Grand unified theories: SU(5), SO(10), proton decay"
+            ],
+            "Experimental Particle Physics": [
+                "Collider experiments: ATLAS, CMS at LHC, detector design",
+                "Data analysis: Statistical methods, background subtraction, systematic errors",
+                "Monte Carlo simulations: Event generation, detector simulation",
+                "Particle identification: Mass reconstruction, resonance searches",
+                "Beyond Standard Model searches: Supersymmetry, extra dimensions",
+                "Precision measurements: W mass, top quark properties, Higgs couplings"
+            ]
+        },
+        "resources": {
+            "Particle Physics Textbooks": [
+                "Griffiths - Introduction to Elementary Particles",
+                "Halzen & Martin - Quarks and Leptons",
+                "Peskin & Schroeder - Introduction to Quantum Field Theory",
+                "Weinberg - The Quantum Theory of Fields",
+                "Schwartz - Quantum Field Theory and the Standard Model",
+                "Tong - David Tong's QFT lecture notes (free online)"
+            ],
+            "Experimental Resources": [
+                "CERN Document Server (CDS)",
+                "arXiv.org high energy physics sections",
+                "Particle Data Group (PDG) - Review of Particle Physics",
+                "INSPIRE-HEP literature database",
+                "LHC experiments public results",
+                "Fermilab theoretical physics resources"
+            ],
+            "Computational Tools": [
+                "ROOT: Data analysis framework (CERN)",
+                "MadGraph: Event generation for collider physics",
+                "PYTHIA: Monte Carlo event generator",
+                "GEANT4: Detector simulation toolkit",
+                "FeynCalc: Feynman diagram calculations",
+                "CompHEP/CalcHEP: Cross section calculations"
+            ]
+        }
+    },
+
+    "Phase 7: Nuclear & Astrophysics": {
+        "duration": "12 months",
+        "topics": {
+            "Nuclear Physics": [
+                "Nuclear structure: Shell model, collective models, magic numbers",
+                "Radioactive decay: Alpha, beta, gamma decay, decay chains",
+                "Nuclear reactions: Cross sections, reaction mechanisms, compound nucleus",
+                "Fission and fusion: Energy release, reactor physics, stellar nucleosynthesis",
+                "Nuclear models: Liquid drop model, Fermi gas model, interacting boson model",
+                "Exotic nuclei: Superheavy elements, neutron-rich nuclei, halo nuclei"
+            ],
+            "Stellar Physics & Evolution": [
+                "Stellar structure: Hydrostatic equilibrium, energy transport, opacity",
+                "Nuclear burning: PP chain, CNO cycle, helium burning, advanced stages",
+                "Stellar evolution: Main sequence, red giants, white dwarfs, neutron stars",
+                "Supernovae: Core collapse, Type Ia, nucleosynthesis, neutrino emission",
+                "Compact objects: Black holes, neutron star equation of state",
+                "Binary systems: X-ray binaries, gravitational wave sources"
+            ],
+            "Cosmology & Large Scale Structure": [
+                "Big Bang cosmology: Hubble law, cosmic microwave background",
+                "Thermal history: Nucleosynthesis, recombination, dark ages",
+                "Dark matter: Evidence, candidates, direct and indirect detection",
+                "Dark energy: Cosmological constant, quintessence, acceleration",
+                "Inflation: Scalar field dynamics, perturbations, multiverse",
+                "Structure formation: Linear and nonlinear growth, N-body simulations"
+            ],
+            "Observational Astrophysics": [
+                "Multi-messenger astronomy: Electromagnetic, gravitational waves, neutrinos",
+                "High-energy astrophysics: Cosmic rays, gamma-ray bursts, active galactic nuclei",
+                "Exoplanets: Detection methods, atmospheric characterization, habitability",
+                "Galaxy formation: Hierarchical clustering, feedback processes",
+                "Observational techniques: Spectroscopy, photometry, interferometry",
+                "Space missions: Hubble, Kepler, JWST, LIGO, upcoming surveys"
+            ]
+        },
+        "resources": {
+            "Nuclear & Astro Textbooks": [
+                "Evans - The Atomic Nucleus",
+                "Segre - Nuclei and Particles",
+                "Carroll & Ostlie - An Introduction to Modern Astrophysics",
+                "Clayton - Principles of Stellar Evolution and Nucleosynthesis",
+                "Weinberg - Cosmology",
+                "Longair - High Energy Astrophysics"
+            ],
+            "Research Resources": [
+                "NASA Astrophysics Data System (ADS)",
+                "arXiv.org astro-ph section",
+                "International Astronomical Union (IAU)",
+                "Nuclear Data Services (IAEA)",
+                "Astrophysical observatories data archives",
+                "Gravitational wave data (LIGO/Virgo)"
+            ],
+            "Observational Data": [
+                "Sloan Digital Sky Survey (SDSS)",
+                "Gaia mission data",
+                "Planck CMB data",
+                "Supernova cosmology data",
+                "Exoplanet archive",
+                "High-energy astrophysics archives"
+            ]
+        }
+    },
+
+    "Phase 8: Advanced Mathematical Physics": {
+        "duration": "12 months",
+        "topics": {
+            "Differential Geometry": [
+                "Manifolds: Smooth manifolds, tangent spaces, coordinate charts",
+                "Tensor analysis: Covariant and contravariant tensors, tensor calculus",
+                "Riemannian geometry: Metric tensors, connection, curvature",
+                "Lie groups and algebras: Symmetry groups, representation theory",
+                "Fiber bundles: Principal bundles, gauge theories, characteristic classes",
+                "Topology: Fundamental groups, homology, cohomology"
+            ],
+            "Group Theory & Representation Theory": [
+                "Abstract groups: Finite groups, Lie groups, group actions",
+                "Representation theory: Characters, reducible and irreducible representations",
+                "Symmetries in physics: Crystallographic groups, particle physics symmetries",
+                "Special functions: Spherical harmonics, Clebsch-Gordan coefficients",
+                "Spinor representations: SU(2), Lorentz group, Clifford algebras",
+                "Applications: Selection rules, degeneracy, symmetry breaking"
+            ],
+            "Advanced Analysis": [
+                "Functional analysis: Hilbert spaces, Banach spaces, operators",
+                "Distribution theory: Generalized functions, Fourier transforms",
+                "Complex analysis: Residue calculus, analytic continuation, special functions",
+                "Variational calculus: Euler-Lagrange equations, constraints, Noether's theorem",
+                "Integral equations: Green's functions, Fredholm equations",
+                "Asymptotic methods: Steepest descent, stationary phase, WKB"
+            ],
+            "Mathematical Methods": [
+                "Green's functions: Boundary value problems, many-body theory",
+                "Path integrals: Functional integration, quantum mechanics, field theory",
+                "Renormalization group: Fixed points, scaling, critical phenomena",
+                "Stochastic processes: Random walks, diffusion equations, noise",
+                "Information theory: Entropy, mutual information, quantum information",
+                "Numerical methods: Finite elements, spectral methods, Monte Carlo"
+            ]
+        },
+        "resources": {
+            "Mathematical Physics References": [
+                "Abraham & Marsden - Foundations of Mechanics",
+                "Nakahara - Geometry, Topology and Physics",
+                "Tinkham - Group Theory and Quantum Mechanics",
+                "Reed & Simon - Methods of Modern Mathematical Physics",
+                "Arfken, Weber & Harris - Mathematical Methods for Physicists",
+                "Byron & Fuller - Mathematics of Classical and Quantum Physics"
+            ],
+            "Advanced Mathematics": [
+                "Spivak - Differential Geometry",
+                "Lee - Introduction to Smooth Manifolds",
+                "Fulton & Harris - Representation Theory",
+                "Rudin - Functional Analysis",
+                "Folland - Real Analysis and Applications",
+                "Conway - Functions of One Complex Variable"
+            ],
+            "Computational Mathematics": [
+                "Mathematica for symbolic computations",
+                "MATLAB/Python for numerical analysis",
+                "GAP for group theory computations",
+                "Sage for mathematical computations",
+                "Maple for symbolic mathematics",
+                "Finite element software: FEniCS, deal.II"
+            ]
+        }
+    },
+
+    "Phase 9: Quantum Information & Computing": {
+        "duration": "15 months",
+        "topics": {
+            "Quantum Information Theory": [
+                "Quantum bits and states: Pure states, mixed states, density matrices",
+                "Quantum entanglement: Bell states, CHSH inequality, entanglement measures",
+                "Quantum channels: Completely positive maps, quantum noise, error models",
+                "Quantum cryptography: BB84 protocol, quantum key distribution, security proofs",
+                "Quantum communication: Teleportation, superdense coding, quantum networks",
+                "No-cloning theorem: Fundamental limitations, implications for information"
+            ],
+            "Quantum Computing Fundamentals": [
+                "Quantum gates: Single-qubit and two-qubit gates, universality",
+                "Quantum circuits: Circuit model, quantum parallelism, measurement",
+                "Quantum algorithms: Deutsch-Jozsa, Grover's search, Shor's factoring",
+                "Quantum Fourier transform: Period finding, phase estimation",
+                "Variational quantum algorithms: VQE, QAOA, quantum machine learning",
+                "Adiabatic quantum computation: Quantum annealing, optimization problems"
+            ],
+            "Quantum Error Correction": [
+                "Classical error correction: Linear codes, syndrome decoding",
+                "Quantum error models: Pauli errors, decoherence, noise characterization",
+                "Stabilizer codes: Stabilizer formalism, CSS codes, surface codes",
+                "Fault-tolerant computation: Threshold theorem, logical operations",
+                "Topological codes: Toric code, color codes, anyonic computation",
+                "LDPC quantum codes: Sparse parity-check matrices, decoder algorithms"
+            ],
+            "Physical Implementations": [
+                "Superconducting qubits: Josephson junctions, transmon, flux qubits",
+                "Trapped ion quantum computers: Laser cooling, gate operations",
+                "Photonic quantum computing: Linear optics, measurement-based computation",
+                "Neutral atom systems: Optical lattices, Rydberg interactions",
+                "Silicon quantum dots: Spin qubits, charge qubits, CMOS compatibility",
+                "Topological qubits: Majorana fermions, braiding operations"
+            ]
+        },
+        "resources": {
+            "Quantum Information Textbooks": [
+                "Nielsen & Chuang - Quantum Computation and Quantum Information",
+                "Wilde - Quantum Information Theory",
+                "Preskill - Quantum Information lecture notes",
+                "Watrous - The Theory of Quantum Information",
+                "Kaye, Laflamme & Mosca - An Introduction to Quantum Computing",
+                "Lidar & Brun - Quantum Error Correction"
+            ],
+            "Programming Frameworks": [
+                "Qiskit (IBM): Circuit-based quantum computing",
+                "Cirq (Google): Quantum circuits and algorithms",
+                "PennyLane: Quantum machine learning and optimization",
+                "Forest (Rigetti): Quantum cloud computing platform",
+                "Q# (Microsoft): Quantum development kit",
+                "QuTiP: Quantum optics simulations"
+            ],
+            "Research Communities": [
+                "Quantum Information Processing (journal)",
+                "Physical Review Quantum",
+                "arXiv.org quant-ph section",
+                "QIP (Quantum Information Processing) conference",
+                "TQC (Theory of Quantum Computation) conference",
+                "Quantum information workshops and schools"
+            ]
+        }
+    },
+
+    "Phase 10: Biophysics & Soft Matter": {
+        "duration": "12 months",
+        "topics": {
+            "Biological Physics Fundamentals": [
+                "Biomolecular structure: Proteins, DNA, RNA, membranes",
+                "Thermodynamics of life: Free energy, entropy production, information processing",
+                "Statistical mechanics of polymers: Random walks, persistence length, elasticity",
+                "Molecular motors: ATP synthase, kinesin, myosin, efficiency and mechanics",
+                "Ion channels: Electrophysiology, gating mechanisms, selectivity",
+                "Cell mechanics: Cytoskeleton, mechanical properties, active materials"
+            ],
+            "Soft Matter Physics": [
+                "Polymer physics: Scaling laws, phase transitions, solutions and melts",
+                "Liquid crystals: Nematic, smectic, cholesteric phases, defects",
+                "Colloidal systems: Brownian motion, aggregation, gelation",
+                "Surfactants and membranes: Self-assembly, lipid bilayers, fusion/fission",
+                "Granular matter: Jamming transitions, avalanches, flow properties",
+                "Active matter: Self-propelled particles, collective motion, flocking"
+            ],
+            "Single Molecule Biophysics": [
+                "Single molecule techniques: AFM, optical tweezers, fluorescence microscopy",
+                "DNA mechanics: Stretching, twisting, supercoiling, packaging",
+                "Protein folding: Energy landscapes, kinetics, misfolding diseases",
+                "Enzyme kinetics: Single molecule enzymology, fluctuation theorems",
+                "Molecular recognition: Binding kinetics, specificity, allostery",
+                "Force spectroscopy: Unfolding forces, rupture dynamics"
+            ],
+            "Systems Biology": [
+                "Gene regulatory networks: Transcription, feedback loops, oscillations",
+                "Signal transduction: Biochemical networks, amplification, noise",
+                "Population dynamics: Growth models, evolution, selection pressure",
+                "Neurobiology: Action potentials, synaptic transmission, neural networks",
+                "Developmental biology: Pattern formation, morphogenesis, scaling",
+                "Evolutionary dynamics: Fitness landscapes, neutral evolution, speciation"
+            ]
+        },
+        "resources": {
+            "Biophysics Textbooks": [
+                "Phillips, Kondev & Theriot - Physical Biology of the Cell",
+                "Nelson - Biological Physics",
+                "Boal - Mechanics of the Cell",
+                "Howard - Mechanics of Motor Proteins and the Cytoskeleton",
+                "Berg - Random Walks in Biology",
+                "Weiss - Cellular Biophysics"
+            ],
+            "Soft Matter References": [
+                "de Gennes - Scaling Concepts in Polymer Physics",
+                "Doi & Edwards - The Theory of Polymer Dynamics",
+                "Jones - Soft Condensed Matter",
+                "Larson - The Structure and Rheology of Complex Fluids",
+                "Chaikin & Lubensky - Principles of Condensed Matter Physics",
+                "McLeish - Theory of Molecular Rheology"
+            ],
+            "Experimental Techniques": [
+                "Single molecule manipulation: AFM, optical/magnetic tweezers",
+                "Advanced microscopy: Super-resolution, two-photon, light sheet",
+                "Spectroscopy: NMR, X-ray crystallography, cryo-EM",
+                "Microfluidics: Lab-on-chip, droplet formation, cell sorting",
+                "Computational biology: Molecular dynamics, Monte Carlo, systems modeling",
+                "Bioinformatics: Sequence analysis, structure prediction, network analysis"
+            ]
+        }
+    },
+
+    "Phase 11: Plasma Physics & Fusion Energy": {
+        "duration": "12 months",
+        "topics": {
+            "Plasma Fundamentals": [
+                "Plasma parameters: Debye length, plasma frequency, collision rates",
+                "Single particle motion: Drift motions, adiabatic invariants, magnetic mirrors",
+                "Kinetic theory: Boltzmann equation, Vlasov equation, distribution functions",
+                "Fluid description: MHD equations, plasma pressure, force balance",
+                "Waves in plasmas: Electrostatic and electromagnetic waves, dispersion relations",
+                "Plasma instabilities: Two-stream, interchange, tearing modes"
+            ],
+            "Magnetic Confinement": [
+                "Tokamak physics: Magnetic configuration, current drive, disruptions",
+                "Stellarator design: Three-dimensional magnetic fields, optimization",
+                "Transport phenomena: Classical, neoclassical, and anomalous transport",
+                "Turbulence: Drift waves, zonal flows, gyrokinetic simulations",
+                "Heating methods: Neutral beam injection, ICRH, ECRH",
+                "Plasma-wall interactions: Erosion, tritium retention, material science"
+            ],
+            "Inertial Confinement": [
+                "ICF physics: Compression, ignition, burn dynamics",
+                "Laser-plasma interactions: Absorption mechanisms, parametric instabilities",
+                "Hydrodynamic instabilities: Rayleigh-Taylor, Kelvin-Helmholtz",
+                "Fast ignition: Cone-guided targets, electron transport",
+                "Target design: Hohlraum physics, capsule implosions",
+                "Alternative approaches: Heavy ion fusion, Z-pinch, magnetized targets"
+            ],
+            "Alternative Energy Concepts": [
+                "Magnetic target fusion: FRC compression, magnetized plasma targets",
+                "Field-reversed configurations: Formation, stability, confinement scaling",
+                "Spheromaks and compact toroids: Self-organization, helicity conservation",
+                "Low-temperature plasma applications: Materials processing, biomedicine",
+                "Space plasmas: Solar wind, magnetospheres, reconnection",
+                "Astrophysical plasmas: Accretion disks, jets, magnetic reconnection"
+            ]
+        },
+        "resources": {
+            "Plasma Physics Textbooks": [
+                "Chen - Introduction to Plasma Physics and Controlled Fusion",
+                "Goldston & Rutherford - Introduction to Plasma Physics",
+                "Krall & Trivelpiece - Principles of Plasma Physics",
+                "Hazeltine & Waelbroeck - The Framework of Plasma Physics",
+                "Wesson - Tokamaks",
+                "Lindl - Inertial Confinement Fusion"
+            ],
+            "Research Facilities": [
+                "ITER: International tokamak project documentation",
+                "National Ignition Facility (NIF): ICF research results",
+                "JET: Joint European Torus experimental data",
+                "DIII-D: Tokamak research facility",
+                "Wendelstein 7-X: Stellarator optimization experiment",
+                "Private fusion companies: Commonwealth Fusion, TAE Technologies"
+            ],
+            "Simulation Codes": [
+                "BOUT++: Plasma turbulence simulations",
+                "GYRO: Gyrokinetic turbulence code",
+                "CORSICA: Tokamak equilibrium and transport",
+                "HYDRA: ICF hydrodynamics simulations",
+                "EPOCH: Particle-in-cell plasma code",
+                "OpenFOAM: Computational fluid dynamics for plasmas"
+            ]
+        }
+    },
+
+    "Phase 12: Quantum Field Theory & Beyond Standard Model": {
+        "duration": "15 months",
+        "topics": {
+            "Advanced Quantum Field Theory": [
+                "Path integral formulation: Generating functionals, effective actions",
+                "Gauge theory quantization: Faddeev-Popov ghosts, BRST symmetry",
+                "Renormalization group: Beta functions, fixed points, critical phenomena",
+                "Anomalies: Chiral anomalies, Wess-Zumino terms, anomaly matching",
+                "Effective field theories: Matching, power counting, systematic expansions",
+                "Supersymmetry: SUSY algebra, superfields, non-renormalization theorems"
+            ],
+            "Standard Model Extensions": [
+                "Grand unified theories: SU(5), SO(10), fermion masses, gauge coupling unification",
+                "Neutrino physics: Seesaw mechanisms, oscillations, Majorana vs Dirac",
+                "Dark matter candidates: WIMPs, axions, sterile neutrinos, primordial black holes",
+                "Extra dimensions: Kaluza-Klein theories, warped extra dimensions, braneworld models",
+                "Supersymmetric extensions: MSSM, NMSSM, R-parity violation",
+                "Composite Higgs models: Technicolor, extra-dimensional Higgs"
+            ],
+            "Cosmological Connections": [
+                "Inflation theory: Slow-roll inflation, eternal inflation, multiverse",
+                "Baryogenesis: Electroweak baryogenesis, leptogenesis, GUT baryogenesis",
+                "Phase transitions: Electroweak transition, QCD transition, topological defects",
+                "Dark energy models: Quintessence, modified gravity, cosmological constant problem",
+                "Primordial gravitational waves: Tensor modes, B-mode polarization",
+                "String cosmology: Ekpyrotic scenarios, string gas cosmology"
+            ],
+            "Theoretical Frontiers": [
+                "String theory basics: Strings, branes, compactification, dualities",
+                "Loop quantum gravity: Spin networks, black hole entropy, discrete spacetime",
+                "Holographic principle: AdS/CFT correspondence, gauge/gravity duality",
+                "Emergent gravity: Entropic gravity, thermodynamic origin of spacetime",
+                "Quantum gravity phenomenology: Modified dispersion, black hole information",
+                "Theory of everything: Unification approaches, fundamental principles"
+            ]
+        },
+        "resources": {
+            "Advanced QFT Textbooks": [
+                "Weinberg - The Quantum Theory of Fields (3 volumes)",
+                "Srednicki - Quantum Field Theory",
+                "Zee - Quantum Field Theory in a Nutshell",
+                "Peskin & Schroeder - Introduction to Quantum Field Theory",
+                "Ryder - Quantum Field Theory",
+                "Tong - David Tong's QFT lecture notes"
+            ],
+            "Beyond Standard Model": [
+                "Langacker - The Standard Model and Beyond",
+                "Drees, Godbole & Roy - Theory and Phenomenology of Sparticles",
+                "Baer & Tata - Weak Scale Supersymmetry",
+                "Mohapatra - Unification and Supersymmetry",
+                "Randall - Warped Passages",
+                "Kane - Supersymmetry: Theory, Experiment, and Cosmology"
+            ],
+            "String Theory & Quantum Gravity": [
+                "Polchinski - String Theory (2 volumes)",
+                "Becker, Becker & Schwarz - String Theory and M-Theory",
+                "Thiemann - Modern Canonical Quantum General Relativity",
+                "Rovelli - Quantum Gravity",
+                "Maldacena - The Large N Limit of Superconformal Field Theories",
+                "McGreevy - Holographic Duality with a View Toward Many-Body Physics"
+            ]
+        }
+    },
+
+    "Phase 13: General Relativity & Gravitational Physics": {
+        "duration": "12 months",
+        "topics": {
+            "General Relativity Foundations": [
+                "Spacetime geometry: Manifolds, metrics, curvature, geodesics",
+                "Einstein field equations: Stress-energy tensor, cosmological constant",
+                "Schwarzschild solution: Black holes, event horizons, singularities",
+                "Kerr solution: Rotating black holes, ergosphere, frame dragging",
+                "Cosmological solutions: FLRW metric, scale factor, Hubble parameter",
+                "Gravitational waves: Linearized gravity, TT gauge, quadrupole formula"
+            ],
+            "Black Hole Physics": [
+                "Black hole thermodynamics: Hawking temperature, Bekenstein entropy, information paradox",
+                "Penrose diagrams: Causal structure, eternal black holes, wormholes",
+                "Hawking radiation: Quantum field theory in curved spacetime, black hole evaporation",
+                "Black hole formation: Gravitational collapse, critical phenomena",
+                "Charged and rotating black holes: Reissner-Nordström, Kerr-Newman solutions",
+                "Quantum black holes: Information loss, complementarity, firewalls"
+            ],
+            "Cosmology & Dark Sector": [
+                "Cosmic microwave background: Temperature fluctuations, polarization, primordial power spectrum",
+                "Structure formation: Linear perturbations, matter power spectrum, galaxy clustering",
+                "Dark matter: N-body simulations, halo mass functions, substructure",
+                "Dark energy: Type Ia supernovae, baryon acoustic oscillations, weak lensing",
+                "Modified gravity: f(R) theories, extra-dimensional gravity, massive gravity",
+                "Early universe: Big Bang nucleosynthesis, recombination, reionization"
+            ],
+            "Gravitational Wave Astronomy": [
+                "Wave generation: Binary systems, inspiral-merger-ringdown, numerical relativity",
+                "Detection principles: Laser interferometry, strain sensitivity, noise sources",
+                "Data analysis: Matched filtering, parameter estimation, Bayesian inference",
+                "Astrophysical sources: Stellar mass binaries, supermassive black holes, stochastic background",
+                "Multi-messenger astronomy: GW170817, electromagnetic counterparts, neutrinos",
+                "Future detectors: Einstein Telescope, Cosmic Explorer, LISA space mission"
+            ]
+        },
+        "resources": {
+            "General Relativity Textbooks": [
+                "Carroll - Spacetime and Geometry",
+                "Wald - General Relativity",
+                "Misner, Thorne & Wheeler - Gravitation",
+                "Weinberg - Gravitation and Cosmology",
+                "Hartle - Gravity: An Introduction to Einstein's General Relativity",
+                "D'Inverno - Introducing Einstein's Relativity"
+            ],
+            "Advanced Topics": [
+                "Hawking & Ellis - The Large Scale Structure of Space-Time",
+                "Poisson & Will - Gravity: Newtonian, Post-Newtonian, Relativistic",
+                "Maggiore - Gravitational Waves (2 volumes)",
+                "Peebles - Principles of Physical Cosmology",
+                "Dodelson - Modern Cosmology",
+                "Birrell & Davies - Quantum Fields in Curved Space"
+            ],
+            "Computational Tools": [
+                "Einstein Toolkit: Numerical relativity simulations",
+                "LIGO Scientific Collaboration software",
+                "Cosmological codes: CAMB, CLASS, CosmoMC",
+                "N-body simulations: Gadget, AREPO, IllustrisTNG",
+                "Black hole perturbation codes: Teukolsky equation solvers",
+                "Gravitational wave parameter estimation: LALInference, Bilby"
+            ]
+        }
+    },
+
+    "Phase 14: Advanced Experimental Techniques": {
+        "duration": "12 months",
+        "topics": {
+            "Precision Measurements": [
+                "Atomic clocks: Optical lattice clocks, ion clocks, clock networks",
+                "Fundamental constants: Fine structure constant, electron g-factor, proton radius",
+                "Tests of fundamental physics: Equivalence principle, Lorentz invariance, CPT theorem",
+                "Metrology: Quantum metrology, entangled states, Heisenberg limit",
+                "Frequency combs: Optical frequency standards, spectroscopy applications",
+                "Gravitational experiments: Cavendish experiment, inverse square law tests"
+            ],
+            "Ultra-High Vacuum & Cryogenics": [
+                "UHV techniques: Turbomolecular pumps, ion pumps, surface science",
+                "Cryogenic systems: Dilution refrigerators, adiabatic demagnetization",
+                "Low-temperature physics: Superfluidity, superconductivity, quantum phase transitions",
+                "Materials at extreme conditions: High pressure, high magnetic fields",
+                "Surface analysis: STM, AFM, XPS, LEED, molecular beam epitaxy",
+                "Thin film deposition: PVD, CVD, molecular beam epitaxy"
+            ],
+            "Advanced Spectroscopy": [
+                "High-resolution spectroscopy: Saturated absorption, frequency modulation",
+                "Time-resolved spectroscopy: Femtosecond lasers, pump-probe techniques",
+                "Nonlinear spectroscopy: Four-wave mixing, coherent anti-Stokes Raman",
+                "X-ray spectroscopy: Synchrotron radiation, XAFS, photoelectron spectroscopy",
+                "Neutron scattering: Elastic and inelastic scattering, magnetic structure",
+                "Muon spin rotation: Local magnetic fields, superconductivity studies"
+            ],
+            "Emerging Technologies": [
+                "Quantum sensors: Atomic interferometry, NV centers, SQUIDs",
+                "Machine learning in experiments: Automated optimization, pattern recognition",
+                "Advanced detectors: Superconducting detectors, transition edge sensors",
+                "Photon detection: Single photon avalanche diodes, photomultipliers",
+                "Ion beam techniques: Ion implantation, RBS, channeling",
+                "Advanced imaging: Super-resolution microscopy, coherent diffraction imaging"
+            ]
+        },
+        "resources": {
+            "Experimental Physics References": [
+                "Melissinos & Napolitano - Experiments in Modern Physics",
+                "Taylor, Zafiratos & Dubson - Modern Physics for Scientists and Engineers",
+                "Evans - The Atomic Nucleus",
+                "Knoll - Radiation Detection and Measurement",
+                "Demtröder - Laser Spectroscopy (2 volumes)",
+                "Loudon - The Quantum Theory of Light"
+            ],
+            "Specialized Techniques": [
+                "Pobell - Matter and Methods at Low Temperatures",
+                "Richardson - Experimental Techniques in Condensed Matter Physics",
+                "Briggs & Seah - Practical Surface Analysis",
+                "Squires - Introduction to the Theory of Thermal Neutron Scattering",
+                "Yamazaki - Muon Science",
+                "Cronin, Greenberg & Telegdi - University of Chicago Graduate Problems"
+            ],
+            "Laboratory Resources": [
+                "National laboratories: NIST, CERN, Fermilab, SLAC",
+                "Synchrotron facilities: APS, ESRF, Spring-8",
+                "Neutron sources: NIST, ILL, SNS",
+                "Equipment manufacturers: technical specifications and manuals",
+                "Safety protocols: Radiation safety, laser safety, cryogenic safety",
+                "Professional societies: APS, IOP, IEEE instrumentation"
+            ]
+        }
+    },
+
+    "Phase 15: Computational Physics & Scientific Computing": {
+        "duration": "12 months",
+        "topics": {
+            "Numerical Methods": [
+                "Differential equations: Finite difference, finite element, spectral methods",
+                "Linear algebra: Matrix diagonalization, iterative solvers, preconditioning",
+                "Optimization: Gradient methods, genetic algorithms, simulated annealing",
+                "Monte Carlo methods: Metropolis algorithm, importance sampling, Markov chains",
+                "Molecular dynamics: Integration algorithms, force fields, ensemble methods",
+                "Quantum Monte Carlo: Variational MC, diffusion MC, path integral MC"
+            ],
+            "High-Performance Computing": [
+                "Parallel computing: MPI, OpenMP, GPU programming (CUDA, OpenCL)",
+                "Distributed computing: Grid computing, cloud computing, workflow management",
+                "Performance optimization: Memory hierarchy, vectorization, profiling",
+                "Supercomputing architectures: Cluster computing, exascale challenges",
+                "Scientific software engineering: Version control, testing, documentation",
+                "Data management: Large datasets, databases, scientific data formats"
+            ],
+            "Machine Learning for Physics": [
+                "Neural networks: Deep learning, convolutional networks, recurrent networks",
+                "Unsupervised learning: Clustering, dimensionality reduction, autoencoders",
+                "Reinforcement learning: Q-learning, policy gradients, control applications",
+                "Generative models: VAEs, GANs, normalizing flows, sampling methods",
+                "Physics-informed ML: Differential equation solvers, conservation laws",
+                "Quantum machine learning: Quantum neural networks, quantum advantage"
+            ],
+            "Specialized Applications": [
+                "Lattice gauge theory: QCD simulations, chiral fermions, finite temperature",
+                "Condensed matter simulations: DFT, many-body methods, quantum transport",
+                "Astrophysical simulations: N-body codes, hydrodynamics, magnetohydrodynamics",
+                "Plasma simulations: Particle-in-cell methods, gyrokinetic codes",
+                "Materials modeling: Ab initio methods, molecular dynamics, Monte Carlo",
+                "Biophysics simulations: Protein folding, molecular recognition, membrane dynamics"
+            ]
+        },
+        "resources": {
+            "Computational Physics Textbooks": [
+                "Newman - Computational Physics",
+                "Landau, Páez & Bordeianu - Computational Physics",
+                "Thijssen - Computational Physics",
+                "Press et al. - Numerical Recipes",
+                "Heath - Scientific Computing",
+                "Trefethen - Spectral Methods in MATLAB"
+            ],
+            "Programming Resources": [
+                "Python scientific stack: NumPy, SciPy, Matplotlib, pandas",
+                "Julia for high-performance computing",
+                "C/C++ for performance-critical applications",
+                "Fortran for legacy and HPC codes",
+                "MATLAB for rapid prototyping",
+                "R for statistical analysis and data visualization"
+            ],
+            "HPC Resources": [
+                "National supercomputing centers: NERSC, ORNL, ANL",
+                "Cloud computing platforms: AWS, Google Cloud, Microsoft Azure",
+                "Container technologies: Docker, Singularity for reproducibility",
+                "Workflow management: Nextflow, Snakemake, Apache Airflow",
+                "Parallel libraries: MPI, OpenMP, Intel TBB",
+                "GPU computing: CUDA, OpenACC, hip"
+            ]
+        }
+    },
+
+    "Phase 16: Quantum Technologies & Future Applications": {
+        "duration": "15 months",
+        "topics": {
+            "Quantum Sensing & Metrology": [
+                "Atomic interferometry: Gravimeters, gyroscopes, tests of equivalence principle",
+                "NV centers: Magnetometry, thermometry, electric field sensing",
+                "Ion trap sensors: Frequency standards, force detection, field mapping",
+                "Optical atomic clocks: Systematic uncertainties, transportable clocks",
+                "Quantum-enhanced sensing: Spin squeezing, entangled probe states",
+                "Distributed quantum sensing: Sensor networks, correlated measurements"
+            ],
+            "Quantum Communication Networks": [
+                "Quantum key distribution: Practical implementations, security analysis",
+                "Quantum repeaters: Quantum error correction for communication",
+                "Quantum internet: Architecture, protocols, applications",
+                "Satellite quantum communication: Free-space links, atmospheric effects",
+                "Quantum memories: Atomic ensembles, solid-state implementations",
+                "Network protocols: Routing, switching, error correction"
+            ],
+            "Quantum Simulation": [
+                "Digital quantum simulation: Circuit-based simulation of many-body systems",
+                "Analog quantum simulation: Cold atoms, trapped ions, superconducting circuits",
+                "Quantum chemistry: Molecular energies, reaction pathways, catalyst design",
+                "Condensed matter simulation: Hubbard model, topological phases",
+                "High-energy physics: Lattice gauge theories, quantum field theories",
+                "Optimization problems: QAOA, quantum annealing, combinatorial optimization"
+            ],
+            "Emerging Quantum Technologies": [
+                "Quantum radar: Target detection in noisy environments",
+                "Quantum imaging: Sub-shot-noise imaging, quantum lidar",
+                "Quantum-enhanced machine learning: Quantum neural networks, kernel methods",
+                "Quantum batteries: Energy storage, charging advantages",
+                "Quantum thermodynamics: Heat engines, refrigerators, work extraction",
+                "Biological quantum effects: Photosynthesis, avian navigation, enzyme catalysis"
+            ]
+        },
+        "resources": {
+            "Quantum Technologies": [
+                "Quantum sensing review articles and conferences",
+                "Quantum communication standards and protocols",
+                "Quantum simulation benchmarking studies",
+                "Industrial quantum technology reports",
+                "Government quantum initiatives and funding",
+                "Quantum technology startups and commercialization"
+            ],
+            "Implementation Platforms": [
+                "IBM Quantum Experience and Qiskit",
+                "Google Quantum AI and Cirq",
+                "Rigetti Forest and quantum cloud computing",
+                "IonQ trapped ion systems",
+                "Xanadu photonic quantum computing",
+                "Cold atom quantum simulators"
+            ],
+            "Industry Applications": [
+                "Financial modeling and optimization",
+                "Drug discovery and molecular simulation",
+                "Supply chain optimization",
+                "Cryptography and cybersecurity",
+                "Materials design and discovery",
+                "Artificial intelligence and machine learning"
+            ]
+        }
+    },
+
+    "Phase 17: Interdisciplinary Frontiers & Emerging Fields": {
+        "duration": "12 months",
+        "topics": {
+            "Physics of Complex Systems": [
+                "Network science: Scale-free networks, small-world networks, network dynamics",
+                "Emergent phenomena: Self-organization, pattern formation, critical transitions",
+                "Statistical mechanics of non-equilibrium systems: Active matter, driven systems",
+                "Econophysics: Market dynamics, wealth distribution, financial networks",
+                "Social physics: Opinion dynamics, information spreading, collective behavior",
+                "Biological networks: Gene regulatory networks, protein interaction networks"
+            ],
+            "Quantum Biology & Living Systems": [
+                "Quantum effects in photosynthesis: Energy transfer, coherence, efficiency",
+                "Quantum compass: Magnetic field sensing in birds, cryptochrome proteins",
+                "Enzyme catalysis: Tunneling effects, isotope effects, reaction rates",
+                "DNA damage and repair: Quantum mechanical processes, mutation rates",
+                "Neural quantum effects: Microtubules, consciousness, quantum brain theories",
+                "Evolutionary dynamics: Quantum mutations, fitness landscapes"
+            ],
+            "Astrobiology & Extremophile Physics": [
+                "Physics of life: Thermodynamic constraints, information processing, metabolism",
+                "Extremophile adaptation: High pressure, radiation, temperature, pH",
+                "Planetary physics: Atmospheric evolution, habitability zones, biosignatures",
+                "Origin of life: Autocatalysis, RNA world, metabolism-first theories",
+                "Extraterrestrial life detection: Technosignatures, biosignatures, SETI",
+                "Panspermia: Interplanetary transfer, survival in space, impact events"
+            ],
+            "Metamaterials & Engineered Systems": [
+                "Electromagnetic metamaterials: Negative index, cloaking, perfect lenses",
+                "Acoustic metamaterials: Sound cloaking, phononic crystals, sonic barriers",
+                "Mechanical metamaterials: Auxetic materials, programmable stiffness",
+                "Topological metamaterials: Protected edge modes, robust transport",
+                "Active metamaterials: Tunable properties, nonlinear responses",
+                "Quantum metamaterials: Superconducting circuits, artificial atoms"
+            ],
+            "Information Physics & Thermodynamics": [
+                "Maxwell's demon: Information erasure, Landauer's principle, feedback control",
+                "Quantum thermodynamics: Work extraction, coherence as resource, quantum engines",
+                "Information geometry: Fisher information, statistical manifolds, inference",
+                "Computational thermodynamics: Reversible computing, energy efficiency",
+                "Black hole information: Holographic principle, error correction codes",
+                "Causal inference: Interventions, confounding, causal discovery"
+            ]
+        },
+        "resources": {
+            "Complex Systems": [
+                "Barabási - Network Science",
+                "Newman - Networks: An Introduction",
+                "Strogatz - Nonlinear Dynamics and Chaos",
+                "Mantegna & Stanley - Introduction to Econophysics",
+                "Bar-Yam - Dynamics of Complex Systems",
+                "Santa Fe Institute publications and courses"
+            ],
+            "Quantum Biology": [
+                "Al-Khalili & McFadden - Life on the Edge",
+                "Mohseni et al. - Quantum Effects in Biology",
+                "Nature and Science quantum biology papers",
+                "Quantum biology workshops and conferences",
+                "Interdisciplinary research collaborations",
+                "Biophysical Society quantum biology sessions"
+            ],
+            "Emerging Technologies": [
+                "Nature Physics focus issues",
+                "Physical Review Applied",
+                "Annual reviews in condensed matter physics",
+                "Technology roadmaps and white papers",
+                "Patent databases for emerging technologies",
+                "Industry-academia collaboration reports"
+            ]
+        }
+    },
+
+    "Phase 18: Climate Physics & Earth System Science": {
+        "duration": "12 months",
+        "topics": {
+            "Atmospheric Physics": [
+                "Radiative transfer: Greenhouse effect, atmospheric windows, line-by-line models",
+                "Cloud physics: Droplet formation, ice nucleation, precipitation processes",
+                "Atmospheric dynamics: Geostrophic balance, Rossby waves, jet streams",
+                "Climate sensitivity: Feedback mechanisms, water vapor, ice-albedo feedback",
+                "Aerosol-cloud interactions: Indirect effects, cloud condensation nuclei",
+                "Stratospheric ozone: Photochemistry, polar vortex, ozone depletion"
+            ],
+            "Ocean Physics": [
+                "Ocean circulation: Thermohaline circulation, AMOC, upwelling systems",
+                "Sea level rise: Thermal expansion, ice sheet dynamics, gravitational effects",
+                "Ocean acidification: Carbon chemistry, pH changes, biological impacts",
+                "El Niño/La Niña: Pacific decadal oscillations, teleconnections",
+                "Ocean-atmosphere coupling: Heat and momentum exchange, boundary layers",
+                "Deep water formation: Convection, mixing, dense water cascades"
+            ],
+            "Ice Sheet & Cryosphere Physics": [
+                "Ice sheet dynamics: Flow laws, sliding, grounding line migration",
+                "Glacier physics: Mass balance, flow instabilities, surge behavior",
+                "Sea ice: Thermodynamics, rheology, Arctic/Antarctic differences",
+                "Permafrost: Thermal dynamics, carbon release, feedback mechanisms",
+                "Snow physics: Albedo, metamorphism, avalanche dynamics",
+                "Ice-ocean interactions: Melting processes, cavity circulation"
+            ],
+            "Earth System Modeling": [
+                "General circulation models: Numerical methods, parameterizations, resolution",
+                "Earth system models: Coupled atmosphere-ocean-land-ice systems",
+                "Climate data assimilation: Observations, reanalysis, ensemble methods",
+                "Regional climate modeling: Downscaling, high-resolution projections",
+                "Paleoclimate modeling: Deep time climate, ice ages, model-data comparison",
+                "Geoengineering: Solar radiation management, carbon dioxide removal"
+            ]
+        },
+        "resources": {
+            "Climate Science Textbooks": [
+                "Hartmann - Global Physical Climatology",
+                "Pierrehumbert - Principles of Planetary Climate",
+                "Marshall & Plumb - Atmosphere, Ocean and Climate Dynamics",
+                "Ruddiman - Earth's Climate: Past and Future",
+                "McGuffie & Henderson-Sellers - A Climate Modelling Primer",
+                "Vallis - Atmospheric and Oceanic Fluid Dynamics"
+            ],
+            "Research Resources": [
+                "IPCC Working Group I reports",
+                "Nature Climate Change",
+                "Journal of Climate",
+                "Climate Dynamics",
+                "Earth System Dynamics",
+                "Climate modeling centers worldwide"
+            ],
+            "Data and Tools": [
+                "NCAR Climate Data Guide",
+                "NASA GISS climate data",
+                "ECMWF ERA5 reanalysis",
+                "Climate model output databases",
+                "Satellite climate data records",
+                "Open-source climate analysis tools"
+            ]
+        }
+    },
+
+    "Phase 19: Advanced Materials & Nanotechnology": {
+        "duration": "12 months",
+        "topics": {
+            "Nanoscale Physics": [
+                "Quantum confinement: Size effects, quantum dots, nanowires",
+                "Surface and interface physics: Electronic structure, reconstruction, catalysis",
+                "Mesoscopic physics: Ballistic transport, quantum coherence, shot noise",
+                "Single molecule physics: Molecular electronics, mechanochemistry",
+                "Plasmonics: Surface plasmons, metamaterials, enhanced spectroscopy",
+                "Nanomagnetism: Superparamagnetism, exchange bias, spin electronics"
+            ],
+            "Two-Dimensional Materials": [
+                "Graphene: Electronic properties, mechanical properties, applications",
+                "Transition metal dichalcogenides: Band structure, valley physics, superconductivity",
+                "Topological insulators: Surface states, ARPES, quantum transport",
+                "van der Waals heterostructures: Twist angles, moiré patterns, interlayer coupling",
+                "Novel 2D materials: MXenes, borophene, phosphorene, silicene",
+                "2D magnetism: Ising materials, magnetic anisotropy, proximity effects"
+            ],
+            "Advanced Synthesis & Characterization": [
+                "Chemical vapor deposition: Growth mechanisms, substrate effects, doping",
+                "Molecular beam epitaxy: Layer-by-layer growth, RHEED, surface science",
+                "Sol-gel processing: Nanoparticle synthesis, self-assembly, templating",
+                "Electron microscopy: STEM, EELS, atomic resolution imaging",
+                "Scanning probe microscopy: STM, AFM, spectroscopic modes",
+                "Synchrotron techniques: X-ray scattering, spectroscopy, imaging"
+            ],
+            "Functional Materials": [
+                "Energy materials: Batteries, fuel cells, photovoltaics, thermoelectrics",
+                "Smart materials: Shape memory alloys, piezoelectrics, ferroelectrics",
+                "Biomaterials: Biocompatibility, drug delivery, tissue engineering",
+                "Quantum materials: High-Tc superconductors, quantum spin liquids, Weyl semimetals",
+                "Sustainable materials: Green chemistry, recyclable polymers, biodegradable plastics",
+                "Extreme environment materials: Radiation resistance, high temperature, corrosion"
+            ]
+        },
+        "resources": {
+            "Nanoscience Textbooks": [
+                "Poole & Owens - Introduction to Nanotechnology",
+                "Ratner & Ratner - Nanotechnology: A Gentle Introduction",
+                "Cao - Nanostructures and Nanomaterials",
+                "Klabunde - Nanoscale Materials in Chemistry",
+                "Rogers, Adams & Pennathur - Nanotechnology: Understanding Small Systems",
+                "Ferry - Transport in Nanostructures"
+            ],
+            "Materials Characterization": [
+                "Williams & Carter - Transmission Electron Microscopy",
+                "Cullity & Stock - Elements of X-Ray Diffraction",
+                "Goldstein - Scanning Electron Microscopy and X-Ray Microanalysis",
+                "Wiesendanger - Scanning Probe Microscopy and Spectroscopy",
+                "Als-Nielsen & McMorrow - Elements of Modern X-ray Physics",
+                "Kittel - Introduction to Solid State Physics"
+            ],
+            "Research Communities": [
+                "Materials Research Society (MRS)",
+                "American Physical Society Materials Physics",
+                "Nature Materials and Nature Nanotechnology",
+                "Advanced Materials and Small",
+                "National nanotechnology initiatives",
+                "Materials genome initiative databases"
+            ]
+        }
+    },
+
+    "Phase 20: Future Physics & Speculative Theories": {
+        "duration": "12 months",
+        "topics": {
+            "Quantum Gravity & Fundamental Physics": [
+                "Loop quantum gravity: Spin foams, discrete spacetime, black hole entropy",
+                "String theory: M-theory, extra dimensions, holographic principle",
+                "Emergent gravity: Thermodynamic approach, entropy force, dark energy",
+                "Modified theories: f(R) gravity, scalar-tensor theories, extra-dimensional gravity",
+                "Quantum foundations: Many-worlds interpretation, objective collapse theories",
+                "Information-theoretic approaches: It from bit, digital physics, computational universe"
+            ],
+            "Consciousness & Physics": [
+                "Quantum theories of consciousness: Orchestrated objective reduction, quantum brain",
+                "Information integration theory: Consciousness as integrated information",
+                "Neural correlates: Binding problem, temporal synchrony, global workspace",
+                "Free will and determinism: Quantum indeterminacy, compatibilism, emergence",
+                "Artificial consciousness: Machine consciousness, computational theories of mind",
+                "Panpsychism: Fundamental consciousness, combination problem, phenomenal concepts"
+            ],
+            "Exotic Matter & Energy": [
+                "Negative energy: Casimir effect, squeezed states, energy conditions",
+                "Wormholes: Traversable wormholes, exotic matter requirements, causality",
+                "Time travel: Closed timelike curves, grandfather paradox, Novikov consistency",
+                "Extra dimensions: Kaluza-Klein theory, warped extra dimensions, large extra dimensions",
+                "Dark sector physics: Dark matter interactions, dark photons, hidden valleys",
+                "Vacuum engineering: Vacuum fluctuations, zero-point energy, dynamic Casimir effect"
+            ],
+            "Technological Singularity & Physics": [
+                "Computational limits: Landauer limit, reversible computing, quantum advantage",
+                "Molecular assemblers: Mechanosynthesis, programmable matter, utility fog",
+                "Brain-computer interfaces: Neural prosthetics, mind uploading, substrate independence",
+                "Nanotechnology applications: Medical nanobots, environmental remediation",
+                "Space colonization physics: Generation ships, terraforming, closed ecological systems",
+                "Kardashev scale civilizations: Energy harvesting, Dyson spheres, galactic engineering"
+            ],
+            "Philosophy of Physics": [
+                "Scientific realism vs. anti-realism: Observable vs. unobservable entities",
+                "Theory change and incommensurability: Paradigm shifts, meaning variance",
+                "Reduction and emergence: Inter-theory relations, levels of description",
+                "Laws of nature: Regularity theory, necessitarian accounts, Humean supervenience",
+                "Space and time: Substantivalism vs. relationalism, absolute vs. relative",
+                "Causation and explanation: Causal powers, mechanistic explanation, unification"
+            ]
+        },
+        "resources": {
+            "Speculative Physics": [
+                "Wheeler & Zurek - Quantum Theory and Measurement",
+                "Penrose - The Road to Reality",
+                "Tegmark - Our Mathematical Universe",
+                "Davies - The Mind of God",
+                "Barrow - The Constants of Nature",
+                "Susskind - The Cosmic Landscape"
+            ],
+            "Philosophy of Physics": [
+                "Albert - Quantum Mechanics and Experience",
+                "Earman - Bangs, Crunches, Whimpers, and Shrieks",
+                "Norton - The Hole Argument and General Covariance",
+                "French - The Structure of the World",
+                "Ladyman & Ross - Every Thing Must Go",
+                "Maudlin - Philosophy of Physics: Space and Time"
+            ],
+            "Frontier Research": [
+                "Foundational Questions Institute (FQXi)",
+                "Perimeter Institute research",
+                "Future of Humanity Institute",
+                "Machine Intelligence Research Institute",
+                "Center for Consciousness Studies",
+                "Philosophy of Science journals"
+            ]
+        }
+    },
+
+    "Continuous Meta-Learning Throughout All Phases": {
+        "duration": "Ongoing",
+        "topics": {
+            "Physics Learning Strategies": [
+                "Mathematical intuition: Geometric thinking, dimensional analysis, symmetry arguments",
+                "Problem-solving techniques: Limiting cases, scaling arguments, order of magnitude",
+                "Physical insight development: Analogies, thought experiments, gedankenexperiments",
+                "Cross-disciplinary connections: Mathematics-physics, physics-biology, physics-technology",
+                "Historical perspective: Development of concepts, paradigm shifts, great discoveries",
+                "Conceptual understanding: Physical meaning of equations, limiting behaviors"
+            ],
+            "Research Skill Development": [
+                "Literature review: Systematic searching, critical evaluation, synthesis",
+                "Hypothesis formation: Testable predictions, falsifiability, theoretical frameworks",
+                "Experimental design: Controls, statistics, systematic uncertainties, reproducibility",
+                "Theoretical development: Model building, approximation schemes, limiting cases",
+                "Collaboration skills: Interdisciplinary work, communication across fields",
+                "Grant writing: Funding strategies, proposal writing, budget management"
+            ],
+            "Communication & Dissemination": [
+                "Scientific writing: Papers, proposals, reviews, technical reports",
+                "Presentation skills: Conference talks, poster sessions, public lectures",
+                "Peer review: Manuscript review, grant panel service, editorial responsibilities",
+                "Science communication: Popular science writing, media interviews, outreach",
+                "Teaching and mentoring: Course development, student supervision, knowledge transfer",
+                "Professional networking: Conferences, collaborations, career development"
+            ],
+            "Emerging Trends Tracking": [
+                "Technology forecasting: Identifying breakthrough technologies, disruptive innovations",
+                "Field convergence: Interdisciplinary opportunities, new hybrid fields",
+                "Societal impact assessment: Technology implications, ethical considerations",
+                "Career adaptability: Skill transferability, multiple career paths",
+                "Global perspectives: International collaboration, cultural differences in research",
+                "Open science: Data sharing, reproducibility, collaborative platforms"
+            ]
+        },
+        "resources": {
+            "Learning Science": [
+                "Physics education research: Conceptual understanding, misconceptions",
+                "Cognitive science: Memory, attention, expertise development",
+                "Educational psychology: Motivation, self-regulation, growth mindset",
+                "Learning strategies: Active learning, spaced practice, interleaving",
+                "Metacognition: Thinking about thinking, self-assessment, strategy selection",
+                "Transfer of learning: Near and far transfer, analogical reasoning"
+            ],
+            "Professional Development": [
+                "Scientific societies: APS, IOP, EPS membership and activities",
+                "Career resources: Nature Careers, Science Careers, Physics Today",
+                "Leadership development: Management skills, team building, conflict resolution",
+                "Entrepreneurship: Technology transfer, startup formation, commercialization",
+                "Policy engagement: Science policy, advisory roles, government relations",
+                "International opportunities: Exchange programs, global collaborations"
+            ]
+        }
+    },
+
+    "Implementation Guidelines & Success Metrics": {
+        "duration": "Ongoing",
+        "topics": {
+            "Phase Transition Criteria": [
+                "Conceptual mastery: Deep understanding of fundamental principles",
+                "Mathematical proficiency: Ability to derive and manipulate relevant equations",
+                "Problem-solving capability: Independent solution of complex physics problems",
+                "Research experience: Completion of original research projects",
+                "Communication skills: Ability to explain concepts to peers and non-experts",
+                "Critical thinking: Evaluation of scientific claims and experimental evidence"
+            ],
+            "Portfolio Development": [
+                "Research publications: First-author papers, collaboration papers, review articles",
+                "Conference presentations: Talks, posters, invited presentations",
+                "Teaching experience: Course instruction, tutoring, outreach activities",
+                "Technical skills: Laboratory techniques, computational methods, instrument development",
+                "Collaborative projects: Interdisciplinary work, international collaborations",
+                "Professional service: Peer review, committee service, conference organization"
+            ],
+            "Assessment Frameworks": [
+                "Knowledge evaluation: Comprehensive exams, qualifying exams, thesis defense",
+                "Research impact: Citation metrics, h-index, collaboration networks",
+                "Teaching effectiveness: Student evaluations, pedagogical training, curriculum development",
+                "Professional recognition: Awards, fellowships, invited positions",
+                "Leadership development: Project management, team coordination, mentoring",
+                "Innovation capacity: Patent applications, technology transfer, commercialization"
+            ],
+            "Career Milestones": [
+                "Year 5: Master's degree equivalent knowledge, first research publication",
+                "Year 10: PhD-level expertise, independent research capability",
+                "Year 15: Postdoctoral experience, specialized domain expertise, research leadership",
+                "Year 20: Senior researcher status, field recognition, paradigm contributions",
+                "Ongoing: Continuous adaptation to field evolution, mentoring next generation",
+                "Legacy: Transformative contributions to physics and human knowledge"
+            ]
+        },
+        "resources": {
+            "Assessment Tools": [
+                "Graduate Record Examination (GRE) Physics",
+                "Graduate school comprehensive exams",
+                "Professional certification programs",
+                "Research assessment rubrics",
+                "Teaching evaluation frameworks",
+                "Career development planning tools"
+            ],
+            "Professional Networks": [
+                "Physics departments worldwide",
+                "National laboratories and research institutes",
+                "Industrial research and development",
+                "Science policy organizations",
+                "International physics collaborations",
+                "Alumni networks and professional associations"
+            ],
+            "Recognition Systems": [
+                "Scientific awards and honors",
+                "Fellowship programs",
+                "Editorial board positions",
+                "Conference organizing committees",
+                "Advisory panel service",
+                "Media recognition and public engagement"
+            ]
+        }
+    }
+}
+
 # Combined roadmaps
 
 ROADMAPS = {
@@ -5424,7 +6841,8 @@ ROADMAPS = {
     "Quantitative Research Engineer": QUANT_RESEARCH_ROADMAP,
     "CS Fresher": CS_FRESHER_ROADMAP,
     "Complete AI Researcher": PHD_LLM_COMPLETE_ROADMAP,
-    "Mathematics PhD Researcher": MATHEMATICS_PHD_ROADMAP
+    "Mathematics PhD Researcher": MATHEMATICS_PHD_ROADMAP,
+    "Physics PhD Researcher": PHD_PHYSICS_COMPLETE_ROADMAP
 }
 
 # Key milestones for each track
@@ -5593,6 +7011,48 @@ MILESTONES = {
             "Secure research grants and funding",
             "Contribute to mathematical community leadership",
             "Shape the future direction of mathematical research"
+        ]
+    },
+    "Physics PhD Researcher": {
+        "Foundation (Years 1-4)": [
+            "Master classical mechanics, electromagnetism, and quantum mechanics",
+            "Complete mathematical methods for physicists",
+            "Solve 500+ problems across all foundation topics",
+            "Pass physics comprehensive examination"
+        ],
+        "Undergraduate Level (Years 5-8)": [
+            "Complete statistical mechanics and thermodynamics",
+            "Master advanced quantum mechanics and special relativity",
+            "Learn experimental physics techniques",
+            "Write first research reports",
+            "Pass undergraduate qualifying examinations"
+        ],
+        "Graduate Foundations (Years 9-12)": [
+            "Master electrodynamics and advanced statistical mechanics",
+            "Complete a specialization in condensed matter, particle physics, or astrophysics",
+            "Begin reading research papers in chosen field",
+            "Pass PhD qualifying examinations"
+        ],
+        "Advanced Specialization (Years 13-17)": [
+            "Deep dive into specialized topics (quantum field theory, general relativity, etc.)",
+            "Attend research seminars and conferences",
+            "Complete independent research projects",
+            "Establish relationships with research advisors",
+            "Begin original research contributions"
+        ],
+        "Research Excellence (Years 18-21)": [
+            "Develop novel theories or experimental techniques",
+            "Publish first-author papers in peer-reviewed journals",
+            "Present research at international conferences",
+            "Collaborate with researchers globally",
+            "Complete PhD dissertation defense"
+        ],
+        "Professional Leadership (Years 22+)": [
+            "Lead independent research programs",
+            "Mentor PhD students and junior researchers",
+            "Secure research grants and funding",
+            "Contribute to physics community leadership",
+            "Shape the future direction of physics research"
         ]
     }
 }

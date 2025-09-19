@@ -1,1430 +1,541 @@
-MATHEMATICS_PHD_ROADMAP = {
-    "Phase 1: Pre-Algebra & Basic Arithmetic": {
-        "duration": "3-4 months",
-        "prerequisite": "Basic counting and number recognition",
-        "topics": {
-            "Number Systems": [
-                "Natural numbers, integers, rational numbers",
-                "Number line and ordering",
-                "Prime and composite numbers",
-                "Factors, multiples, and divisibility rules"
-            ],
-            "Basic Operations": [
-                "Addition, subtraction, multiplication, division",
-                "Order of operations (PEMDAS/BODMAS)",
-                "Working with fractions and decimals",
-                "Percentage calculations and ratios"
-            ],
-            "Introduction to Variables": [
-                "Using letters to represent numbers",
-                "Simple algebraic expressions",
-                "Evaluating expressions with given values",
-                "Basic equation solving"
-            ],
-            "Problem Solving": [
-                "Word problems and logical reasoning",
-                "Pattern recognition",
-                "Basic mathematical proof concepts",
-                "Units and measurement conversions"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Khan Academy Pre-Algebra course materials",
-                "OpenStax Pre-Algebra textbook",
-                "CK-12 Pre-Algebra foundations"
-            ],
-            "YouTube Channels": [
-                "Khan Academy",
-                "Professor Leonard (basics)",
-                "Math Antics",
-                "PatrickJMT"
-            ],
-            "Free Websites": [
-                "Khan Academy Pre-Algebra",
-                "IXL Math (limited free)",
-                "Mathway (basic features)",
-                "Purplemath"
-            ]
-        }
-    },
-    "Phase 2: Algebra I": {
-        "duration": "4-5 months",
-        "prerequisite": "Phase 1 completion",
-        "topics": {
-            "Linear Equations": [
-                "Solving one-variable linear equations",
-                "Systems of linear equations",
-                "Graphing linear equations and inequalities",
-                "Slope, intercepts, and equation forms"
-            ],
-            "Polynomials": [
-                "Adding, subtracting, multiplying polynomials",
-                "Factoring techniques",
-                "Greatest common factor and difference of squares",
-                "Solving polynomial equations by factoring"
-            ],
-            "Exponents and Radicals": [
-                "Laws of exponents",
-                "Scientific notation",
-                "Introduction to square roots",
-                "Simplifying radical expressions"
-            ],
-            "Functions": [
-                "Function notation and evaluation",
-                "Domain and range concepts",
-                "Linear functions and their properties",
-                "Introduction to function transformations"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "OpenStax Algebra and Trigonometry",
-                "CK-12 Algebra I textbook",
-                "MIT OpenCourseWare Algebra materials"
-            ],
-            "YouTube Channels": [
-                "Khan Academy",
-                "Professor Leonard",
-                "Organic Chemistry Tutor (Math)",
-                "MathHelp.com"
-            ],
-            "Free Websites": [
-                "Khan Academy Algebra I",
-                "EdX Algebra courses",
-                "Coursera Mathematics courses (audit)",
-                "Paul's Online Math Notes"
-            ]
-        }
-    },
-    "Phase 3: Geometry": {
-        "duration": "4-5 months",
-        "prerequisite": "Phase 2 completion",
-        "topics": {
-            "Euclidean Geometry": [
-                "Points, lines, planes, and angles",
-                "Triangle properties and congruence",
-                "Parallel and perpendicular lines",
-                "Polygons and their properties"
-            ],
-            "Measurement and Area": [
-                "Perimeter and area calculations",
-                "Surface area and volume of 3D shapes",
-                "Pythagorean theorem and applications",
-                "Distance and midpoint formulas"
-            ],
-            "Circles": [
-                "Circle properties and parts",
-                "Arc length and sector area",
-                "Inscribed and central angles",
-                "Tangent and chord relationships"
-            ],
-            "Coordinate Geometry": [
-                "Plotting points and basic graphing",
-                "Distance between points",
-                "Equation of a line in coordinate plane",
-                "Basic transformations"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "OpenStax Geometry materials",
-                "Euclid's Elements (free translations)",
-                "CK-12 Geometry textbook"
-            ],
-            "YouTube Channels": [
-                "Khan Academy Geometry",
-                "Professor Leonard",
-                "MathHelp.com",
-                "Geometry Guy"
-            ],
-            "Free Websites": [
-                "Khan Academy Geometry",
-                "GeoGebra (interactive geometry)",
-                "Math Open Reference",
-                "Wolfram MathWorld (Geometry section)"
-            ]
-        }
-    },
-    "Phase 4: Algebra II": {
-        "duration": "5-6 months",
-        "prerequisite": "Phases 2-3 completion",
-        "topics": {
-            "Quadratic Functions": [
-                "Quadratic equations and formula",
-                "Graphing parabolas and transformations",
-                "Completing the square method",
-                "Applications of quadratic functions"
-            ],
-            "Exponential and Logarithmic Functions": [
-                "Properties of exponentials",
-                "Logarithms and their properties",
-                "Solving exponential equations",
-                "Growth and decay models"
-            ],
-            "Polynomial Functions": [
-                "Higher degree polynomials",
-                "Synthetic division and remainder theorem",
-                "Finding zeros and factoring",
-                "Graphing polynomial functions"
-            ],
-            "Rational Functions": [
-                "Operations with rational expressions",
-                "Solving rational equations",
-                "Graphing rational functions",
-                "Asymptotes and discontinuities"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "OpenStax Algebra and Trigonometry",
-                "CK-12 Algebra II",
-                "MIT OCW Algebra materials"
-            ],
-            "YouTube Channels": [
-                "Khan Academy",
-                "Professor Leonard",
-                "Organic Chemistry Tutor",
-                "MathHelp.com"
-            ],
-            "Free Websites": [
-                "Khan Academy Algebra II",
-                "Paul's Online Math Notes",
-                "Mathway",
-                "Symbolab (free features)"
-            ]
-        }
-    },
-    "Phase 5: Trigonometry": {
-        "duration": "4-5 months",
-        "prerequisite": "Phase 4 completion",
-        "topics": {
-            "Right Triangle Trigonometry": [
-                "Sine, cosine, tangent ratios",
-                "Solving right triangles",
-                "Applications and word problems",
-                "Inverse trigonometric functions"
-            ],
-            "Unit Circle and Radian Measure": [
-                "Converting degrees to radians",
-                "Unit circle and special angles",
-                "Reference angles and quadrant signs",
-                "Coterminal and complementary angles"
-            ],
-            "Trigonometric Functions": [
-                "Graphing sine, cosine, tangent",
-                "Amplitude, period, phase shift",
-                "Transformations of trig functions",
-                "Other trig functions (csc, sec, cot)"
-            ],
-            "Trigonometric Identities": [
-                "Fundamental trigonometric identities",
-                "Sum and difference formulas",
-                "Double angle and half angle formulas",
-                "Solving trigonometric equations"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "OpenStax Algebra and Trigonometry",
-                "Trigonometry by Michael Corral (free)",
-                "CK-12 Trigonometry"
-            ],
-            "YouTube Channels": [
-                "Khan Academy Trigonometry",
-                "Professor Leonard",
-                "Organic Chemistry Tutor",
-                "PatrickJMT"
-            ],
-            "Free Websites": [
-                "Khan Academy Trigonometry",
-                "Paul's Online Math Notes",
-                "Unit Circle Game",
-                "Desmos Graphing Calculator"
-            ]
-        }
-    },
-    "Phase 6: Elementary Number Theory": {
-        "duration": "3-4 months",
-        "prerequisite": "Phase 4 completion",
-        "topics": {
-            "Divisibility and Primes": [
-                "Division algorithm and GCD",
-                "Euclidean algorithm",
-                "Prime factorization and fundamental theorem",
-                "Sieve of Eratosthenes and prime testing"
-            ],
-            "Modular Arithmetic": [
-                "Congruences and modular operations",
-                "Chinese Remainder Theorem",
-                "Linear congruences and solutions",
-                "Applications to calendars and cryptography"
-            ],
-            "Special Numbers": [
-                "Perfect numbers and Mersenne primes",
-                "Fibonacci sequence and golden ratio",
-                "Pythagorean triples",
-                "Fermat numbers and Carmichael numbers"
-            ],
-            "Basic Cryptography": [
-                "Caesar cipher and shift ciphers",
-                "RSA encryption basics",
-                "Public key cryptography concepts",
-                "Digital signatures and authentication"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Elementary Number Theory by David Burton",
-                "Number Theory by George Andrews",
-                "An Introduction to the Theory of Numbers by Hardy & Wright"
-            ],
-            "YouTube Channels": [
-                "Khan Academy Number Theory",
-                "MathDoctorBob",
-                "Michael Penn",
-                "The Math Sorcerer"
-            ],
-            "Free Websites": [
-                "OEIS (Online Encyclopedia of Integer Sequences)",
-                "Number Theory Web",
-                "Prime Pages",
-                "Crypto Corner"
-            ]
-        }
-    },
-    "Phase 7: Pre-Calculus": {
-        "duration": "5-6 months",
-        "prerequisite": "Phases 4-5 completion",
-        "topics": {
-            "Advanced Functions": [
-                "Composite and inverse functions",
-                "Piecewise and absolute value functions",
-                "Function analysis and graphing",
-                "Parametric and polar equations"
-            ],
-            "Sequences and Series": [
-                "Arithmetic and geometric sequences",
-                "Series and summation notation",
-                "Mathematical induction basics",
-                "Applications of sequences"
-            ],
-            "Conic Sections": [
-                "Circles, parabolas, ellipses, hyperbolas",
-                "Standard forms and transformations",
-                "Applications of conic sections",
-                "Parametric representations"
-            ],
-            "Limits and Continuity": [
-                "Introduction to limits",
-                "Graphical and numerical approaches",
-                "Continuity concepts",
-                "Preparing for calculus"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "OpenStax Pre-Calculus",
-                "Pre-Calculus by Carl Stitz (free)",
-                "MIT OCW Pre-Calculus materials"
-            ],
-            "YouTube Channels": [
-                "Khan Academy Pre-Calculus",
-                "Professor Leonard",
-                "Organic Chemistry Tutor",
-                "MathHelp.com"
-            ],
-            "Free Websites": [
-                "Khan Academy Pre-Calculus",
-                "Paul's Online Math Notes",
-                "Desmos Graphing Calculator",
-                "Wolfram Alpha (free features)"
-            ]
-        }
-    },
-    "Phase 8: Calculus I (Differential Calculus)": {
-        "duration": "6-8 months",
-        "prerequisite": "Phase 7 completion",
-        "topics": {
-            "Limits": [
-                "Formal definition of limits",
-                "Limit laws and techniques",
-                "Continuity and discontinuities",
-                "Limits at infinity and asymptotes"
-            ],
-            "Derivatives": [
-                "Definition of derivative",
-                "Power rule, product rule, quotient rule",
-                "Chain rule and implicit differentiation",
-                "Derivatives of trig, exponential, log functions"
-            ],
-            "Applications of Derivatives": [
-                "Related rates problems",
-                "Optimization problems",
-                "Mean Value Theorem",
-                "Curve sketching and analysis"
-            ],
-            "Advanced Differentiation": [
-                "Higher order derivatives",
-                "Logarithmic differentiation",
-                "Derivatives of inverse functions",
-                "L'Hôpital's rule"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "OpenStax Calculus Volume 1",
-                "Calculus by Gilbert Strang (MIT)",
-                "Community Calculus by David Guichard"
-            ],
-            "YouTube Channels": [
-                "Professor Leonard (Calculus)",
-                "Khan Academy Calculus",
-                "3Blue1Brown (Essence of Calculus)",
-                "Organic Chemistry Tutor"
-            ],
-            "Free Courses": [
-                "MIT 18.01 Single Variable Calculus",
-                "Khan Academy AP Calculus AB",
-                "Coursera Calculus courses (audit)"
-            ]
-        }
-    },
-    "Phase 9: Calculus II (Integral Calculus)": {
-        "duration": "6-8 months",
-        "prerequisite": "Phase 8 completion",
-        "topics": {
-            "Integration": [
-                "Antiderivatives and indefinite integrals",
-                "Fundamental Theorem of Calculus",
-                "Definite integrals and area",
-                "Integration by substitution"
-            ],
-            "Integration Techniques": [
-                "Integration by parts",
-                "Trigonometric integrals and substitution",
-                "Partial fraction decomposition",
-                "Improper integrals"
-            ],
-            "Applications of Integration": [
-                "Area between curves",
-                "Volume of solids of revolution",
-                "Arc length and surface area",
-                "Work and fluid pressure problems"
-            ],
-            "Sequences and Series": [
-                "Convergence and divergence tests",
-                "Power series and Taylor series",
-                "Maclaurin series expansions",
-                "Applications of series"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "OpenStax Calculus Volume 2",
-                "Paul's Online Math Notes (Calculus II)",
-                "MIT OCW Calculus materials"
-            ],
-            "YouTube Channels": [
-                "Professor Leonard",
-                "Khan Academy Calculus BC",
-                "PatrickJMT",
-                "Organic Chemistry Tutor"
-            ],
-            "Free Websites": [
-                "Paul's Online Math Notes",
-                "Khan Academy Calculus",
-                "Integral-Calculator.com",
-                "Wolfram Alpha"
-            ]
-        }
-    },
-    "Phase 10: Calculus III (Multivariable Calculus)": {
-        "duration": "6-8 months",
-        "prerequisite": "Phase 9 completion",
-        "topics": {
-            "Vectors and 3D Geometry": [
-                "Vector operations and properties",
-                "Dot and cross products",
-                "Lines and planes in 3D space",
-                "Cylindrical and spherical coordinates"
-            ],
-            "Multivariable Functions": [
-                "Functions of several variables",
-                "Partial derivatives and gradient",
-                "Chain rule for multivariable functions",
-                "Directional derivatives"
-            ],
-            "Multiple Integrals": [
-                "Double integrals over rectangles and regions",
-                "Triple integrals in Cartesian coordinates",
-                "Change of variables and Jacobians",
-                "Applications to volume and mass"
-            ],
-            "Vector Calculus": [
-                "Vector fields and line integrals",
-                "Green's theorem",
-                "Surface integrals and flux",
-                "Divergence and Stokes' theorems"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "OpenStax Calculus Volume 3",
-                "Vector Calculus by Michael Corral",
-                "MIT 18.02 course materials"
-            ],
-            "YouTube Channels": [
-                "Professor Leonard",
-                "Khan Academy Multivariable Calculus",
-                "3Blue1Brown (Divergence and Curl)",
-                "Organic Chemistry Tutor"
-            ],
-            "Free Courses": [
-                "MIT 18.02 Multivariable Calculus",
-                "Khan Academy Multivariable Calculus",
-                "Coursera Vector Calculus courses"
-            ]
-        }
-    },
-    "Phase 11: Linear Algebra": {
-        "duration": "6-8 months",
-        "prerequisite": "Phase 9 completion (can be taken with Phase 10)",
-        "topics": {
-            "Systems of Linear Equations": [
-                "Gaussian elimination and row operations",
-                "Matrix representations",
-                "Homogeneous and non-homogeneous systems",
-                "Applications to real-world problems"
-            ],
-            "Matrix Operations": [
-                "Matrix arithmetic and properties",
-                "Matrix multiplication and inverses",
-                "Determinants and their properties",
-                "Cramer's rule"
-            ],
-            "Vector Spaces": [
-                "Vector space axioms and examples",
-                "Linear independence and spanning sets",
-                "Basis and dimension",
-                "Subspaces and null spaces"
-            ],
-            "Eigenvalues and Eigenvectors": [
-                "Characteristic polynomials",
-                "Diagonalization of matrices",
-                "Applications to differential equations",
-                "Symmetric matrices and spectral theorem"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Linear Algebra by Jim Hefferon (free)",
-                "Introduction to Linear Algebra by Gilbert Strang",
-                "Linear Algebra Done Wrong by Sergei Treil"
-            ],
-            "YouTube Channels": [
-                "3Blue1Brown (Essence of Linear Algebra)",
-                "Khan Academy Linear Algebra",
-                "MIT 18.06 by Gilbert Strang",
-                "Professor Leonard"
-            ],
-            "Free Courses": [
-                "MIT 18.06 Linear Algebra",
-                "Khan Academy Linear Algebra",
-                "edX Linear Algebra courses"
-            ]
-        }
-    },
-    "Phase 12: Differential Equations": {
-        "duration": "6-8 months",
-        "prerequisite": "Phases 9-11 completion",
-        "topics": {
-            "First-Order Differential Equations": [
-                "Separable and exact equations",
-                "Linear first-order equations",
-                "Substitution methods",
-                "Applications and modeling"
-            ],
-            "Higher-Order Linear Equations": [
-                "Second-order linear equations",
-                "Characteristic equation method",
-                "Method of undetermined coefficients",
-                "Variation of parameters"
-            ],
-            "Systems of Differential Equations": [
-                "Linear systems and matrix methods",
-                "Eigenvalue methods for systems",
-                "Phase portraits and stability",
-                "Applications to coupled oscillators"
-            ],
-            "Partial Differential Equations": [
-                "Classification of PDEs",
-                "Method of separation of variables",
-                "Heat equation and wave equation",
-                "Fourier series basics"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Elementary Differential Equations by William Trench",
-                "Differential Equations by Paul Dawkins",
-                "MIT OCW Differential Equations materials"
-            ],
-            "YouTube Channels": [
-                "Professor Leonard",
-                "Khan Academy Differential Equations",
-                "MIT 18.03",
-                "MathTheBeautiful"
-            ],
-            "Free Courses": [
-                "MIT 18.03 Differential Equations",
-                "Khan Academy Differential Equations",
-                "edX Differential Equations courses"
-            ]
-        }
-    },
-    "Phase 13: Discrete Mathematics": {
-        "duration": "4-6 months",
-        "prerequisite": "Phase 8 completion",
-        "topics": {
-            "Logic and Proofs": [
-                "Propositional and predicate logic",
-                "Methods of proof (direct, indirect, contradiction)",
-                "Mathematical induction",
-                "Set theory and operations"
-            ],
-            "Combinatorics": [
-                "Counting principles and techniques",
-                "Permutations and combinations",
-                "Binomial theorem and Pascal's triangle",
-                "Inclusion-exclusion principle"
-            ],
-            "Graph Theory": [
-                "Graphs, vertices, and edges",
-                "Paths, cycles, and connectivity",
-                "Trees and spanning trees",
-                "Graph coloring and planar graphs"
-            ],
-            "Advanced Number Theory": [
-                "Divisibility and modular arithmetic",
-                "Prime numbers and factorization",
-                "Greatest common divisor and Euclidean algorithm",
-                "Applications to cryptography"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Mathematics for Computer Science (MIT)",
-                "Discrete Mathematics by Oscar Levin",
-                "Applied Discrete Structures by Al Doerr"
-            ],
-            "YouTube Channels": [
-                "Trefor Bazett",
-                "Khan Academy (various discrete topics)",
-                "TrevTutor",
-                "Kimberly Brehm"
-            ],
-            "Free Courses": [
-                "MIT 6.042J Mathematics for Computer Science",
-                "Coursera Discrete Mathematics courses",
-                "edX Introduction to Discrete Mathematics"
-            ]
-        }
-    },
-    "Phase 14: Mathematical Statistics and Probability": {
-        "duration": "6-8 months",
-        "prerequisite": "Phase 12 completion",
-        "topics": {
-            "Probability Theory": [
-                "Sample spaces and events",
-                "Conditional probability and independence",
-                "Random variables and distributions",
-                "Expectation and variance"
-            ],
-            "Discrete and Continuous Distributions": [
-                "Binomial, Poisson, geometric distributions",
-                "Normal, exponential, gamma distributions",
-                "Central Limit Theorem",
-                "Law of Large Numbers"
-            ],
-            "Statistical Inference": [
-                "Point and interval estimation",
-                "Hypothesis testing procedures",
-                "Type I and Type II errors",
-                "Chi-square and F-tests"
-            ],
-            "Advanced Topics": [
-                "Moment generating functions",
-                "Joint distributions and correlation",
-                "Bayesian inference basics",
-                "Non-parametric methods"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Introduction to Probability by Hoel, Port, Stone",
-                "Think Stats by Allen Downey (free)",
-                "OpenIntro Statistics (free)"
-            ],
-            "YouTube Channels": [
-                "Khan Academy Statistics",
-                "StatQuest with Josh Starmer",
-                "Professor Leonard",
-                "zedstatistics"
-            ],
-            "Free Courses": [
-                "MIT 18.05 Introduction to Probability and Statistics",
-                "Khan Academy Statistics and Probability",
-                "Coursera Statistics courses"
-            ]
-        }
-    },
-    "Phase 15: Abstract Algebra": {
-        "duration": "8-10 months",
-        "prerequisite": "Phases 11, 13 completion",
-        "topics": {
-            "Group Theory": [
-                "Definition and examples of groups",
-                "Subgroups and cosets",
-                "Homomorphisms and isomorphisms",
-                "Lagrange's theorem and group actions"
-            ],
-            "Ring Theory": [
-                "Definition and examples of rings",
-                "Ideals and quotient rings",
-                "Polynomial rings and factorization",
-                "Principal ideal domains"
-            ],
-            "Field Theory": [
-                "Field extensions and algebraic elements",
-                "Splitting fields and Galois theory basics",
-                "Finite fields and applications",
-                "Constructibility problems"
-            ],
-            "Advanced Topics": [
-                "Sylow theorems",
-                "Classification of finite groups",
-                "Noetherian rings",
-                "Applications to coding theory"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Abstract Algebra: Theory and Applications by Judson (free)",
-                "A First Course in Abstract Algebra by Fraleigh",
-                "Visual Group Theory by Nathan Carter"
-            ],
-            "YouTube Channels": [
-                "Socratica (Abstract Algebra)",
-                "MathDoctorBob",
-                "Abstract Nonsense",
-                "Kimberly Brehm"
-            ],
-            "Free Courses": [
-                "Harvard Abstract Algebra lectures",
-                "MIT OCW Modern Algebra",
-                "Coursera Abstract Algebra courses"
-            ]
-        }
-    },
-    "Phase 16: Real Analysis": {
-        "duration": "8-10 months",
-        "prerequisite": "Phases 10, 13 completion",
-        "topics": {
-            "Real Number System": [
-                "Completeness axiom and consequences",
-                "Supremum and infimum properties",
-                "Archimedean property",
-                "Construction of real numbers"
-            ],
-            "Sequences and Series": [
-                "Convergence and divergence",
-                "Cauchy sequences and completeness",
-                "Series convergence tests",
-                "Uniform convergence of series"
-            ],
-            "Continuity and Differentiability": [
-                "Epsilon-delta definition of limits",
-                "Continuity and uniform continuity",
-                "Differentiability and mean value theorems",
-                "Taylor's theorem with remainder"
-            ],
-            "Integration Theory": [
-                "Riemann integration theory",
-                "Fundamental Theorem of Calculus (rigorous)",
-                "Improper integrals and convergence",
-                "Introduction to Lebesgue integration"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Introduction to Real Analysis by Bartle and Sherbert",
-                "Real Analysis by Elias Stein and Rami Shakarchi",
-                "Understanding Analysis by Stephen Abbott"
-            ],
-            "YouTube Channels": [
-                "Michael Penn",
-                "Bright Side of Mathematics",
-                "MathDoctorBob",
-                "The Math Sorcerer"
-            ],
-            "Free Courses": [
-                "MIT 18.100 Real Analysis",
-                "Harvey Mudd Real Analysis",
-                "YouTube Real Analysis playlists"
-            ]
-        }
-    },
-    "Phase 17: Complex Analysis": {
-        "duration": "6-8 months",
-        "prerequisite": "Phase 16 completion",
-        "topics": {
-            "Complex Numbers and Functions": [
-                "Complex plane and polar form",
-                "Elementary complex functions",
-                "Analytic functions and Cauchy-Riemann equations",
-                "Conformal mappings"
-            ],
-            "Complex Integration": [
-                "Contour integration",
-                "Cauchy's theorem and formula",
-                "Residue theory and applications",
-                "Evaluation of real integrals"
-            ],
-            "Series and Singularities": [
-                "Power series in complex plane",
-                "Taylor and Laurent series",
-                "Classification of singularities",
-                "Argument principle and Rouché's theorem"
-            ],
-            "Applications": [
-                "Fourier transforms",
-                "Applications to differential equations",
-                "Connection to real analysis",
-                "Applications in physics and engineering"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Complex Analysis by Elias Stein",
-                "Visual Complex Analysis by Tristan Needham",
-                "Complex Variables by Stephen Fisher"
-            ],
-            "YouTube Channels": [
-                "Michael Penn",
-                "MathDoctorBob",
-                "Faculty of Khan",
-                "Welch Labs"
-            ],
-            "Free Courses": [
-                "MIT 18.04 Complex Variables",
-                "Coursera Complex Analysis courses",
-                "YouTube Complex Analysis lectures"
-            ]
-        }
-    },
-    "Phase 18: Topology": {
-        "duration": "8-10 months",
-        "prerequisite": "Phase 16 completion",
-        "topics": {
-            "Point-Set Topology": [
-                "Topological spaces and neighborhoods",
-                "Open and closed sets",
-                "Continuous functions and homeomorphisms",
-                "Connectedness and compactness"
-            ],
-            "Metric Spaces": [
-                "Definition and examples of metrics",
-                "Convergence in metric spaces",
-                "Completeness and completion",
-                "Contraction mapping theorem"
-            ],
-            "Algebraic Topology Basics": [
-                "Fundamental group and homotopy",
-                "Classification of surfaces",
-                "Euler characteristic",
-                "Introduction to homology"
-            ],
-            "Advanced Topics": [
-                "Product and quotient topologies",
-                "Separation axioms",
-                "Urysohn's lemma and Tietze extension",
-                "Stone-Weierstrass theorem"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Topology by James Munkres",
-                "Introduction to Topology by Bert Mendelson",
-                "Algebraic Topology by Allen Hatcher (free)"
-            ],
-            "YouTube Channels": [
-                "Topology Without Tears lectures",
-                "MathDoctorBob",
-                "Insights into Mathematics",
-                "Michael Penn"
-            ],
-            "Free Courses": [
-                "MIT 18.901 Introduction to Topology",
-                "Topology Without Tears course",
-                "YouTube Topology lecture series"
-            ]
-        }
-    },
-    "Phase 19: Advanced Number Theory": {
-        "duration": "8-10 months",
-        "prerequisite": "Phases 15, 17 completion",
-        "topics": {
-            "Algebraic Number Theory": [
-                "Algebraic integers and number fields",
-                "Dedekind domains and unique factorization",
-                "Class groups and class numbers",
-                "Dirichlet's unit theorem"
-            ],
-            "Analytic Number Theory": [
-                "Prime number theorem and its proof sketch",
-                "Riemann zeta function and L-functions",
-                "Distribution of primes",
-                "Dirichlet series and Euler products"
-            ],
-            "Elliptic Curves": [
-                "Weierstrass equations and group law",
-                "Torsion points and Mordell's theorem",
-                "Elliptic curves over finite fields",
-                "Applications to cryptography"
-            ],
-            "Modular Forms": [
-                "Definition and basic properties",
-                "Hecke operators and eigenforms",
-                "Connection to elliptic curves",
-                "Applications to Fermat's Last Theorem"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "A Course in Arithmetic by Jean-Pierre Serre",
-                "Introduction to Analytic Number Theory by Tom Apostol",
-                "Rational Points on Elliptic Curves by Silverman and Tate"
-            ],
-            "YouTube Channels": [
-                "Richard Borcherds (Number Theory)",
-                "Michael Penn",
-                "MathDoctorBob",
-                "Numberphile (popular content)"
-            ],
-            "Research Resources": [
-                "Number Theory Web",
-                "LMFDB (L-functions and Modular Forms Database)",
-                "arXiv Number Theory section",
-                "American Number Theory Association resources"
-            ]
-        }
-    },
-    "Phase 20: Advanced Analysis (Measure Theory & Functional Analysis)": {
-        "duration": "10-12 months",
-        "prerequisite": "Phases 16-18 completion",
-        "topics": {
-            "Measure Theory": [
-                "Sigma-algebras and measures",
-                "Lebesgue measure on real line",
-                "Measurable functions and integration",
-                "Convergence theorems (DCT, MCT)"
-            ],
-            "Functional Analysis": [
-                "Banach and Hilbert spaces",
-                "Linear operators and functionals",
-                "Hahn-Banach theorem",
-                "Open mapping and closed graph theorems"
-            ],
-            "Advanced Integration": [
-                "Product measures and Fubini's theorem",
-                "Radon-Nikodym theorem",
-                "Applications to probability theory",
-                "Fourier analysis on groups"
-            ],
-            "Operator Theory": [
-                "Compact operators",
-                "Spectral theory basics",
-                "Self-adjoint operators",
-                "Applications to differential equations"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Real Analysis: Modern Techniques by Folland",
-                "Functional Analysis by Walter Rudin",
-                "Measure Theory by Paul Halmos"
-            ],
-            "YouTube Channels": [
-                "Michael Penn",
-                "MathDoctorBob",
-                "Bright Side of Mathematics",
-                "The Math Sorcerer"
-            ],
-            "Free Courses": [
-                "MIT graduate analysis courses",
-                "Stanford Real Analysis lectures",
-                "YouTube advanced analysis playlists"
-            ]
-        }
-    },
-    "Phase 21: Algebraic Geometry": {
-        "duration": "10-12 months",
-        "prerequisite": "Phases 15, 17, 18 completion",
-        "topics": {
-            "Classical Algebraic Geometry": [
-                "Affine and projective varieties",
-                "Regular and rational functions",
-                "Morphisms and rational maps",
-                "Dimension theory and Hilbert's Nullstellensatz"
-            ],
-            "Scheme Theory": [
-                "Affine schemes and spectrum of a ring",
-                "General schemes and morphisms",
-                "Sheaves and sheaf cohomology",
-                "Coherent sheaves and vector bundles"
-            ],
-            "Curves and Surfaces": [
-                "Algebraic curves and Riemann-Roch theorem",
-                "Elliptic curves and abelian varieties",
-                "Algebraic surfaces and birational geometry",
-                "Moduli spaces and classification"
-            ],
-            "Applications": [
-                "Connections to number theory",
-                "Cryptographic applications",
-                "Coding theory and error correction",
-                "Mathematical physics applications"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Algebraic Geometry by Robin Hartshorne",
-                "An Invitation to Algebraic Geometry by Smith et al",
-                "The Red Book of Varieties and Schemes by Mumford"
-            ],
-            "YouTube Channels": [
-                "Richard Borcherds (Algebraic Geometry)",
-                "Ravi Vakil's lectures",
-                "MathDoctorBob",
-                "Algebraic Geometry lectures"
-            ],
-            "Research Resources": [
-                "Stacks Project (online resource)",
-                "EGA and SGA (foundational texts)",
-                "arXiv Algebraic Geometry section"
-            ]
-        }
-    },
-    "Phase 22: Differential Geometry": {
-        "duration": "8-10 months",
-        "prerequisite": "Phases 10, 16, 18 completion",
-        "topics": {
-            "Manifolds": [
-                "Smooth manifolds and atlas construction",
-                "Tangent spaces and vector fields",
-                "Differential forms and exterior calculus",
-                "Integration on manifolds"
-            ],
-            "Riemannian Geometry": [
-                "Riemannian metrics and connections",
-                "Curvature tensor and sectional curvature",
-                "Geodesics and exponential map",
-                "Gauss-Bonnet theorem"
-            ],
-            "Lie Groups and Lie Algebras": [
-                "Matrix Lie groups and their algebras",
-                "Exponential map and one-parameter subgroups",
-                "Representation theory basics",
-                "Classification of simple Lie algebras"
-            ],
-            "Advanced Topics": [
-                "Fiber bundles and characteristic classes",
-                "de Rham cohomology",
-                "Morse theory and critical points",
-                "Applications to physics (general relativity)"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Introduction to Smooth Manifolds by John Lee",
-                "Riemannian Geometry by Manfredo do Carmo",
-                "Lie Groups, Lie Algebras by Brian Hall"
-            ],
-            "YouTube Channels": [
-                "XylyXylyX (Differential Geometry)",
-                "MathDoctorBob",
-                "Insights into Mathematics",
-                "Physics lectures on General Relativity"
-            ],
-            "Free Courses": [
-                "MIT differential geometry courses",
-                "Stanford differential geometry",
-                "Coursera differential geometry courses"
-            ]
-        }
-    },
-    "Phase 23: Quantum Mathematics": {
-        "duration": "8-10 months",
-        "prerequisite": "Phases 11, 16, 20 completion",
-        "topics": {
-            "Quantum Mechanics Foundations": [
-                "Hilbert spaces in quantum mechanics",
-                "Observables as self-adjoint operators",
-                "Spectral theorem for unbounded operators",
-                "Stone's theorem and unitary groups"
-            ],
-            "Quantum Information Theory": [
-                "Quantum states and density matrices",
-                "Quantum entanglement and Bell inequalities",
-                "Quantum channels and operations",
-                "Quantum error correction codes"
-            ],
-            "Quantum Algorithms": [
-                "Quantum Fourier transform",
-                "Shor's factoring algorithm",
-                "Grover's search algorithm",
-                "Quantum walk algorithms"
-            ],
-            "Quantum Field Theory Mathematics": [
-                "Fock spaces and second quantization",
-                "Feynman path integrals (mathematical treatment)",
-                "Renormalization and regularization",
-                "Topological quantum field theories"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Mathematical Foundations of Quantum Mechanics by von Neumann",
-                "Quantum Theory for Mathematicians by Brian Hall",
-                "Quantum Computing: An Applied Approach by Hidary"
-            ],
-            "YouTube Channels": [
-                "Microsoft Quantum Development Kit",
-                "IBM Qiskit",
-                "Quantum Computing Explained",
-                "3Blue1Brown (Quantum Computing)"
-            ],
-            "Research Resources": [
-                "arXiv Quantum Physics section",
-                "Quantum Information Processing journals",
-                "NIST Quantum Information resources",
-                "IBM Quantum Network"
-            ]
-        }
-    },
-    "Phase 24: Specialized Advanced Topics": {
-        "duration": "12-18 months",
-        "prerequisite": "Phases 19-23 completion (select based on specialization)",
-        "topics": {
-            "Arithmetic Geometry": [
-                "Diophantine equations over number fields",
-                "Heights and Diophantine approximation",
-                "Mordell conjecture and Faltings' theorem",
-                "p-adic analysis and rigid geometry"
-            ],
-            "Homological Algebra": [
-                "Chain complexes and homology",
-                "Derived functors and Ext/Tor",
-                "Spectral sequences",
-                "Applications to algebraic topology"
-            ],
-            "Category Theory and Topos Theory": [
-                "Categories, functors, natural transformations",
-                "Limits, colimits, and adjoint functors",
-                "Topos theory and internal logic",
-                "Homotopy type theory"
-            ],
-            "Mathematical Logic and Set Theory": [
-                "First-order logic and model theory",
-                "Axiomatic set theory (ZFC)",
-                "Independence results and forcing",
-                "Computability theory and complexity"
-            ],
-            "Stochastic Analysis": [
-                "Brownian motion and Wiener processes",
-                "Stochastic differential equations",
-                "Martingales and stopping times",
-                "Financial mathematics applications"
-            ],
-            "Representation Theory": [
-                "Representations of finite groups",
-                "Character theory and orthogonality",
-                "Representations of Lie groups",
-                "Modular representation theory"
-            ]
-        },
-        "resources": {
-            "Free Books/PDFs": [
-                "Categories for the Working Mathematician by Mac Lane",
-                "An Introduction to Homological Algebra by Rotman",
-                "Stochastic Differential Equations by Øksendal",
-                "Character Theory of Finite Groups by Isaacs"
-            ],
-            "YouTube Channels": [
-                "Richard Borcherds (various advanced topics)",
-                "Michael Penn",
-                "MathDoctorBob",
-                "Category Theory lectures"
-            ],
-            "Research Resources": [
-                "arXiv mathematics sections by specialty",
-                "MathSciNet (through university access)",
-                "Specialized mathematics conferences",
-                "Research group seminars and colloquia"
-            ]
-        }
-    },
-    "Phase 25: PhD Research and Dissertation": {
-        "duration": "3-5 years",
-        "prerequisite": "Phase 24 completion + Research experience",
-        "topics": {
-            "Research Methodology": [
-                "Literature review and gap analysis",
-                "Research problem formulation",
-                "Mathematical writing and LaTeX mastery",
-                "Conference presentations and networking"
-            ],
-            "Advanced Seminars and Collaborations": [
-                "Specialized research seminars",
-                "Reading courses with faculty advisors",
-                "Collaborative research projects",
-                "International research exchanges"
-            ],
-            "Original Research": [
-                "Novel theorem development and proof",
-                "Conjecture formulation and testing",
-                "Mathematical software and computational tools",
-                "Cross-disciplinary applications"
-            ],
-            "Dissertation and Career Preparation": [
-                "Thesis writing and defense preparation",
-                "Publication in peer-reviewed journals",
-                "Grant writing and funding applications",
-                "Academic job market preparation",
-                "Industry transition pathways"
-            ]
-        },
-        "resources": {
-            "Research Databases": [
-                "arXiv.org preprint server",
-                "MathSciNet bibliographic database",
-                "Google Scholar and citation tracking",
-                "JSTOR and publisher databases"
-            ],
-            "Professional Organizations": [
-                "American Mathematical Society (AMS)",
-                "Mathematical Association of America (MAA)",
-                "Society for Industrial and Applied Mathematics (SIAM)",
-                "International Mathematical Union (IMU)",
-                "Specialized societies by field"
-            ],
-            "Research Tools and Software": [
-                "LaTeX and mathematical typesetting",
-                "Sage Math computational system",
-                "Mathematica and Maple",
-                "Python with SciPy, NumPy, SymPy",
-                "Specialized software by field (GAP, MAGMA, etc.)",
-                "Version control with Git"
-            ],
-            "Career Development": [
-                "Academic job search strategies",
-                "Industry career transitions",
-                "Postdoctoral opportunities",
-                "Teaching portfolio development",
-                "Professional networking"
-            ]
-        }
-    },
-    
-    "Timeline Summary": {
-        "Years 1-2": "Phases 1-7 (Foundation Mathematics through Pre-Calculus)",
-        "Years 3-4": "Phases 8-10 (Calculus Sequence)", 
-        "Years 5-6": "Phases 11-13 (Linear Algebra, Diff Eq, Discrete Math)",
-        "Years 7-8": "Phases 14-15 (Statistics, Abstract Algebra)",
-        "Years 9-11": "Phases 16-18 (Real Analysis, Complex Analysis, Topology)",
-        "Years 12-13": "Phase 19 (Advanced Number Theory)",
-        "Years 14-15": "Phase 20 (Measure Theory & Functional Analysis)",
-        "Years 16-17": "Phases 21-22 (Algebraic & Differential Geometry)",
-        "Years 18-19": "Phase 23 (Quantum Mathematics)",
-        "Years 20-21": "Phase 24 (Specialized Advanced Topics)",
-        "Years 22-26": "Phase 25 (PhD Research and Dissertation)"
-    },
-    
-    "Specialization Tracks": {
-        "Pure Mathematics": {
-            "emphasis": "Phases 15-22, 24 (Logic, Algebra, Analysis, Geometry)",
-            "research_areas": [
-                "Algebraic Number Theory",
-                "Algebraic Geometry", 
-                "Differential Geometry",
-                "Functional Analysis",
-                "Topology and Algebraic Topology"
-            ]
-        },
-        "Applied Mathematics": {
-            "emphasis": "Phases 12, 14, 20, 23, 24 (Stochastic Analysis)",
-            "research_areas": [
-                "Mathematical Physics",
-                "Financial Mathematics",
-                "Computational Mathematics",
-                "Mathematical Biology",
-                "Optimization Theory"
-            ]
-        },
-        "Mathematical Physics": {
-            "emphasis": "Phases 22, 23, plus physics coursework",
-            "research_areas": [
-                "Quantum Field Theory",
-                "General Relativity",
-                "Statistical Mechanics",
-                "Condensed Matter Theory"
-            ]
-        },
-        "Computational Mathematics": {
-            "emphasis": "Phases 13, 14, 20, plus computer science",
-            "research_areas": [
-                "Numerical Analysis",
-                "Machine Learning Theory",
-                "Algorithmic Number Theory",
-                "Cryptography"
-            ]
-        }
-    },
-    
-    "Prerequisites and Flexibility": {
-        "Parallel Study Options": [
-            "Phases 10-11 can be taken simultaneously",
-            "Phase 13 can be taken alongside Phase 12",
-            "Phases 16-17 can overlap with proper scheduling",
-            "Phase 6 can be integrated into other phases",
-            "Phases 21-23 can be taken in different orders based on interest"
-        ],
-        "Acceleration Possibilities": [
-            "Strong students can combine phases",
-            "Summer intensive programs and research experiences",
-            "Advanced placement can skip foundational phases",
-            "Self-study can accelerate timeline significantly",
-            "Research can begin during Phase 24"
-        ],
-        "Alternative Pathways": [
-            "Statistics/Data Science track: emphasize Phases 14, 20, 24",
-            "Computer Science bridge: add programming and algorithms",
-            "Physics integration: include physics courses with math",
-            "Finance applications: focus on stochastic analysis and probability"
-        ]
-    },
-    
-    "Assessment and Progress Tracking": {
-        "Phase Completion Criteria": [
-            "Master 85% of core concepts in each topic area",
-            "Complete comprehensive problem sets and examinations",
-            "Demonstrate rigorous proof-writing ability",
-            "Apply concepts to research-level problems",
-            "Pass standardized exams where applicable"
-        ],
-        "Major Milestone Examinations": [
-            "Calculus sequence comprehensive exam (after Phase 10)",
-            "Linear algebra and differential equations exam (after Phase 12)",
-            "Abstract algebra qualifying exam (after Phase 15)",
-            "Real analysis qualifying exam (after Phase 16)",
-            "PhD comprehensive exams (before Phase 25)",
-            "Dissertation proposal defense"
-        ],
-        "Research Integration": [
-            "Begin reading research papers in Phase 20",
-            "Attend research seminars starting Phase 21",
-            "Complete independent research projects in Phase 24",
-            "Participate in research collaborations",
-            "Present original work at conferences"
-        ]
-    },
-    
-    "Additional Resources and Support": {
-        "Mathematical Software and Tools": [
-            "Sage Math (comprehensive free system)",
-            "Python ecosystem (NumPy, SciPy, SymPy, Matplotlib)",
-            "R for statistical computing and analysis",
-            "LaTeX for professional mathematical typesetting",
-            "Mathematica and Wolfram Alpha Pro",
-            "MATLAB/GNU Octave for numerical computation",
-            "GAP for computational group theory",
-            "MAGMA for computational algebra",
-            "GeoGebra for geometric visualization",
-            "Desmos for function graphing and exploration"
-        ],
-        "Online Communities and Forums": [
-            "Mathematics Stack Exchange (Q&A)",
-            "MathOverflow (research-level mathematics)",
-            "Reddit mathematics communities",
-            "Discord mathematics study groups",
-            "Art of Problem Solving forums",
-            "Mathematical Twitter community",
-            "Academic mathematics blogs"
-        ],
-        "Competitions and Enrichment": [
-            "International Mathematical Olympiad preparation",
-            "Putnam Mathematical Competition",
-            "Mathematical Contest in Modeling",
-            "REU (Research Experience for Undergraduates)",
-            "Graduate student conferences",
-            "Mathematics camps and workshops"
-        ],
-        "Career Development Resources": [
-            "Academic job market preparation",
-            "Industry applications showcase",
-            "Government and national lab opportunities",
-            "Consulting and finance career paths",
-            "Teaching and education specializations",
-            "Entrepreneurship and startup applications"
-        ]
-    },
-    
-    "Advanced Study Recommendations": {
-        "Research Preparation": [
-            "Begin reading research papers early (Phase 19)",
-            "Develop mathematical writing skills continuously",
-            "Learn multiple programming languages",
-            "Engage with international mathematics community",
-            "Attend conferences and workshops regularly"
-        ],
-        "Interdisciplinary Connections": [
-            "Physics: quantum mechanics, relativity, statistical mechanics",
-            "Computer Science: algorithms, cryptography, machine learning",
-            "Biology: mathematical biology, bioinformatics",
-            "Economics: game theory, mathematical finance",
-            "Engineering: optimization, control theory, signal processing"
-        ],
-        "Language and Cultural Preparation": [
-            "Learn mathematical French, German, or Russian",
-            "Study history and philosophy of mathematics",
-            "Engage with diverse mathematical traditions",
-            "Develop global research collaborations"
-        ]
-    },
-    
-    "Final Notes and Motivation": {
-        "Realistic Expectations": [
-            "This is a 22+ year journey requiring dedication",
-            "Expect periods of difficulty and breakthrough",
-            "Mathematics builds cumulatively - patience is essential",
-            "Research-level mathematics is fundamentally different from coursework",
-            "Collaboration and mentorship are crucial for success"
-        ],
-        "Maintaining Motivation": [
-            "Connect with the beauty and elegance of mathematics",
-            "Celebrate small victories and progress milestones",
-            "Find applications that inspire personal interest",
-            "Build relationships with fellow mathematics enthusiasts",
-            "Remember that mathematics is a deeply creative endeavor"
-        ],
-        "Success Strategies": [
-            "Maintain consistent daily study habits",
-            "Balance breadth and depth according to goals",
-            "Seek help when struggling - isolation is counterproductive",
-            "Teach others to solidify your own understanding",
-            "Stay curious and open to unexpected connections",
-            "Develop resilience and persistence - mathematics requires both"
-        ]
-    }
-}
+# PHD_LLM_COMPLETE_ROADMAP = {
+#     "Phase 1: Programming & Mathematics Foundation": {
+#         "duration": "12 months",
+#         "topics": {
+#             "Programming Fundamentals": [
+#                 "Python: Variables, data types, control structures, functions",
+#                 "Object-oriented programming: classes, inheritance, polymorphism",
+#                 "Data structures: lists, dictionaries, sets, tuples",
+#                 "File handling, error handling, modules and packages",
+#                 "NumPy: arrays, mathematical operations, broadcasting",
+#                 "Pandas: DataFrames, data manipulation, cleaning"
+#             ],
+#             "Mathematics Foundation": [
+#                 "Algebra: Linear equations, polynomials, functions",
+#                 "Precalculus: Trigonometry, exponentials, logarithms",
+#                 "Logic: Boolean logic, set theory, proof techniques",
+#                 "Statistics basics: Mean, median, mode, standard deviation"
+#             ],
+#             "Computer Science Basics": [
+#                 "How computers work: CPU, memory, storage",
+#                 "Binary number system and data representation",
+#                 "Introduction to algorithms and complexity",
+#                 "Version control with Git and GitHub"
+#             ]
+#         },
+#         "resources": {
+#             "Free Books/PDFs": [
+#                 "Automate the Boring Stuff with Python (2024 edition - free online)",
+#                 "Think Python 2e (free PDF)",
+#                 "Python Crash Course resources (free online materials)",
+#                 "Khan Academy Math resources (free PDFs)"
+#             ],
+#             "YouTube Channels": [
+#                 "Programming with Mosh (Python 2024)",
+#                 "freeCodeCamp.org (Python Full Course)",
+#                 "Corey Schafer (Python Tutorials)",
+#                 "3Blue1Brown (Math visualization)",
+#                 "Khan Academy (Mathematics)",
+#                 "CS50 Harvard (Computer Science Fundamentals)"
+#             ],
+#             "Free Websites": [
+#                 "Python.org official tutorial",
+#                 "Real Python (free articles)",
+#                 "W3Schools Python",
+#                 "Khan Academy",
+#                 "Codecademy (free tier)",
+#                 "HackerRank Python domain"
+#             ],
+#             "Practice Platforms": [
+#                 "LeetCode (free problems)",
+#                 "HackerRank",
+#                 "Codewars",
+#                 "Python.org exercises"
+#             ]
+#         }
+#     },
+
+
+#     "Phase 5: Natural Language Processing & Transformers": {
+#         "duration": "12 months",
+#         "topics": {
+#             "NLP Fundamentals": [
+#                 "Text preprocessing: Tokenization, stemming, lemmatization",
+#                 "Language modeling: N-grams, smoothing techniques",
+#                 "Word embeddings: Word2Vec, GloVe, FastText",
+#                 "Sequence modeling: RNNs for NLP, sequence-to-sequence",
+#                 "Named Entity Recognition: IOB tagging, CRF",
+#                 "Sentiment analysis and text classification"
+#             ],
+#             "Transformer Architecture": [
+#                 "Attention mechanism: Scaled dot-product, multi-head attention",
+#                 "Transformer architecture: Encoder-decoder, positional encoding",
+#                 "BERT family: BERT, RoBERTa, ELECTRA, DeBERTa",
+#                 "GPT family: GPT-1/2/3/4, architecture evolution",
+#                 "T5 and encoder-decoder transformers",
+#                 "Vision Transformers (ViT) and multimodal models"
+#             ],
+#             "Advanced NLP Topics": [
+#                 "Transfer learning in NLP: Pre-training and fine-tuning",
+#                 "Prompt engineering: In-context learning, chain-of-thought",
+#                 "Text generation: Sampling strategies, beam search, nucleus sampling",
+#                 "Information extraction: Relation extraction, question answering",
+#                 "Dialogue systems: Task-oriented and open-domain chatbots",
+#                 "Machine translation: Attention-based and transformer models"
+#             ],
+#             "LLM Implementation": [
+#                 "Hugging Face Transformers: Model loading, fine-tuning, inference",
+#                 "Custom tokenizers: BPE, SentencePiece, WordPiece",
+#                 "Efficient training: Gradient accumulation, mixed precision",
+#                 "Model compression: Quantization, pruning, distillation",
+#                 "Inference optimization: KV-caching, speculative decoding",
+#                 "Custom model architecture implementation"
+#             ]
+#         },
+#         "resources": {
+#             "Free Books/PDFs": [
+#                 "Speech and Language Processing - Jurafsky & Martin (free draft)",
+#                 "Natural Language Processing with Python - NLTK book (free)",
+#                 "Introduction to Information Retrieval - Manning (free PDF)",
+#                 "Foundations of Statistical NLP - Manning & Schütze (chapters free)"
+#             ],
+#             "YouTube Channels": [
+#                 "Hugging Face (Transformers tutorials)",
+#                 "Stanford CS224N lectures (YouTube)",
+#                 "Rachel Thomas (NLP course)",
+#                 "Yannic Kilcher (Transformer paper reviews)",
+#                 "AI Coffee Break with Letitia",
+#                 "The AI Epiphany"
+#             ],
+#             "Free Courses": [
+#                 "Stanford CS224N Natural Language Processing",
+#                 "Hugging Face NLP Course (free online)",
+#                 "Fast.ai NLP course",
+#                 "CMU CS 11-747 Neural Networks for NLP",
+#                 "spaCy course (free interactive)"
+#             ],
+#             "Free Websites": [
+#                 "Hugging Face documentation and model hub",
+#                 "Papers With Code NLP section",
+#                 "NLTK documentation and book",
+#                 "spaCy documentation and course",
+#                 "OpenAI research papers and blog posts",
+#                 "Google AI research publications"
+#             ]
+#         }
+#     },
+
+#     "Phase 17: Human-Centric AI & Cognitive Enhancement": {
+#         "duration": "12 months",
+#         "topics": {
+#             "Human-AI Collaboration": [
+#                 "Augmented intelligence: Human-in-the-loop systems, cognitive prosthetics",
+#                 "Brain-computer interfaces: EEG, fMRI-based control, neural implants",
+#                 "Cognitive load theory: Optimizing human-AI task distribution",
+#                 "Trust and transparency: Explainable AI, user mental models",
+#                 "Adaptive interfaces: Personalization, user modeling, context awareness",
+#                 "Collaborative decision making: Human expertise + AI capabilities"
+#             ],
+#             "Cognitive Enhancement Technologies": [
+#                 "Memory augmentation: External memory systems, knowledge graphs for individuals",
+#                 "Attention enhancement: Focus training, distraction filtering",
+#                 "Learning acceleration: Personalized tutoring, spaced repetition optimization",
+#                 "Creative AI assistants: Ideation support, creative process enhancement",
+#                 "Decision support: Bias mitigation, evidence synthesis, scenario modeling",
+#                 "Communication enhancement: Language translation, social cue detection"
+#             ],
+#             "Personalized AI Systems": [
+#                 "Individual user modeling: Behavioral patterns, preference learning",
+#                 "Federated personalization: Privacy-preserving personal AI",
+#                 "Lifelong learning systems: Adapting to user changes over time",
+#                 "Multi-modal personalization: Text, voice, gesture, biometric adaptation",
+#                 "Cultural sensitivity: Cross-cultural adaptation, value alignment",
+#                 "Accessibility AI: Assistive technologies, inclusive design principles"
+#             ],
+#             "Social and Emotional AI": [
+#                 "Emotion recognition: Facial expressions, voice tone, physiological signals",
+#                 "Empathetic responses: Appropriate emotional reactions, therapeutic interactions",
+#                 "Social dynamics modeling: Group behavior, influence patterns",
+#                 "Relationship building: Long-term interaction history, trust development",
+#                 "Cultural competence: Understanding social norms, cultural differences",
+#                 "Mental health support: Depression detection, therapy assistance, crisis intervention"
+#             ],
+#             "Educational AI Revolution": [
+#                 "Intelligent tutoring systems: Personalized curriculum, mastery learning",
+#                 "Automated assessment: Essay grading, skill evaluation, progress tracking",
+#                 "Learning analytics: Dropout prediction, intervention timing",
+#                 "Virtual reality education: Immersive learning experiences",
+#                 "Collaborative learning AI: Peer matching, group formation",
+#                 "Lifelong learning support: Career transitions, skill gap analysis"
+#             ]
+#         },
+#         "resources": {
+#             "Human-Computer Interaction": [
+#                 "CHI Conference proceedings (premier HCI research)",
+#                 "ACM Transactions on Computer-Human Interaction",
+#                 "Interaction Design Foundation courses",
+#                 "Nielsen Norman Group UX research",
+#                 "MIT Media Lab publications",
+#                 "Stanford Human-Computer Interaction Group"
+#             ],
+#             "Cognitive Science Resources": [
+#                 "Cognitive Science Society conferences and journals",
+#                 "Psychology and cognitive science textbooks",
+#                 "Neuroscience journals: Nature Neuroscience, Neuron",
+#                 "Educational psychology research",
+#                 "Social psychology and behavioral economics",
+#                 "Philosophy of mind and consciousness studies"
+#             ],
+#             "Applied Research": [
+#                 "Educational technology conferences: EDM, AIED",
+#                 "Assistive technology research: ASSETS conference",
+#                 "Mental health AI: Digital medicine journals",
+#                 "Brain-computer interface: IEEE Brain initiative",
+#                 "Personalization research: RecSys, UMAP conferences",
+#                 "Ethics in AI: FAccT, AIES conferences"
+#             ]
+#         }
+#     },
+#     "Phase 18: Global AI Governance & Societal Impact": {
+#         "duration": "12 months",
+#         "topics": {
+#             "AI Policy and Governance": [
+#                 "Regulatory frameworks: EU AI Act, algorithmic accountability",
+#                 "International coordination: UN AI governance, bilateral AI agreements",
+#                 "Standard setting: IEEE, ISO standards for AI systems",
+#                 "Risk assessment: AI impact assessments, societal risk evaluation",
+#                 "Democratic oversight: Public participation in AI governance",
+#                 "Enforcement mechanisms: Auditing, compliance, penalties"
+#             ],
+#             "AI Ethics and Philosophy": [
+#                 "Moral foundations: Consequentialism, deontology, virtue ethics for AI",
+#                 "Justice and fairness: Distributive justice, procedural fairness",
+#                 "Autonomy and agency: Human agency, meaningful human control",
+#                 "Privacy and surveillance: Data protection, behavioral monitoring",
+#                 "Dignity and humanity: Human dignity in AI age, posthuman ethics",
+#                 "Environmental ethics: Carbon footprint, sustainable AI development"
+#             ],
+#             "Economic and Social Transformation": [
+#                 "Labor market impacts: Job displacement, skill requirements evolution",
+#                 "Economic inequality: AI-driven wealth concentration, universal basic income",
+#                 "Education system adaptation: Curriculum changes, teacher training",
+#                 "Healthcare transformation: AI diagnosis, personalized medicine, access",
+#                 "Democratic processes: AI in elections, governance, public opinion",
+#                 "Social cohesion: Filter bubbles, polarization, community building"
+#             ],
+#             "Global Development and AI": [
+#                 "AI for developing countries: Infrastructure, capacity building",
+#                 "Digital divide: Access to AI benefits, technological colonialism",
+#                 "Cultural preservation: Language models for minority languages",
+#                 "Sustainable development: AI for climate, poverty, health",
+#                 "Technology transfer: North-South collaboration, knowledge sharing",
+#                 "Local AI development: Indigenous AI capabilities, cultural values"
+#             ],
+#             "Future of Work and Society": [
+#                 "Human-AI collaboration in workplace: Augmentation vs replacement",
+#                 "New economic models: Platform economy, gig work, AI-enabled businesses",
+#                 "Social protection: Safety nets, retraining programs, worker rights",
+#                 "Urban planning: Smart cities, AI-optimized infrastructure",
+#                 "Legal system evolution: AI in law, automated decision-making",
+#                 "Cultural evolution: AI impact on art, entertainment, human expression"
+#             ]
+#         },
+#         "resources": {
+#             "Policy and Governance": [
+#                 "OECD AI principles and policy observatory",
+#                 "Partnership on AI research and reports",
+#                 "Future of Humanity Institute publications",
+#                 "Center for AI Safety policy recommendations",
+#                 "Brookings AI governance research",
+#                 "Council on Foreign Relations AI reports"
+#             ],
+#             "Ethics and Philosophy": [
+#                 "IEEE Standards for Ethical AI Design",
+#                 "Montreal Declaration for Responsible AI",
+#                 "Academic journals: AI & Society, Philosophy & Technology",
+#                 "Stanford HAI policy research",
+#                 "MIT Work of the Future research",
+#                 "Oxford Internet Institute studies"
+#             ],
+#             "Economic Research": [
+#                 "McKinsey Global Institute AI reports",
+#                 "World Economic Forum Future of Work studies",
+#                 "NBER working papers on AI and economics",
+#                 "Labor economics journals and conferences",
+#                 "Development economics research on technology",
+#                 "Policy think tanks: Aspen Institute, Berggruen Institute"
+#             ]
+#         }
+#     },
+#     "Phase 19: Advanced Robotics & Embodied AI": {
+#         "duration": "12 months",
+#         "topics": {
+#             "Robotics Fundamentals": [
+#                 "Robot kinematics and dynamics: Forward/inverse kinematics, motion planning",
+#                 "Control systems: PID control, optimal control, robust control",
+#                 "Sensors and perception: LiDAR, cameras, IMU, sensor fusion",
+#                 "Actuators and mechanisms: Motors, pneumatics, soft robotics",
+#                 "Robot operating systems: ROS, ROS2, middleware architecture",
+#                 "Simulation environments: Gazebo, MuJoCo, PyBullet, Isaac Sim"
+#             ],
+#             "Embodied AI and Robotics": [
+#                 "Embodied cognition: Body-mind connection, sensorimotor learning",
+#                 "Robot learning: Imitation learning, learning from demonstration",
+#                 "Manipulation: Grasping, dexterous manipulation, tool use",
+#                 "Navigation: SLAM, path planning, semantic navigation",
+#                 "Human-robot interaction: Social robots, collaborative robotics",
+#                 "Multi-robot systems: Swarm robotics, coordination, communication"
+#             ],
+#             "Advanced Robot Intelligence": [
+#                 "Cognitive robotics: Symbolic reasoning, planning, world modeling",
+#                 "Developmental robotics: Lifelong learning, curriculum learning",
+#                 "Emotional robotics: Affect recognition, emotional expression",
+#                 "Explainable robotics: Interpretable robot decisions, trust building",
+#                 "Safe robotics: Collision avoidance, fail-safe mechanisms",
+#                 "Adaptive robotics: Environment adaptation, transfer learning"
+#             ],
+#             "Future Robotics Applications": [
+#                 "Healthcare robotics: Surgical robots, rehabilitation, elderly care",
+#                 "Industrial automation: Smart manufacturing, quality control",
+#                 "Service robotics: Cleaning, delivery, hospitality, personal assistance",
+#                 "Field robotics: Agriculture, construction, mining, disaster response",
+#                 "Space robotics: Planetary exploration, satellite servicing, space construction",
+#                 "Military and security: Defense applications, surveillance, bomb disposal"
+#             ]
+#         },
+#         "resources": {
+#             "Robotics Education": [
+#                 "MIT Introduction to Robotics (OpenCourseWare)",
+#                 "Stanford CS223A Introduction to Robotics",
+#                 "Georgia Tech Robotics Specialization (Coursera)",
+#                 "Robot Operating System (ROS) tutorials",
+#                 "Modern Robotics textbook and course",
+#                 "Robotics: Science and Systems conference papers"
+#             ],
+#             "Simulation and Tools": [
+#                 "ROS/ROS2 documentation and tutorials",
+#                 "Gazebo simulation environment",
+#                 "MuJoCo physics simulator",
+#                 "PyBullet robotics simulation",
+#                 "NVIDIA Isaac Sim",
+#                 "OpenRAVE motion planning"
+#             ],
+#             "Research Communities": [
+#                 "IEEE Robotics and Automation Society",
+#                 "Robotics: Science and Systems (RSS) conference",
+#                 "International Conference on Robotics and Automation (ICRA)",
+#                 "International Conference on Intelligent Robots and Systems (IROS)",
+#                 "CoRL (Conference on Robot Learning)",
+#                 "Robotics research labs worldwide"
+#             ]
+#         }
+#     },
+#     "Phase 20: Climate AI & Environmental Intelligence": {
+#         "duration": "12 months",
+#         "topics": {
+#             "Climate Science and AI": [
+#                 "Climate modeling: GCMs, RCMs, downscaling techniques",
+#                 "Weather prediction: Numerical weather prediction, ensemble forecasting",
+#                 "Extreme event prediction: Hurricanes, droughts, floods, heatwaves",
+#                 "Climate change attribution: Detection and attribution studies",
+#                 "Paleoclimate reconstruction: Proxy data analysis, historical patterns",
+#                 "Climate sensitivity: Feedback mechanisms, tipping points"
+#             ],
+#             "Environmental Monitoring": [
+#                 "Remote sensing: Satellite imagery analysis, change detection",
+#                 "Sensor networks: IoT environmental sensors, data fusion",
+#                 "Biodiversity monitoring: Species identification, population tracking",
+#                 "Pollution detection: Air quality, water quality, soil contamination",
+#                 "Deforestation tracking: Forest cover change, illegal logging detection",
+#                 "Ocean monitoring: Sea level, temperature, acidification, marine life"
+#             ],
+#             "Sustainable Technology AI": [
+#                 "Renewable energy optimization: Solar, wind, hydro forecasting and control",
+#                 "Smart grids: Load balancing, demand response, energy storage",
+#                 "Carbon capture: Direct air capture optimization, carbon utilization",
+#                 "Green transportation: Route optimization, electric vehicle management",
+#                 "Sustainable agriculture: Precision farming, crop yield optimization",
+#                 "Circular economy: Waste management, recycling optimization, material flow"
+#             ],
+#             "Climate Adaptation and Mitigation": [
+#                 "Climate risk assessment: Infrastructure vulnerability, economic impacts",
+#                 "Adaptation strategies: Urban planning, agricultural adaptation",
+#                 "Carbon accounting: Emissions tracking, carbon footprint analysis",
+#                 "Nature-based solutions: Ecosystem restoration, natural climate solutions",
+#                 "Geoengineering: Solar radiation management, carbon dioxide removal",
+#                 "Policy optimization: Carbon pricing, regulation effectiveness"
+#             ]
+#         },
+#         "resources": {
+#             "Climate Science": [
+#                 "IPCC reports and working group publications",
+#                 "NASA Climate Change and Global Warming",
+#                 "NOAA Climate.gov educational resources",
+#                 "MIT Climate Portal",
+#                 "Carbon Brief explainers and analysis",
+#                 "Climate Central research and data"
+#             ],
+#             "AI for Climate": [
+#                 "Climate Change AI organization and workshops",
+#                 "Tackling Climate Change with Machine Learning (paper)",
+#                 "Microsoft AI for Earth initiatives",
+#                 "Google AI for Social Good climate projects",
+#                 "Climate AI conferences and workshops",
+#                 "Environmental data science courses"
+#             ],
+#             "Data and Tools": [
+#                 "NASA Earth Science Data",
+#                 "European Copernicus Climate Change Service",
+#                 "Google Earth Engine for environmental analysis",
+#                 "Climate model datasets (CMIP6)",
+#                 "Environmental remote sensing data",
+#                 "Carbon tracking and monitoring platforms"
+#             ]
+#         }
+#     },
+#     "Continuous Meta-Learning Throughout All Phases": {
+#         "duration": "Ongoing",
+#         "topics": {
+#             "Learning How to Learn": [
+#                 "Metacognition: Understanding your own learning processes",
+#                 "Learning strategies: Spaced repetition, active recall, elaborative interrogation",
+#                 "Knowledge organization: Concept mapping, hierarchical learning",
+#                 "Memory optimization: Memory palaces, chunking, mnemonics",
+#                 "Transfer learning: Applying knowledge across domains",
+#                 "Unlearning: Updating beliefs, overcoming cognitive biases"
+#             ],
+#             "Research Skill Meta-Development": [
+#                 "Research methodology evolution: Adapting to new paradigms",
+#                 "Tool mastery: Staying current with evolving tools",
+#                 "Collaboration skills: Remote work, diverse teams, cultural sensitivity",
+#                 "Communication adaptation: New media, changing audiences",
+#                 "Funding landscape: Evolving funding sources and strategies",
+#                 "Ethical evolution: Adapting to new ethical challenges"
+#             ],
+#             "Field Evolution Tracking": [
+#                 "Trend analysis: Identifying emerging research directions",
+#                 "Technology forecasting: Predicting technological developments",
+#                 "Paradigm shift detection: Recognizing fundamental changes",
+#                 "Opportunity recognition: Identifying research gaps and opportunities",
+#                 "Risk assessment: Anticipating technical and societal risks",
+#                 "Impact prediction: Forecasting research and technology impact"
+#             ],
+#             "Personal Development": [
+#                 "Mental health: Managing research stress, work-life balance",
+#                 "Physical health: Exercise, nutrition for cognitive performance",
+#                 "Emotional intelligence: Self-awareness, empathy, social skills",
+#                 "Resilience: Handling failure, criticism, setbacks",
+#                 "Motivation: Maintaining passion over decades-long journey",
+#                 "Purpose: Connecting work to meaningful impact on world"
+#             ],
+#             "Advanced Self-Learning Strategies": [
+#                 "Autodidactic mastery: Self-directed learning optimization",
+#                 "Information filtering: Separating signal from noise in information overload",
+#                 "Synthesis skills: Connecting ideas across disparate fields",
+#                 "Critical thinking: Evaluating sources, detecting bias, logical reasoning",
+#                 "Creative problem solving: Lateral thinking, analogical reasoning",
+#                 "Systems thinking: Understanding complex interactions and emergence"
+#             ],
+#             "Future-Proofing Skills": [
+#                 "Adaptability: Thriving in rapidly changing environments",
+#                 "Technology adoption: Quickly mastering new tools and platforms",
+#                 "Network effects: Building and maintaining professional networks",
+#                 "Entrepreneurial thinking: Identifying opportunities, creating value",
+#                 "Global perspective: Understanding international contexts and cultures",
+#                 "Ethical reasoning: Navigating complex moral landscapes"
+#             ]
+#         },
+#         "resources": {
+#             "Learning Science": [
+#                 "Cognitive science research: Learning and memory studies",
+#                 "Educational psychology: Effective learning strategies",
+#                 "Neuroscience: Brain-based learning, neuroplasticity",
+#                 "Philosophy of education: Learning theory, pedagogical approaches",
+#                 "Self-help resources: Evidence-based learning improvement",
+#                 "Learning communities: Study groups, learning partnerships"
+#             ],
+#             "Personal Development": [
+#                 "Mental health resources: Therapy, meditation, stress management",
+#                 "Physical fitness: Exercise science, nutrition research",
+#                 "Productivity systems: Time management, workflow optimization",
+#                 "Life coaching: Goal setting, motivation, life design",
+#                 "Philosophical resources: Meaning, purpose, ethics",
+#                 "Community support: Peer networks, mentorship, social connections"
+#             ],
+#             "Adaptation Strategies": [
+#                 "Future studies: Scenario planning, trend analysis",
+#                 "Change management: Adapting to technological disruption",
+#                 "Lifelong learning: Continuous education strategies",
+#                 "Career flexibility: Multiple career paths, portfolio careers",
+#                 "Technology adoption: Embracing new tools and platforms",
+#                 "Global awareness: International perspectives, cultural competency"
+#             ],
+#             "Self-Learning Tools": [
+#                 "Note-taking systems: Obsidian, Roam Research, Notion for knowledge management",
+#                 "Spaced repetition: Anki, SuperMemo for long-term retention",
+#                 "Reading tools: Speed reading, comprehension techniques",
+#                 "Project management: Personal research project organization",
+#                 "Time tracking: Understanding learning patterns and optimization",
+#                 "Reflection tools: Journaling, progress tracking, goal adjustment"
+#             ]
+#         }
+#     },
+#     "Implementation Guidelines & Success Metrics": {
+#         "duration": "Ongoing",
+#         "topics": {
+#             "Phase Transition Criteria": [
+#                 "Knowledge mastery: Demonstrable competency in phase topics",
+#                 "Practical application: Completed projects and implementations",
+#                 "Research contribution: Original insights or novel applications",
+#                 "Community engagement: Participation in relevant communities",
+#                 "Teaching ability: Can explain concepts to others clearly",
+#                 "Innovation capacity: Ability to extend beyond existing knowledge"
+#             ],
+#             "Portfolio Development": [
+#                 "Technical projects: GitHub repositories, published code",
+#                 "Research papers: Preprints, conference submissions, journal articles",
+#                 "Blog posts: Technical writing, tutorial creation",
+#                 "Presentations: Conference talks, workshop presentations",
+#                 "Open source contributions: Meaningful contributions to major projects",
+#                 "Collaborations: Joint projects with other researchers"
+#             ],
+#             "Self-Assessment Frameworks": [
+#                 "Competency matrices: Skill level assessment across domains",
+#                 "Knowledge gaps analysis: Identifying areas for improvement",
+#                 "Learning velocity tracking: Measuring progress over time",
+#                 "Impact measurement: Tracking influence and adoption of work",
+#                 "Feedback integration: Incorporating external evaluation",
+#                 "Goal adjustment: Adapting objectives based on progress"
+#             ],
+#             "Milestone Achievements": [
+#                 "Year 5: First research publication or major open source contribution",
+#                 "Year 10: Recognition as expert in specialized domain",
+#                 "Year 15: Thought leadership and field influence",
+#                 "Year 20: Paradigm-shifting contributions and global impact",
+#                 "Throughout: Continuous learning and adaptation to field evolution",
+#                 "Legacy: Training next generation and institutional impact"
+#             ]
+#         },
+#         "resources": {
+#             "Assessment Tools": [
+#                 "Technical skill rubrics: Self-evaluation frameworks",
+#                 "Research impact metrics: Citation tracking, influence measurement",
+#                 "Portfolio platforms: Personal websites, academic profiles",
+#                 "Peer review networks: Feedback and evaluation systems",
+#                 "Competency frameworks: Industry and academic standards",
+#                 "Progress tracking tools: Learning analytics and dashboard"
+#             ],
+#             "Community Validation": [
+#                 "Peer networks: Research communities and professional groups",
+#                 "Mentorship programs: Guidance from experienced researchers",
+#                 "Conference participation: Presenting and networking opportunities",
+#                 "Collaboration platforms: Joint research and project opportunities",
+#                 "Recognition systems: Awards, fellowships, acknowledgments",
+#                 "Impact measurement: Real-world application and adoption"
+#             ]
+#         }
+#     }
+# }
+
+
+
